@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acceptance | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/acceptance/</link>
+      <atom:link href="https://jackaugust.github.io/tag/acceptance/index.xml" rel="self" type="application/rss+xml" />
+    <description>Acceptance</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Acceptance</title>
+      <link>https://jackaugust.github.io/tag/acceptance/</link>
+    </image>
+    
+    <item>
+      <title>2311: Congratulations! 1 of our papers has been accepted by JSTARS (JCR Q1)!</title>
+      <link>https://jackaugust.github.io/post/2023/1123/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2023/1123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2305 :1 of our patents has been successfully accepted!</title>
+      <link>https://jackaugust.github.io/post/2023/05/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2023/05/</guid>
+      <description>&lt;p&gt;Completion of patent acceptance on 26 May 2023, congratulations!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

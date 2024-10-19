@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | 张杰</title>
+    <link>https://jackaugust.github.io/zh/talk/</link>
+      <atom:link href="https://jackaugust.github.io/zh/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://jackaugust.github.io/zh/talk/</link>
+    </image>
+    
+    <item>
+      <title>国重点项目研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2024/0828/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2024/0828/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>国重点项目研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2024/0426/</link>
+      <pubDate>Thu, 25 Apr 2024 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2024/0426/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>课题二内部研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2024/0126/</link>
+      <pubDate>Thu, 25 Jan 2024 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2024/0126/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>团体标准制定研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2023/1023/</link>
+      <pubDate>Mon, 23 Oct 2023 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2023/1023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>跨队列医疗数据安全管理平台演示</title>
+      <link>https://jackaugust.github.io/zh/talk/2023/0401/</link>
+      <pubDate>Sat, 01 Apr 2023 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2023/0401/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

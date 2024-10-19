@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xue Pan | Jie Zhang</title>
+    <link>https://jackaugust.github.io/author/xue-pan/</link>
+      <atom:link href="https://jackaugust.github.io/author/xue-pan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xue Pan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Xue Pan</title>
+      <link>https://jackaugust.github.io/author/xue-pan/</link>
+    </image>
+    
+    <item>
+      <title>Secure and Trusted Authentication Models under Edge Computing and Block Multi-Chaining</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;p&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
+&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+Until November 2023, our paper was selected as CNKI&amp;rsquo;s &lt;strong&gt;highly downloaded&lt;/strong&gt; paper&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

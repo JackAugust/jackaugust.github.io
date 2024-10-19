@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yi Luo | 张杰</title>
+    <link>https://jackaugust.github.io/zh/author/yi-luo/</link>
+      <atom:link href="https://jackaugust.github.io/zh/author/yi-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yi Luo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Yi Luo</title>
+      <link>https://jackaugust.github.io/zh/author/yi-luo/</link>
+    </image>
+    
+    <item>
+      <title>2311：祝贺！！我们的1篇论文被JSTARS（JCR Q1) 录用！</title>
+      <link>https://jackaugust.github.io/zh/post/2023/1123/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/post/2023/1123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction of surface water temperature and its spatial-temporal variation characteristics of 11 main lakes in Yunnan-Guizhou Plateau</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2023/jstars-xu/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2023/jstars-xu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urban Land Surface Temperature Monitoring and Surface Thermal Runoff Pollution Evaluation Using UAV Thermal Remote Sensing Technology</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2021/sustainability-xu/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2021/sustainability-xu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

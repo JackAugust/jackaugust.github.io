@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edge computing | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/edge-computing/</link>
+      <atom:link href="https://jackaugust.github.io/tag/edge-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Edge computing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Edge computing</title>
+      <link>https://jackaugust.github.io/tag/edge-computing/</link>
+    </image>
+    
+    <item>
+      <title>Secure and Trusted Authentication Models under Edge Computing and Block Multi-Chaining</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;p&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
+&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+Until November 2023, our paper was selected as CNKI&amp;rsquo;s &lt;strong&gt;highly downloaded&lt;/strong&gt; paper&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>National Natural Geoscience Project</title>
+      <link>https://jackaugust.github.io/project/6226070857/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/6226070857/</guid>
+      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this national nature project, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>‘Access control model for Internet of Things (IoT) based on blockchain and edge computing’</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</guid>
+      <description>&lt;p&gt;This paper is about Internet of Things (IoT) security. An attempt is made to implement Access control based on Blockchain in Cloud-Edge-End architecture and a SC-ABAC model and a simple prototype is given.SC-ABAC is a Smart Contract for Attribute Based Access control with improved POW consensus algorithm in the prototype.&lt;/p&gt;
+&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+Until November 2023, our paper was selected as a &lt;strong&gt;Highly Cited&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded&lt;/strong&gt; paper in CKI!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Top-level Project in Yunnan Province</title>
+      <link>https://jackaugust.github.io/project/202101at070098/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/202101at070098/</guid>
+      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>School Science and Innovation Project</title>
+      <link>https://jackaugust.github.io/project/ysdyjs2020148/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/ysdyjs2020148/</guid>
+      <description>&lt;p&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

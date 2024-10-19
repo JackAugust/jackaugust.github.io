@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>项目研讨会 | 张杰</title>
+    <link>https://jackaugust.github.io/zh/tag/%E9%A1%B9%E7%9B%AE%E7%A0%94%E8%AE%A8%E4%BC%9A/</link>
+      <atom:link href="https://jackaugust.github.io/zh/tag/%E9%A1%B9%E7%9B%AE%E7%A0%94%E8%AE%A8%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <description>项目研讨会</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>项目研讨会</title>
+      <link>https://jackaugust.github.io/zh/tag/%E9%A1%B9%E7%9B%AE%E7%A0%94%E8%AE%A8%E4%BC%9A/</link>
+    </image>
+    
+    <item>
+      <title>国重点项目研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2024/0828/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2024/0828/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>国重点项目研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2024/0426/</link>
+      <pubDate>Thu, 25 Apr 2024 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2024/0426/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>课题二内部研讨会</title>
+      <link>https://jackaugust.github.io/zh/talk/2024/0126/</link>
+      <pubDate>Thu, 25 Jan 2024 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2024/0126/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>跨队列医疗数据安全管理平台演示</title>
+      <link>https://jackaugust.github.io/zh/talk/2023/0401/</link>
+      <pubDate>Sat, 01 Apr 2023 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/talk/2023/0401/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data security | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/data-security/</link>
+      <atom:link href="https://jackaugust.github.io/tag/data-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Data security</title>
+      <link>https://jackaugust.github.io/tag/data-security/</link>
+    </image>
+    
+    <item>
+      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
+      <link>https://jackaugust.github.io/publication/conference-paper/2024/asiaccs-zhang/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/conference-paper/2024/asiaccs-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and Trusted Authentication Models under Edge Computing and Block Multi-Chaining</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;p&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
+&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+Until November 2023, our paper was selected as CNKI&amp;rsquo;s &lt;strong&gt;highly downloaded&lt;/strong&gt; paper&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>National Key Research and Development Programme</title>
+      <link>https://jackaugust.github.io/project/2021yff1201102/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/2021yff1201102/</guid>
+      <description>&lt;p&gt;During his PhD, as a technical backbone, he led one doctoral student, six master&amp;rsquo;s students and five undergraduates to successfully complete the project advancement of the National Key Research and Development Programme ‘Research on Cross-queue Data Security Sharing Mechanism and Trusted Analysis Technology’.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A lightweight blockchain-based access control scheme for integrated edge computing in the internet of things</title>
+      <link>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>‘Access control model for Internet of Things (IoT) based on blockchain and edge computing’</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</guid>
+      <description>&lt;p&gt;This paper is about Internet of Things (IoT) security. An attempt is made to implement Access control based on Blockchain in Cloud-Edge-End architecture and a SC-ABAC model and a simple prototype is given.SC-ABAC is a Smart Contract for Attribute Based Access control with improved POW consensus algorithm in the prototype.&lt;/p&gt;
+&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+Until November 2023, our paper was selected as a &lt;strong&gt;Highly Cited&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded&lt;/strong&gt; paper in CKI!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

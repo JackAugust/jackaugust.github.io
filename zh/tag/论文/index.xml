@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>论文 | 张杰</title>
+    <link>https://jackaugust.github.io/zh/tag/%E8%AE%BA%E6%96%87/</link>
+      <atom:link href="https://jackaugust.github.io/zh/tag/%E8%AE%BA%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <description>论文</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>论文</title>
+      <link>https://jackaugust.github.io/zh/tag/%E8%AE%BA%E6%96%87/</link>
+    </image>
+    
+    <item>
+      <title>2311：祝贺！！我们的1篇论文被JSTARS（JCR Q1) 录用！</title>
+      <link>https://jackaugust.github.io/zh/post/2023/1123/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/post/2023/1123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2311：祝贺！！我们的1篇论文入选CNKI高被引和高下载！</title>
+      <link>https://jackaugust.github.io/zh/post/2023/11/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/post/2023/11/</guid>
+      <description>&lt;p&gt;在2022年录用的论文从23年7月至11月均入选为CNKI高被引和高下载论文，祝贺！！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

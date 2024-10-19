@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>黄敏敏 | 张杰</title>
+    <link>https://jackaugust.github.io/zh/author/%E9%BB%84%E6%95%8F%E6%95%8F/</link>
+      <atom:link href="https://jackaugust.github.io/zh/author/%E9%BB%84%E6%95%8F%E6%95%8F/index.xml" rel="self" type="application/rss+xml" />
+    <description>黄敏敏</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>黄敏敏</title>
+      <link>https://jackaugust.github.io/zh/author/%E9%BB%84%E6%95%8F%E6%95%8F/</link>
+    </image>
+    
+    <item>
+      <title>边缘计算与区块多链下的安全可信认证模型</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;p&gt;本文主要介绍边缘安全。基于 ECDSA，在主从链场景中引入边缘计算，实现安全可信的身份验证，给出跨域访问模型和身份验证流程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;&lt;br&gt;
+直至2023年11月，我们的论文入选了CNKI的&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

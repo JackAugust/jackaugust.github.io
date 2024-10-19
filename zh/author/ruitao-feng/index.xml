@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruitao Feng | 张杰</title>
+    <link>https://jackaugust.github.io/zh/author/ruitao-feng/</link>
+      <atom:link href="https://jackaugust.github.io/zh/author/ruitao-feng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruitao Feng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Ruitao Feng</title>
+      <link>https://jackaugust.github.io/zh/author/ruitao-feng/</link>
+    </image>
+    
+    <item>
+      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

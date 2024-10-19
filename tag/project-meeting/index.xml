@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project meeting | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/project-meeting/</link>
+      <atom:link href="https://jackaugust.github.io/tag/project-meeting/index.xml" rel="self" type="application/rss+xml" />
+    <description>project meeting</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Oct 2023 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>project meeting</title>
+      <link>https://jackaugust.github.io/tag/project-meeting/</link>
+    </image>
+    
+    <item>
+      <title>Workshop on Group Standards Development</title>
+      <link>https://jackaugust.github.io/talk/2023/1023/</link>
+      <pubDate>Mon, 23 Oct 2023 13:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/talk/2023/1023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

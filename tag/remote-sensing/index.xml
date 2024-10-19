@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>remote sensing | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/remote-sensing/</link>
+      <atom:link href="https://jackaugust.github.io/tag/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <description>remote sensing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>remote sensing</title>
+      <link>https://jackaugust.github.io/tag/remote-sensing/</link>
+    </image>
+    
+    <item>
+      <title>Prediction of surface water temperature and its spatial-temporal variation characteristics of 11 main lakes in Yunnan-Guizhou Plateau</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2023/jstars-xu/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2023/jstars-xu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urban Land Surface Temperature Monitoring and Surface Thermal Runoff Pollution Evaluation Using UAV Thermal Remote Sensing Technology</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2021/sustainability-xu/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2021/sustainability-xu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

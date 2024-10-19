@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaohong Li | Jie Zhang</title>
+    <link>https://jackaugust.github.io/author/xiaohong-li/</link>
+      <atom:link href="https://jackaugust.github.io/author/xiaohong-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaohong Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Xiaohong Li</title>
+      <link>https://jackaugust.github.io/author/xiaohong-li/</link>
+    </image>
+    
+    <item>
+      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
+      <link>https://jackaugust.github.io/publication/conference-paper/2024/asiaccs-zhang/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/conference-paper/2024/asiaccs-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2405: 1 of our patents has been successfully accepted!</title>
+      <link>https://jackaugust.github.io/post/2024/05/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2024/05/</guid>
+      <description>&lt;p&gt;Completion of the patent on 30 May 2024, congratulations!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2305 :1 of our patents has been successfully accepted!</title>
+      <link>https://jackaugust.github.io/post/2023/05/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2023/05/</guid>
+      <description>&lt;p&gt;Completion of patent acceptance on 26 May 2023, congratulations!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

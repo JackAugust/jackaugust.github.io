@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Storage | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/cloud-storage/</link>
+      <atom:link href="https://jackaugust.github.io/tag/cloud-storage/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cloud Storage</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Cloud Storage</title>
+      <link>https://jackaugust.github.io/tag/cloud-storage/</link>
+    </image>
+    
+    <item>
+      <title>2405: 1 of our patents has been successfully accepted!</title>
+      <link>https://jackaugust.github.io/post/2024/05/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2024/05/</guid>
+      <description>&lt;p&gt;Completion of the patent on 30 May 2024, congratulations!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
