@@ -5,12 +5,30 @@
     <link>https://jackaugust.github.io/project/</link>
       <atom:link href="https://jackaugust.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
       <title>Projects</title>
       <link>https://jackaugust.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>National Key Research and Development Programme</title>
+      <link>https://jackaugust.github.io/project/62332005/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/62332005/</guid>
+      <description>&lt;p&gt;During his Ph.D., he participated in the National Natural Science Foundation of China&amp;rsquo;s key project “Open Source Software Trustworthiness Analysis and Assurance Methodology”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>National Key Research and Development Programme</title>
+      <link>https://jackaugust.github.io/project/2023yfb3107103/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/2023yfb3107103/</guid>
+      <description>&lt;p&gt;During his Ph.D., he participated in the project promotion of the National Key Research and Development Program “Screening and Recommendation of Information Content for Susceptible Groups”.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>National Natural Geoscience Project</title>

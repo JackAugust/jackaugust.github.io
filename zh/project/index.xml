@@ -5,7 +5,7 @@
     <link>https://jackaugust.github.io/zh/project/</link>
       <atom:link href="https://jackaugust.github.io/zh/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
       <title>Projects</title>
@@ -13,11 +13,29 @@
     </image>
     
     <item>
+      <title>国自然重点研发</title>
+      <link>https://jackaugust.github.io/zh/project/62332005/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/62332005/</guid>
+      <description>&lt;p&gt;博士期间，参与国家自然科学基金重点项目 “开源软件可信性分析与保障方法” 的项目推进工作。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>国家重点研发计划</title>
+      <link>https://jackaugust.github.io/zh/project/2023yfb3107103/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/2023yfb3107103/</guid>
+      <description>&lt;p&gt;博士期间，参与国家重点研发计划 “面向易感群体的信息内容筛选与推荐” 的项目推进工作。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>国自然地科项目</title>
       <link>https://jackaugust.github.io/zh/project/6226070857/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/project/6226070857/</guid>
-      <description>&lt;p&gt;在硕士期间作为技术骨干，带领4名硕士生参与此国自然项目申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并完成一项发明专利&lt;/p&gt;
+      <description>&lt;p&gt;在硕士期间作为技术骨干，带领4名硕士生参与此国自然项目申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 中文核心论文 一篇(CCF-T1)。&lt;/p&gt;
 </description>
     </item>
     
@@ -26,7 +44,7 @@
       <link>https://jackaugust.github.io/zh/project/2021yff1201102/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/project/2021yff1201102/</guid>
-      <description>&lt;p&gt;在博士期间作为技术骨干，带领1名博士生，6名硕士生和5名本科生，顺利完成国家重点研发计划《跨队列数据安全共享机制和可信分析技术研究》的项目推进工作&lt;/p&gt;
+      <description>&lt;p&gt;在博士期间作为技术骨干，带领1名博士生，6名硕士生和5名本科生，顺利完成国家重点研发计划《跨队列数据安全共享机制和可信分析技术研究》的项目推进工作，现该项目已顺利通过验收。&lt;/p&gt;
 </description>
     </item>
     
@@ -35,7 +53,7 @@
       <link>https://jackaugust.github.io/zh/project/202101at070098/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/project/202101at070098/</guid>
-      <description>&lt;p&gt;在硕士期间作为技术骨干，带领4名硕士生参与此省专项申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 &lt;strong&gt;CNKI 高被引高下载论文&lt;/strong&gt; 一篇&lt;/p&gt;
+      <description>&lt;p&gt;在硕士期间作为技术骨干，带领4名硕士生参与此省专项申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 &lt;strong&gt;CNKI 高被引高下载论文&lt;/strong&gt; 一篇，授权发明专利 一项。&lt;/p&gt;
 </description>
     </item>
     
@@ -44,7 +62,7 @@
       <link>https://jackaugust.github.io/zh/project/ysdyjs2020148/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/project/ysdyjs2020148/</guid>
-      <description>&lt;p&gt;在硕士期间作为项目负责人，带领5名硕士生完成此校级科创项目&lt;/p&gt;
+      <description>&lt;p&gt;在硕士期间作为项目负责人，带领5名硕士生完成此校级科创项目，发表 中文核心论文 一篇(CCF-T2)。&lt;/p&gt;
 </description>
     </item>
     

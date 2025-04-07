@@ -2,63 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jackaugust.github.io/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <loc>https://jackaugust.github.io/post/2025/0407/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/courses/example/example1/"
+                href="https://jackaugust.github.io/zh/post/2025/0407/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/courses/example/example1/"
+                href="https://jackaugust.github.io/post/2025/0407/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/tag/acceptance/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/post/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/courses/example/"
+                href="https://jackaugust.github.io/zh/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/courses/example/"
+                href="https://jackaugust.github.io/post/"
                 />
-  </url><url>
-    <loc>https://jackaugust.github.io/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/courses/example/example2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/courses/example/example2/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/publication-type/1/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/publication-type/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/publication-type/1/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/tag/access-control/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackaugust.github.io/authors/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -70,27 +44,40 @@
                 href="https://jackaugust.github.io/authors/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/tag/blockchain/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/category/blockchain/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jackaugust.github.io/tag/data-security/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackaugust.github.io/author/guangdong-bai/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/categories/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/guangdong-bai/"
+                href="https://jackaugust.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/author/guangdong-bai/"
+                href="https://jackaugust.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/category/data-sharing/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/author/honglin-mao/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/honglin-mao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/honglin-mao/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -103,7 +90,7 @@
                 />
   </url><url>
     <loc>https://jackaugust.github.io/author/jie-zhang/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -115,21 +102,133 @@
                 href="https://jackaugust.github.io/author/jie-zhang/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/author/mengke-zhang/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/tags/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/mengke-zhang/"
+                href="https://jackaugust.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/author/mengke-zhang/"
+                href="https://jackaugust.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/thesis/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/author/xiaohong-li/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/xiaohong-li/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/xiaohong-li/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/author/yao-zhang/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/yao-zhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/yao-zhang/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/post/2025/03/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/post/2025/03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/post/2025/03/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/cross-cohort/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/group-standards/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/category/group-standards/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/intelligent-healthcare/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/category/privacy/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/publication/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/publication-type/1/</loc>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication-type/1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication-type/1/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/publication/conference-paper/2025/tase2025/</loc>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication/conference-paper/2025/tase2025/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/blockchain/</loc>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/blockchain/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/data-security/</loc>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/data-security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/data-security/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/publication_types/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -142,7 +241,7 @@
                 />
   </url><url>
     <loc>https://jackaugust.github.io/publication/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -154,8 +253,63 @@
                 href="https://jackaugust.github.io/publication/"
                 />
   </url><url>
+    <loc>https://jackaugust.github.io/tag/ring-signature/</loc>
+    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/ring-signature/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/ring-signature/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/post/2025/0205/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/post/2025/0205/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/post/2025/0205/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/category/access-control/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/author/guangdong-bai/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/guangdong-bai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/guangdong-bai/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/author/mengke-zhang/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/mengke-zhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/mengke-zhang/"
+                />
+  </url><url>
     <loc>https://jackaugust.github.io/author/ruitao-feng/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -167,47 +321,11 @@
                 href="https://jackaugust.github.io/author/ruitao-feng/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/publication/conference-paper/2024/asiaccs-zhang/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/publication/conference-paper/2024/asiaccs-zhang/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/tags/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/tags/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/author/xiaohong-li/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/xiaohong-li/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/author/xiaohong-li/"
-                />
+    <loc>https://jackaugust.github.io/category/smart-health/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackaugust.github.io/author/zhe-hou/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
@@ -217,6 +335,60 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jackaugust.github.io/author/zhe-hou/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/post/2025/01/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/post/2025/01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/post/2025/01/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/cloud/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/category/cloud-storage/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/encrypted-search/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/author/man-zheng/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/patents/</loc>
+    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/access-control/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/access-control/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/access-control/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/publication/conference-paper/2024/cscwd2025/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication/conference-paper/2024/cscwd2025/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/talk/2024/0828/</loc>
@@ -261,37 +433,8 @@
                 href="https://jackaugust.github.io/post/2024/07/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/post/</loc>
-    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/post/"
-                />
-  </url><url>
     <loc>https://jackaugust.github.io/tag/authorisation/</loc>
     <lastmod>2024-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackaugust.github.io/category/blockchain/</loc>
-    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackaugust.github.io/categories/</loc>
-    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/categories/"
-                />
   </url><url>
     <loc>https://jackaugust.github.io/tag/software-copyrights/</loc>
     <lastmod>2024-07-05T00:00:00+00:00</lastmod>
@@ -322,12 +465,6 @@
     <lastmod>2024-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackaugust.github.io/tag/cloud-storage/</loc>
-    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackaugust.github.io/category/cloud-storage/</loc>
-    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackaugust.github.io/tag/patents/</loc>
     <lastmod>2024-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackaugust.github.io/author/shanshan-xu./</loc>
@@ -367,6 +504,16 @@
   </url><url>
     <loc>https://jackaugust.github.io/author/lingyun-yuan/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/lingyun-yuan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/lingyun-yuan/"
+                />
   </url><url>
     <loc>https://jackaugust.github.io/talk/2024/0126/</loc>
     <lastmod>2024-01-25T13:00:00+00:00</lastmod>
@@ -381,75 +528,58 @@
                 href="https://jackaugust.github.io/talk/2024/0126/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/post/2023/1123/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/project/62332005/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/post/2023/1123/"
+                href="https://jackaugust.github.io/zh/project/62332005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/post/2023/1123/"
+                href="https://jackaugust.github.io/project/62332005/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/tag/acceptance/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/tag/open-source-software/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jackaugust.github.io/author/chenghao-yang/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/project/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/chenghao-yang/"
+                href="https://jackaugust.github.io/zh/project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/author/chenghao-yang/"
+                href="https://jackaugust.github.io/project/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/author/kun-yang/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/tag/supply-chain-traceability/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/information-filtering/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/information-retrieval/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/tag/information-traceability/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackaugust.github.io/project/2023yfb3107103/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/kun-yang/"
+                href="https://jackaugust.github.io/zh/project/2023yfb3107103/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://jackaugust.github.io/author/kun-yang/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/tag/thesis/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackaugust.github.io/author/xiaolu-zhou/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/xiaolu-zhou/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/author/xiaolu-zhou/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/author/yi-luo/</loc>
-    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/author/yi-luo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/author/yi-luo/"
+                href="https://jackaugust.github.io/project/2023yfb3107103/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/post/2023/11/</loc>
@@ -464,9 +594,6 @@
                 hreflang="en-us"
                 href="https://jackaugust.github.io/post/2023/11/"
                 />
-  </url><url>
-    <loc>https://jackaugust.github.io/category/access-control/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackaugust.github.io/tag/certificates/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
@@ -500,6 +627,19 @@
                 href="https://jackaugust.github.io/publication-type/2/"
                 />
   </url><url>
+    <loc>https://jackaugust.github.io/post/2023/1123/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/post/2023/1123/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/post/2023/1123/"
+                />
+  </url><url>
     <loc>https://jackaugust.github.io/tag/air2water-model/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -511,6 +651,32 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jackaugust.github.io/tag/air2water-model/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/author/chenghao-yang/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/chenghao-yang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/chenghao-yang/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/author/kun-yang/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/kun-yang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/kun-yang/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/tag/lstm/</loc>
@@ -563,6 +729,32 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jackaugust.github.io/tag/remote-sensing/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/author/xiaolu-zhou/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/xiaolu-zhou/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/xiaolu-zhou/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/author/yi-luo/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/author/yi-luo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/author/yi-luo/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/post/2023/05/</loc>
@@ -633,19 +825,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jackaugust.github.io/project/6226070857/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/project/</loc>
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/project/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/project/2021yff1201102/</loc>
@@ -841,19 +1020,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jackaugust.github.io/project/ysdyjs2020148/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/courses/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/courses/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/slides/</loc>

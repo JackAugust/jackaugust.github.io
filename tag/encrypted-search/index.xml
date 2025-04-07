@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encrypted Search | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/encrypted-search/</link>
+      <atom:link href="https://jackaugust.github.io/tag/encrypted-search/index.xml" rel="self" type="application/rss+xml" />
+    <description>Encrypted Search</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Encrypted Search</title>
+      <link>https://jackaugust.github.io/tag/encrypted-search/</link>
+    </image>
+    
+    <item>
+      <title>2501: 1 of our patents has been successfully accepted!</title>
+      <link>https://jackaugust.github.io/post/2025/01/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2025/01/</guid>
+      <description>&lt;p&gt;Completion of the patent on 20 Janu 2025, congratulations!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

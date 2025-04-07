@@ -5,20 +5,12 @@
     <link>https://jackaugust.github.io/zh/tag/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/</link>
       <atom:link href="https://jackaugust.github.io/zh/tag/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
     <description>数据安全</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
       <title>数据安全</title>
       <link>https://jackaugust.github.io/zh/tag/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/</link>
     </image>
-    
-    <item>
-      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>边缘计算与区块多链下的安全可信认证模型</title>
@@ -36,7 +28,7 @@
       <link>https://jackaugust.github.io/zh/project/2021yff1201102/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/project/2021yff1201102/</guid>
-      <description>&lt;p&gt;在博士期间作为技术骨干，带领1名博士生，6名硕士生和5名本科生，顺利完成国家重点研发计划《跨队列数据安全共享机制和可信分析技术研究》的项目推进工作&lt;/p&gt;
+      <description>&lt;p&gt;在博士期间作为技术骨干，带领1名博士生，6名硕士生和5名本科生，顺利完成国家重点研发计划《跨队列数据安全共享机制和可信分析技术研究》的项目推进工作，现该项目已顺利通过验收。&lt;/p&gt;
 </description>
     </item>
     

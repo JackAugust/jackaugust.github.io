@@ -5,7 +5,7 @@
     <link>https://jackaugust.github.io/zh/author/ruitao-feng/</link>
       <atom:link href="https://jackaugust.github.io/zh/author/ruitao-feng/index.xml" rel="self" type="application/rss+xml" />
     <description>Ruitao Feng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
       <title>Ruitao Feng</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>2502: 祝贺！！我们的1篇论文被 CSCWD 2025（CCF-C) 录用！</title>
+      <link>https://jackaugust.github.io/zh/post/2025/0205/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/post/2025/0205/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</guid>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</guid>
       <description></description>
     </item>
     

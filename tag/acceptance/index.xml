@@ -5,7 +5,7 @@
     <link>https://jackaugust.github.io/tag/acceptance/</link>
       <atom:link href="https://jackaugust.github.io/tag/acceptance/index.xml" rel="self" type="application/rss+xml" />
     <description>Acceptance</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
       <title>Acceptance</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>2504: Congratulations! 1 of our papers has been accepted by TASE 2025 (CCF-C)!</title>
+      <link>https://jackaugust.github.io/post/2025/0407/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2025/0407/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2502: Congratulations! 1 of our papers has been accepted by CSCWD 2025 (CCF-C)!</title>
+      <link>https://jackaugust.github.io/post/2025/0205/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/post/2025/0205/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>2311: Congratulations! 1 of our papers has been accepted by JSTARS (JCR Q1)!</title>
       <link>https://jackaugust.github.io/post/2023/1123/</link>
-      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/post/2023/1123/</guid>
       <description></description>
     </item>

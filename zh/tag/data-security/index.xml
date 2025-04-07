@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data security | 张杰</title>
+    <link>https://jackaugust.github.io/zh/tag/data-security/</link>
+      <atom:link href="https://jackaugust.github.io/zh/tag/data-security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Data security</title>
+      <link>https://jackaugust.github.io/zh/tag/data-security/</link>
+    </image>
+    
+    <item>
+      <title>A Cross-domain Data Sharing Scheme Based on Federated Blockchain</title>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

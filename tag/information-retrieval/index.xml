@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information Retrieval | Jie Zhang</title>
+    <link>https://jackaugust.github.io/tag/information-retrieval/</link>
+      <atom:link href="https://jackaugust.github.io/tag/information-retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <description>Information Retrieval</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>Information Retrieval</title>
+      <link>https://jackaugust.github.io/tag/information-retrieval/</link>
+    </image>
+    
+    <item>
+      <title>National Key Research and Development Programme</title>
+      <link>https://jackaugust.github.io/project/2023yfb3107103/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/project/2023yfb3107103/</guid>
+      <description>&lt;p&gt;During his Ph.D., he participated in the project promotion of the National Key Research and Development Program “Screening and Recommendation of Information Content for Susceptible Groups”.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

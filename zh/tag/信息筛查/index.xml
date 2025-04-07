@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>信息筛查 | 张杰</title>
+    <link>https://jackaugust.github.io/zh/tag/%E4%BF%A1%E6%81%AF%E7%AD%9B%E6%9F%A5/</link>
+      <atom:link href="https://jackaugust.github.io/zh/tag/%E4%BF%A1%E6%81%AF%E7%AD%9B%E6%9F%A5/index.xml" rel="self" type="application/rss+xml" />
+    <description>信息筛查</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <title>信息筛查</title>
+      <link>https://jackaugust.github.io/zh/tag/%E4%BF%A1%E6%81%AF%E7%AD%9B%E6%9F%A5/</link>
+    </image>
+    
+    <item>
+      <title>国家重点研发计划</title>
+      <link>https://jackaugust.github.io/zh/project/2023yfb3107103/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/2023yfb3107103/</guid>
+      <description>&lt;p&gt;博士期间，参与国家重点研发计划 “面向易感群体的信息内容筛选与推荐” 的项目推进工作。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

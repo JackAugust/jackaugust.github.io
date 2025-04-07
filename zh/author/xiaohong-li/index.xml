@@ -5,7 +5,7 @@
     <link>https://jackaugust.github.io/zh/author/xiaohong-li/</link>
       <atom:link href="https://jackaugust.github.io/zh/author/xiaohong-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaohong Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
       <title>Xiaohong Li</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>2504: 祝贺！！我们的1篇论文被 TASE 2025（CCF-C) 录用！</title>
+      <link>https://jackaugust.github.io/zh/post/2025/0407/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/post/2025/0407/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Cross-domain Data Sharing Scheme Based on Federated Blockchain</title>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2502: 祝贺！！我们的1篇论文被 CSCWD 2025（CCF-C) 录用！</title>
+      <link>https://jackaugust.github.io/zh/post/2025/0205/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/post/2025/0205/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/asiaccs-zhang/</guid>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</guid>
       <description></description>
     </item>
     
