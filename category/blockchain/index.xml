@@ -1,85 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blockchain | Jie Zhang</title>
+    <title>Blockchain | Jie Zhang (张杰)</title>
     <link>https://jackaugust.github.io/category/blockchain/</link>
       <atom:link href="https://jackaugust.github.io/category/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <description>Blockchain</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Blockchain</title>
       <link>https://jackaugust.github.io/category/blockchain/</link>
     </image>
     
     <item>
-      <title>2504: Congratulations! 1 of our papers has been accepted by TASE 2025 (CCF-C)!</title>
-      <link>https://jackaugust.github.io/post/2025/0407/</link>
-      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2025/0407/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2502: Congratulations! 1 of our papers has been accepted by CSCWD 2025 (CCF-C)!</title>
-      <link>https://jackaugust.github.io/post/2025/0205/</link>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2025/0205/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2501: 1 of our patents has been successfully accepted!</title>
-      <link>https://jackaugust.github.io/post/2025/01/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2025/01/</guid>
-      <description>&lt;p&gt;Completion of the patent on 20 Janu 2025, congratulations!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2407: Congratulations! Our 2 softwritings have been successfully authorised</title>
-      <link>https://jackaugust.github.io/post/2024/07/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2024/07/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./ITBT-SSAC.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2405: 1 of our patents has been successfully accepted!</title>
-      <link>https://jackaugust.github.io/post/2024/05/</link>
-      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2024/05/</guid>
-      <description>&lt;p&gt;Completion of the patent on 30 May 2024, congratulations!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2402: Congratulations! 1 of our patents has been successfully granted</title>
-      <link>https://jackaugust.github.io/post/2024/02/</link>
-      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2024/02/</guid>
-      <description>&lt;p&gt;The patent filed on 16 Aug 22 has been successfully granted on 23 Feb 2024, congratulations!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2311: Congratulations! 1 of our papers was selected as CNKI Highly Cited and Highly Downloaded!</title>
-      <link>https://jackaugust.github.io/post/2023/11/</link>
-      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2023/11/</guid>
-      <description>&lt;p&gt;Papers accepted in 2022 were selected as CNKI Highly Cited and Highly Downloaded papers from July to November 23, congratulations!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2305 :1 of our patents has been successfully accepted!</title>
-      <link>https://jackaugust.github.io/post/2023/05/</link>
-      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2023/05/</guid>
-      <description>&lt;p&gt;Completion of patent acceptance on 26 May 2023, congratulations!&lt;/p&gt;
-</description>
+      <title>A lightweight blockchain-based access control scheme for integrated edge computing in the internet of things</title>
+      <link>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In view of the security issues of the Internet of Things (IoT), considered better combining edge computing and blockchain with the IoT, integrating attribute-based encryption (ABE) and attribute-based access control (ABAC) models with attributes as the entry point, an attribute-based encryption and access control scheme (ABE-ACS) has been proposed. Facing Edge-Iot, which is a heterogeneous network composed of most resource-limited IoT devices and some nodes with higher computing power. For the problems of high resource consumption and difficult deployment of existing blockchain platforms, we design a lightweight blockchain (LBC) with improvement of the proof-of-work consensus. For the access control policies, the threshold tree and LSSS are used for conversion and assignment, stored in the blockchain to protect the privacy of the policy. For device and data, six smart contracts are designed to realize the ABAC and penalty mechanism, with which ABE is outsourced to edge nodes for privacy and integrity. Thus, our scheme realizing Edge-Iot privacy protection, data and device controlled access. The security analysis shows that the proposed scheme is secure and the experimental results show that our LBC has higher throughput and lower resources consumption, the cost of encryption and decryption of our scheme is desirable.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about data security in Edge-Iot. To accomplish lightweight encryption outsourcing in an edge-device architecture, improved CP-ABE algorithm. Then to achieve the secure access to IoT data, attempt have been made to implement an attribute-based access control model. Try to build a blockchain network on a restricted terminal, built a lightweight blockchain LBC to adapt to IoT.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give a specific comparison:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Comparison of theoretical overhead with other papers on CP-ABE’s outsourced computation;&lt;/li&gt;
+&lt;li&gt;Comparing the cost of lightweight blockchain LBC with private Fabric and Ethereum;&lt;/li&gt;
+&lt;li&gt;Give the implementation algorithm of access control related contracts;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why not Submit:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;The biggest problem is that the scene is not clear, the research value is not sufficient;&lt;/li&gt;
+&lt;li&gt;Then the security proof is weak, the research content is not specific enough;&lt;/li&gt;
+&lt;li&gt;The security strength between access control and ciphertext is repeated&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Zhang J, Yuan L, Xu S. A lightweight blockchain-based access control scheme for integrated edge computing in the Internet of Things[J]. arXiv preprint arXiv:2111.06544, 2021.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet of Things (IoT) | 张杰的个人主页</title>
+    <link>https://jackaugust.github.io/zh/tag/internet-of-things-iot/</link>
+      <atom:link href="https://jackaugust.github.io/zh/tag/internet-of-things-iot/index.xml" rel="self" type="application/rss+xml" />
+    <description>Internet of Things (IoT)</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
+      <title>Internet of Things (IoT)</title>
+      <link>https://jackaugust.github.io/zh/tag/internet-of-things-iot/</link>
+    </image>
+    
+    <item>
+      <title>Feb. 2024: 祝贺！！我们的1项专利已顺利授权</title>
+      <link>https://jackaugust.github.io/zh/news/2024/0223/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2024/0223/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[23/02/24]&lt;/strong&gt; 我们在22年8月16日申请的专利 《一种基于属性访问控制的面向物联网轻量级区块链设计方法》 已于2024年02月23日成功授权，专利号 No.&lt;strong&gt;ZL 2022 1 0983502.5&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_5a593bf6b9ab54d5bab5b0e4ea70a932.webp 400w,
+               /zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_ff203c94255ace05b0edfff108c82546.webp 760w,
+               /zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_5a593bf6b9ab54d5bab5b0e4ea70a932.webp&#34;
+               width=&#34;538&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aug. 2023: 祝贺！！我们的1篇论文入选CNKI高被引和高下载！</title>
+      <link>https://jackaugust.github.io/zh/news/2023/0804/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2023/0804/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;我们在2022年录用的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/journal-article/2022/joca-zhang/&#34;&gt;《基于区块链与边缘计算的物联网访问控制模型》&lt;/a&gt; 从2023年7月起，被入选为CNKI &lt;strong&gt;高被引&lt;/strong&gt; 和 &lt;strong&gt;高下载&lt;/strong&gt; 论文， 祝贺!!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_6131a461d148e6dbeda853c6928e4bb8.webp 400w,
+               /zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_2c1d732d5d858ee4cebc0ed9bc4a8384.webp 760w,
+               /zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_6131a461d148e6dbeda853c6928e4bb8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;538&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>边缘计算与区块多链下的安全可信认证模型</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;边缘计算模式引发的数据安全和隐私保护等问题是制约边缘计算发展的基础性问题，而区块链因自身扩展性瓶颈，在解决边缘计算中的安全问题时受到了限制。为了解决边缘侧的信任管理及区块链的扩展性问题，促进边缘计算与区块链协同发展，基于边缘计算与主从多链提出了分布式安全可信认证模型。首先，基于传统单链设计了主从多链结构，并集成边缘计算部署了三层体系架构；针对边缘侧的安全性问题，基于椭圆曲线加密算法（ECC）集成区块链加密技术设计了签名认证方案。其次，基于角色的访问控制模型（RBAC）结合智能合约对用户权限进行了细粒度划分，构建了域间访问控制模型（ID-RBAC），并给出了域内、域间详细的访问认证流程设计。实验结果表明，该模型安全可信，与传统部署方式的单链架构相比，该方案存储开销平均下降50%，时延也有明显的降低。与现有方案相比，该方案在吞吐量方面有更大的优越性，发送速率与吞吐量之比达到1∶1，能满足大规模物联网实际应用需求，具有高扩展性、高安全性。
+&amp;ldquo;在国家重点研发计划《大型队列间联合研究柔性化大数据云平台支撑系统研发》研讨会中，我代表课题二三家单位汇报课题二从立项开始至今的研究进展，并代表课题组对跨队列医学数据安全管理平台进行演示，以体现课题二对访问控制、溯源审计等各项指标的完成情况。欢迎各位专家、老师批评指正。&amp;rdquo;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;本文主要介绍边缘安全。基于 ECDSA，在主从链场景中引入边缘计算，实现安全可信的身份验证，给出跨域访问模型和身份验证流程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;&lt;br&gt;
+直至2023年11月，我们的论文入选了CNKI的&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2023.01-, 国家自然科学基金项目 (62262073), 参与</title>
+      <link>https://jackaugust.github.io/zh/project/62262073/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/62262073/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在硕士期间作为技术骨干，带领4名硕士生参与此国自然项目申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 中文核心论文 一篇(CCF-T1)。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./62262073.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021.04-2024.03, 云南省基础应用研究项目 (202101AT070098), 参与</title>
+      <link>https://jackaugust.github.io/zh/project/202101at070098/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/202101at070098/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在硕士期间作为技术骨干，带领4名硕士生参与此省专项申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 &lt;strong&gt;CNKI 高被引高下载论文&lt;/strong&gt; 一篇，授权发明专利 一项。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./202101AT070098.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020.09-2021.06, 云南师范大学研究生科研创新项目 (ysdyjs2020148), 主持.</title>
+      <link>https://jackaugust.github.io/zh/project/ysdyjs2020148/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/ysdyjs2020148/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在硕士期间作为项目负责人，带领5名硕士生完成此校级科创项目，发表 中文核心论文 一篇(CCF-T2)。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,31 +1,511 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blockchain | 张杰</title>
+    <title>Blockchain | 张杰的个人主页</title>
     <link>https://jackaugust.github.io/zh/tag/blockchain/</link>
       <atom:link href="https://jackaugust.github.io/zh/tag/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <description>Blockchain</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Blockchain</title>
       <link>https://jackaugust.github.io/zh/tag/blockchain/</link>
     </image>
     
     <item>
       <title>A Cross-domain Data Sharing Scheme Based on Federated Blockchain</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</link>
-      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</guid>
-      <description></description>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Cross-domain data sharing involves exchanging or providing access to data between different systems or individuals, which is critical in domains such as healthcare, transportation, and data marketplaces. While blockchain technology addresses the single-point-of-failure issue inherent in cloud servers for cross-domain data sharing, existing blockchain-based methods face challenges such as complex permission management, high storage costs, and trust issues. To address these challenges, we propose a federated blockchain based cross-domain data sharing scheme that simplifies permission management by reducing the number of entities and specifying access rules, and decreases storage overhead through encrypted indexing. Our approach enhances trust by improving the ring signature algorithm to meet requirements for anonymity and accountability in sensitive data sharing. Specifically, the enhanced ring signature algorithm provides anonymous authentication and tamper-proof signatures while incorporating traceability features to balance privacy protection with security auditing. This scheme effectively resolves the challenges of privilege management, storage costs, trust crises, privacy protection, and security auditing in medical data sharing scenarios. Formal security proofs, performance analysis, and experimental results validate the scheme&amp;rsquo;s security, efficiency, and feasibility. Experimental data shows a reduction in signing time by at least 30% and a 14% decrease in verification time.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./TASE-Mao.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apr. 2025: 祝贺！！我们的1篇论文被 TASE 2025（CCF-C) 录用！</title>
+      <link>https://jackaugust.github.io/zh/news/2025/0411/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2025/0411/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[11/04/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/&#34;&gt;A Cross-domain Data Sharing Scheme Based on Federated Blockchain&lt;/a&gt; 被 &lt;a href=&#34;https://cyprusconferences.org/tase2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The 19th International Symposium on Theoretical Aspects of Software Engineering&lt;/a&gt; &lt;strong&gt;(TASE&#39;25, CCF-C)&lt;/strong&gt; 录用.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_182661132035a7a94c3b5b4899609552.webp 400w,
+               /zh/news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_6c7a3f075dee4a1e686df39926f27702.webp 760w,
+               /zh/news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_182661132035a7a94c3b5b4899609552.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Janu. 2025: 我们的1项专利已成功受理！</title>
+      <link>https://jackaugust.github.io/zh/news/2025/0120/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2025/0120/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[20/01/25]&lt;/strong&gt; 专利《基于区块链的动态可验证模糊多关键字云上密文搜索方法》已受理， 申请号 No.&lt;strong&gt;202510085613.8&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2025/0120/2025-patent-01_huc4c9dbae194608b2f85498b81d0f05c9_656735_66e4c2955374d0c3db5f6bdbe2887f3c.webp 400w,
+               /zh/news/2025/0120/2025-patent-01_huc4c9dbae194608b2f85498b81d0f05c9_656735_9495efe577b04d95650cd7130f5c1ceb.webp 760w,
+               /zh/news/2025/0120/2025-patent-01_huc4c9dbae194608b2f85498b81d0f05c9_656735_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2025/0120/2025-patent-01_huc4c9dbae194608b2f85498b81d0f05c9_656735_66e4c2955374d0c3db5f6bdbe2887f3c.webp&#34;
+               width=&#34;537&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feb. 2025: 祝贺！！我们的1篇论文被 CSCWD 2025（CCF-C) 录用！</title>
+      <link>https://jackaugust.github.io/zh/news/2025/0205/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2025/0205/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[05/02/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/&#34;&gt;SwiftGuard: Enhanced Privacy and Efficiency in Blockchain-Based Fine-Grained Access Control for Cross-Domain Healthcare Collaboration&lt;/a&gt; 被 &lt;a href=&#34;https://cscwd2025.hds.utc.fr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE 28th International Conference on ComputerSupported Cooperative Work in Design&lt;/a&gt; &lt;strong&gt;(CSCWD&#39;25, CCF-C)&lt;/strong&gt; 录用.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_7f5802aa1004914782ff8c141c5938ed.webp 400w,
+               /zh/news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_0ed5c5042e361b04cddae0625ba394ff.webp 760w,
+               /zh/news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_7f5802aa1004914782ff8c141c5938ed.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;675&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</link>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</guid>
-      <description></description>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;As healthcare systems evolve and healthcare data grows, the need for cross-domain collaboration treatment has become more complex, necessitating fine-grained access control to enhance privacy and security. Blockchain provides a distributed trusted platform without third parties, but the current blockchain-based access control systems lack efficiency and sufficient privacy protection in cross-domain collaboration. To address these challenges, we propose SWIFTGUARD, an efficient and fine-grained access control system based on a master-slave chain to strengthen the security and privacy of cross-domain healthcare collaboration. SWIFTGUARD incorporates a zeroknowledge proof protocol for cross-domain authentication without exposing sensitive data and leverages quantitative attribute weights for efficient access control. Through game-based security proof, we demonstrate the zero knowledge and soundness of the system. Extensive experiments evaluate that SWIFTGUARD reduces the time complexity of access authorization from $O(n)$ to $O(\log n)$, with improved throughput and stable performance in cross-domain collaboration. Our comprehensive evaluation confirms that SWIFTGUARD provides a secure and efficient access control system for cross-domain healthcare collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./CSCWD-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>July 2024: 祝贺！！我们的2项软著已成功授权</title>
+      <link>https://jackaugust.github.io/zh/news/2024/0705/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2024/0705/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[05/07/24]&lt;/strong&gt; 我们的两项软著《ITBT-BTRA：基于区块链的面向医疗数据跨队列行为溯源与信誉审计系统V1.0》《ITBT-SSAC：基于区块链面向医疗数据跨队列安全共享与访问控系统V1.0》已成功授权，软著编号 No.&lt;strong&gt;2024SR094****&lt;/strong&gt; and No.&lt;strong&gt;2024SR094****&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./ITBT-SSAC.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./ITBT-BTRA.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>May 2024: 我们的1项专利已成功受理！</title>
+      <link>https://jackaugust.github.io/zh/news/2024/0530/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2024/0530/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[30/05/24]&lt;/strong&gt; 我们的专利 《一种云存储下基于区块链的可审计块级密文重复删除方法》 已成功受理， 受理号 No.&lt;strong&gt;202410690778.3&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2024/0530/2024-patent-05_hu700275244aab45103b63a9bdebf71928_987141_850d414651ac9710af869c0dcc3a1789.webp 400w,
+               /zh/news/2024/0530/2024-patent-05_hu700275244aab45103b63a9bdebf71928_987141_b6e4b05de2db06cc12dc30f9cce29b7d.webp 760w,
+               /zh/news/2024/0530/2024-patent-05_hu700275244aab45103b63a9bdebf71928_987141_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2024/0530/2024-patent-05_hu700275244aab45103b63a9bdebf71928_987141_850d414651ac9710af869c0dcc3a1789.webp&#34;
+               width=&#34;538&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feb. 2024: 祝贺！！我们的1项专利已顺利授权</title>
+      <link>https://jackaugust.github.io/zh/news/2024/0223/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2024/0223/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[23/02/24]&lt;/strong&gt; 我们在22年8月16日申请的专利 《一种基于属性访问控制的面向物联网轻量级区块链设计方法》 已于2024年02月23日成功授权，专利号 No.&lt;strong&gt;ZL 2022 1 0983502.5&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_5a593bf6b9ab54d5bab5b0e4ea70a932.webp 400w,
+               /zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_ff203c94255ace05b0edfff108c82546.webp 760w,
+               /zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2024/0223/2024-patent-02_hu700275244aab45103b63a9bdebf71928_1131095_5a593bf6b9ab54d5bab5b0e4ea70a932.webp&#34;
+               width=&#34;538&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aug. 2023: 祝贺！！我们的1篇论文入选CNKI高被引和高下载！</title>
+      <link>https://jackaugust.github.io/zh/news/2023/0804/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2023/0804/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;我们在2022年录用的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/journal-article/2022/joca-zhang/&#34;&gt;《基于区块链与边缘计算的物联网访问控制模型》&lt;/a&gt; 从2023年7月起，被入选为CNKI &lt;strong&gt;高被引&lt;/strong&gt; 和 &lt;strong&gt;高下载&lt;/strong&gt; 论文， 祝贺!!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_6131a461d148e6dbeda853c6928e4bb8.webp 400w,
+               /zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_2c1d732d5d858ee4cebc0ed9bc4a8384.webp 760w,
+               /zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_6131a461d148e6dbeda853c6928e4bb8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;538&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>May. 2023: 我们的1项专利已成功受理！</title>
+      <link>https://jackaugust.github.io/zh/news/2023/0526/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2023/0526/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;[26/05/23] 我们的专利《一种基于信任机制的跨队列链上交易数据溯源与审计方法》已受理，专利受理号为 No.&lt;strong&gt;202310606928.3&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2023/0526/2023-patent-05_hu700275244aab45103b63a9bdebf71928_991324_41cab1bcfe2e51de8e3c73607c9d464f.webp 400w,
+               /zh/news/2023/0526/2023-patent-05_hu700275244aab45103b63a9bdebf71928_991324_f43fc86648f0b7ad79aff25eb542bdbe.webp 760w,
+               /zh/news/2023/0526/2023-patent-05_hu700275244aab45103b63a9bdebf71928_991324_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2023/0526/2023-patent-05_hu700275244aab45103b63a9bdebf71928_991324_41cab1bcfe2e51de8e3c73607c9d464f.webp&#34;
+               width=&#34;538&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>边缘计算与区块多链下的安全可信认证模型</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;边缘计算模式引发的数据安全和隐私保护等问题是制约边缘计算发展的基础性问题，而区块链因自身扩展性瓶颈，在解决边缘计算中的安全问题时受到了限制。为了解决边缘侧的信任管理及区块链的扩展性问题，促进边缘计算与区块链协同发展，基于边缘计算与主从多链提出了分布式安全可信认证模型。首先，基于传统单链设计了主从多链结构，并集成边缘计算部署了三层体系架构；针对边缘侧的安全性问题，基于椭圆曲线加密算法（ECC）集成区块链加密技术设计了签名认证方案。其次，基于角色的访问控制模型（RBAC）结合智能合约对用户权限进行了细粒度划分，构建了域间访问控制模型（ID-RBAC），并给出了域内、域间详细的访问认证流程设计。实验结果表明，该模型安全可信，与传统部署方式的单链架构相比，该方案存储开销平均下降50%，时延也有明显的降低。与现有方案相比，该方案在吞吐量方面有更大的优越性，发送速率与吞吐量之比达到1∶1，能满足大规模物联网实际应用需求，具有高扩展性、高安全性。
+&amp;ldquo;在国家重点研发计划《大型队列间联合研究柔性化大数据云平台支撑系统研发》研讨会中，我代表课题二三家单位汇报课题二从立项开始至今的研究进展，并代表课题组对跨队列医学数据安全管理平台进行演示，以体现课题二对访问控制、溯源审计等各项指标的完成情况。欢迎各位专家、老师批评指正。&amp;rdquo;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;本文主要介绍边缘安全。基于 ECDSA，在主从链场景中引入边缘计算，实现安全可信的身份验证，给出跨域访问模型和身份验证流程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;&lt;br&gt;
+直至2023年11月，我们的论文入选了CNKI的&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2023.01-, 国家自然科学基金项目 (62262073), 参与</title>
+      <link>https://jackaugust.github.io/zh/project/62262073/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/62262073/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在硕士期间作为技术骨干，带领4名硕士生参与此国自然项目申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 中文核心论文 一篇(CCF-T1)。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./62262073.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021.12-2023.11, 国家重点研发计划 (2021YFF1201102), 参与.</title>
+      <link>https://jackaugust.github.io/zh/project/2021yff1201102/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/2021yff1201102/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在博士期间作为技术骨干，带领1名博士生，6名硕士生和5名本科生，顺利完成国家重点研发计划《跨队列数据安全共享机制和可信分析技术研究》的项目推进工作，现该项目已顺利通过验收。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./2021YFF1201102.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;部分汇报进展见 &lt;a href=&#34;https://jackaugust.github.io/zh/talk/&#34;&gt;talk&lt;/a&gt;
+平台演示部分见 &lt;a href=&#34;https://www.bilibili.com/video/BV1MV411L7Zg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bilibili&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A lightweight blockchain-based access control scheme for integrated edge computing in the internet of things</title>
+      <link>https://jackaugust.github.io/zh/publication/preprint/2021/arxiv-zhang/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/preprint/2021/arxiv-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In view of the security issues of the Internet of Things (IoT), considered better combining edge computing and blockchain with the IoT, integrating attribute-based encryption (ABE) and attribute-based access control (ABAC) models with attributes as the entry point, an attribute-based encryption and access control scheme (ABE-ACS) has been proposed. Facing Edge-Iot, which is a heterogeneous network composed of most resource-limited IoT devices and some nodes with higher computing power. For the problems of high resource consumption and difficult deployment of existing blockchain platforms, we design a lightweight blockchain (LBC) with improvement of the proof-of-work consensus. For the access control policies, the threshold tree and LSSS are used for conversion and assignment, stored in the blockchain to protect the privacy of the policy. For device and data, six smart contracts are designed to realize the ABAC and penalty mechanism, with which ABE is outsourced to edge nodes for privacy and integrity. Thus, our scheme realizing Edge-Iot privacy protection, data and device controlled access. The security analysis shows that the proposed scheme is secure and the experimental results show that our LBC has higher throughput and lower resources consumption, the cost of encryption and decryption of our scheme is desirable.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about data security in Edge-Iot. To accomplish lightweight encryption outsourcing in an edge-device architecture, improved CP-ABE algorithm. Then to achieve the secure access to IoT data, attempt have been made to implement an attribute-based access control model. Try to build a blockchain network on a restricted terminal, built a lightweight blockchain LBC to adapt to IoT.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give a specific comparison:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Comparison of theoretical overhead with other papers on CP-ABE’s outsourced computation;&lt;/li&gt;
+&lt;li&gt;Comparing the cost of lightweight blockchain LBC with private Fabric and Ethereum;&lt;/li&gt;
+&lt;li&gt;Give the implementation algorithm of access control related contracts;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why not Submit:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;The biggest problem is that the scene is not clear, the research value is not sufficient;&lt;/li&gt;
+&lt;li&gt;Then the security proof is weak, the research content is not specific enough;&lt;/li&gt;
+&lt;li&gt;The security strength between access control and ciphertext is repeated&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Zhang J, Yuan L, Xu S. A lightweight blockchain-based access control scheme for integrated edge computing in the Internet of Things[J]. arXiv preprint arXiv:2111.06544, 2021.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021.04-2024.03, 云南省基础应用研究项目 (202101AT070098), 参与</title>
+      <link>https://jackaugust.github.io/zh/project/202101at070098/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/202101at070098/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在硕士期间作为技术骨干，带领4名硕士生参与此省专项申请书撰写工作，此项目申报成功后作为第一学生身份参与项目，并发表 &lt;strong&gt;CNKI 高被引高下载论文&lt;/strong&gt; 一篇，授权发明专利 一项。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./202101AT070098.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>基于区块链与边缘计算的物联网访问控制模型</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2022/joca-zhang/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2022/joca-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;边缘计算的出现扩展了物联网（IoT）云-终端架构的范畴，减少了终端设备海量数据的传输和处理时延的同时也带来了新的安全问题。针对物联网边缘节点与海量异构设备间数据安全和管理问题，考虑到目前区块链技术广泛应用于分布式系统中数据的安全管理，提出基于区块链与边缘计算的物联网访问控制模型（SC-ABAC）。首先提出集成边缘计算的物联网访问控制架构，并结合智能合约和基于属性的访问控制提出并设计了SC-ABAC，接着给出传统共识算法（PoW）的优化和SC-ABAC访问控制管理流程。最后实验结果表明，本文在对区块连续访问下耗时随次数呈线性增长，连续访问过程中央处理器（CPU）利用率稳定，安全性良好。本模型下仅查询过程存在调用合约的耗时随次数呈线性增长，策略添加和判断过程的耗时均为常数级，且优化的共识机制较PoW每100块区块共识耗时降低约18.37个百分点。该模型可在物联网环境中提供去中心化、细颗粒度和动态的访问控制管理，并在分布式系统中可更快达成共识以确保数据一致性。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./JOCA-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;本文是关于物联网安全的。在云-边-端架构中，尝试基于区块链实现访问控制，并给出了一个 SC-ABAC 模型和一个简单的原型。SC-ABAC 是基于属性访问控制的智能合约，原型中改进了 POW 共识算法。&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;
+从2023年6月起，本文被选为CNKI &lt;strong&gt;高被引&lt;/strong&gt;和&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020.09-2021.06, 云南师范大学研究生科研创新项目 (ysdyjs2020148), 主持.</title>
+      <link>https://jackaugust.github.io/zh/project/ysdyjs2020148/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/project/ysdyjs2020148/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在硕士期间作为项目负责人，带领5名硕士生完成此校级科创项目，发表 中文核心论文 一篇(CCF-T2)。&lt;/p&gt;
+</description>
     </item>
     
   </channel>

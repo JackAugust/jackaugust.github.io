@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article-journal | Jie Zhang (张杰)</title>
+    <link>https://jackaugust.github.io/publication-type/article-journal/</link>
+      <atom:link href="https://jackaugust.github.io/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>article-journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
+      <title>article-journal</title>
+      <link>https://jackaugust.github.io/publication-type/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>Prediction of surface water temperature and its spatial-temporal variation characteristics of 11 main lakes in Yunnan-Guizhou Plateau</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2023/jstars-xu/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2023/jstars-xu/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In the context of global warming, the Lake Surface Water Temperature (LSWT) exhibits a general upward trend. As an indicator of climate change, the surface water temperature of plateau lakes is particularly sensitive to climate warming. In this study, the machine learning model and physical process model are combined to predict water temperature in lake systems: The Air2water model and the Long Short Term Memory (LSTM) model are combined to form a prediction model for the inversion and prediction of 11 typical plateau lakes in the Yunnan-Guizhou Plateau. The modeling results show that the Air2water model performs best, followed by the LSTM model. Overall, the Air2water model and the LSTM model effectively reproduce the monthly, seasonal, and interannual variations of LSWT dynamics in the 11 lakes. The research results show that the LSWT data set from 2021 to 2025 is constructed based on the forecast result, and it is found that six lakes, including Caohai, Dianchi, Erhai, Qionghai, Xingyun Lake and Yangzonghai, showed significant warming in the next five years (the maximum warming rate was less than +0.2 ∘ C/year), while the remaining five lakes showed no significant changes, and the size classification of LSWT data in different spaces on the interannual scale was consistent with the classification of altitudes. By conducting extensive exploration and research on the inversion of LSWT using physical process models and machine learning models, this study offers novel solutions for LSWT prediction and inversion. The study also provides a solid theoretical and practical foundation for future LSWT research, thereby holding practical significance and research value.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./JSTARS-Xu.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Secure and Trusted Authentication Models under Edge Computing and Block Multi-Chaining</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Issues such as data security and privacy protection caused by the edge computing model are fundamental issues that constrain the development of edge computing, while blockchain is limited in solving security issues in edge computing due to its own scalability bottleneck. In order to solve the trust management and the scalability of blockchain on the edge side, and to promote the collaborative development of edge computing and blockchain, a distributed secure and trustworthy authentication model is proposed based on edge computing and master-slave multi-chain. First, a master-slave multi-chain structure is designed based on the traditional single chain, and a three-layer architecture is deployed by integrating edge computing; for the security problem on the edge side, a signature authentication scheme is designed based on elliptic curve cryptographic algorithm (ECC) integrated with blockchain encryption technology. Secondly, the role-based Access control model (RBAC) combined with smart contract divides user privileges at a fine-grained level, constructs the inter-domain access control model (ID-RBAC), and gives the design of intra-domain and inter-domain detailed access authentication process. The experimental results show that the model is secure and trustworthy, and compared with the single-chain architecture of traditional deployment method, the storage overhead of this scheme is reduced by 50% on average, and the latency is also significantly reduced. Compared with the existing scheme, the scheme has greater superiority in throughput, and the ratio of sending rate to throughput reaches 1:1, which can meet the demand of large-scale Internet of Things (IoT) practical applications with high scalability and high security.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!!!&lt;/strong&gt;&lt;br&gt;
+Until November 2023, our paper was selected as CNKI&amp;rsquo;s &lt;strong&gt;highly downloaded&lt;/strong&gt; paper&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Urban Land Surface Temperature Monitoring and Surface Thermal Runoff Pollution Evaluation Using UAV Thermal Remote Sensing Technology</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2021/suutainability-xu/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2021/suutainability-xu/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;With the continuous advancement of urbanization, the impervious surface expands. Urbanization has changed the structure of the natural land surface and led to the intensification of the urban heat island (UHI) effect. This will affect the surface runoff temperature, which, in turn, will affect the surface water temperature of urban lakes. This study will use UAS TIR (un-manned aerial system thermal infrared radiance) remote sensing and in situ observation technology to monitor the urban space surface temperature and thermal runoff in Kunming, Yunnan, in summer; explore the feasibility of UAS TIR remote sensing to continuously observe urban surface temperature during day and night; and analyze thermal runoff pollution. The results of the study show that the difference between UAS TIR LSTs and in situ LSTs (in situ air temperature 10 cm above the ground.) varies with the type of land covers. Urban surface thermal runoff has varying degrees of impact on water bodies. Based on the influence of physical factors such as vegetation and buildings and meteorological factors such as solar radiation, the RMSE between UAS LSTs and in situ LSTs varies from 1 to 5 °C. Land cover types such as pervious bricks, asphalt, and cement usually show higher RMSE values. Before and after rainfall, the in situ data of the lake surface water temperature (LSWT) showed a phenomenon of first falling and then rising. The linear regression analysis results show that the R2 of the daytime model is 0.92, which has high consistency; the average R2 at night is 0.38; the averages R2 before and after rainfall are 0.50 and 0.83, respectively; and the average RMSE is 1.94 °C. Observational data shows that thermal runoff quickly reaches thermal equilibrium with the land surface temperature about 30 min after rainfall. The thermal runoff around the lake has a certain warming effect on LSWT.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./Sustainability-Xu.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internet of things access control model based on blockchain and edge computing</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;The emergence of edge computing has expanded the scope of Internet of Things （IoT） cloud-terminal architecture. With the reduction of transmission and processing delays of massive data on terminal devices， it also brings new security issues. Aiming at the problem of data security and management issues between edge nodes of IoT and massive heterogeneous devices， and considering that blockchain technology is widely used in the security management of data in distributed systems， an IoT access control model Smart Contract for Attribute-Based Access Control （SC-ABAC） was proposed based on blockchain and edge computing. Firstly， an IoT access control architecture integrated with edge computing was proposed， and by combining smart contracts with Attribute-Based Access Control （ABAC）， SC-ABAC was proposed and designed. Then， the optimization of Proof of Work （PoW） consensus algorithm and the access control management flow of SC-ABAC were given. Experimental results show that the time consumed by the proposed model increases linearly with the number of times under continuous access to the block， the Central Processing Unit （CPU） utilization rate is stable， and the CPU security is good during the continuous access process. In this model， the time consumption of calling contracts in the query process only increases linearly with the times， and the time consumptions of the strategy addition and judgment process are both constant. And the optimized consensus mechanism has about 18.37 percentage points less time consumption than PoW consensus per 100 blocks. Therefore， the proposed model can provide decentralized， fine-grained and dynamic access control management in the IoT environment， and can reach consensus faster in a distributed system to ensure data consistency.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./JOCA-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about IoT security. In the cloud-edge-end architecture, try to implement access control based on blockchain and give a SC-ABAC model and a simple prototype. SC-ABAC is Smart Contract for Attribute-Based Access Control, and the POW consensus algorithm has been improved in the prototype.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;Congratulations!!!&lt;/strong&gt;&lt;br&gt;
+From July 2023, this paper was selected as a China Knowledge Network Academic Essentials &lt;strong&gt;Highly Cited Paper&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded Paper&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

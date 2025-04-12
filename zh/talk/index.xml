@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | 张杰</title>
+    <title>Recent &amp; Upcoming Talks | 张杰的个人主页</title>
     <link>https://jackaugust.github.io/zh/talk/</link>
       <atom:link href="https://jackaugust.github.io/zh/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://jackaugust.github.io/zh/talk/</link>
     </image>
@@ -17,7 +17,8 @@
       <link>https://jackaugust.github.io/zh/talk/2024/0828/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/talk/2024/0828/</guid>
-      <description></description>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在国家重点研发计划《大型队列间联合研究柔性化大数据云平台支撑系统研发》研讨会中，我代表课题二的三家单位向项目首席和邀请专家们汇报课题二从立项开始至今的研究进展，并代表课题组对跨队列医学数据安全管理平台进行演示，以体现课题二对访问控制、溯源审计等各项指标的完成情况。欢迎各位专家、老师批评指正。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +26,8 @@
       <link>https://jackaugust.github.io/zh/talk/2024/0426/</link>
       <pubDate>Thu, 25 Apr 2024 13:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/talk/2024/0426/</guid>
-      <description></description>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;在国家重点研发计划《大型队列间联合研究柔性化大数据云平台支撑系统研发》研讨会中，我作为主办方负责组织召开项目研讨会，并于会上汇报课题二现有研究进展，并负责会后整理各课题推进情况与后期进展。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +35,8 @@
       <link>https://jackaugust.github.io/zh/talk/2024/0126/</link>
       <pubDate>Thu, 25 Jan 2024 13:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/talk/2024/0126/</guid>
-      <description></description>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;为更好推进项目，课题二召开课题研讨会，邀请课题二两家参与单位于天大讨论各自研究进展。我作为主办方负责组织召开课题研讨会，并代表课题二天大部分向其他两家单位汇报天大的工作。欢迎各位专家、老师批评指正。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +44,9 @@
       <link>https://jackaugust.github.io/zh/talk/2023/1023/</link>
       <pubDate>Mon, 23 Oct 2023 13:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/talk/2023/1023/</guid>
-      <description></description>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;
+参与立项的2项团体标准 《智能医疗-跨队列数据处理平台-第 6 部分：隐私数据共享与访问要求》《智能医疗-跨队列数据处理平台-第 7 部分：数据脱敏流程要求》已成功发布并于即日实施，团体标准号： &lt;strong&gt;&amp;ldquo;T/CESA 1372.6—2025&amp;rdquo;&lt;/strong&gt; &lt;strong&gt;&amp;ldquo;T/CESA 1372.7—2025&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -49,7 +54,8 @@
       <link>https://jackaugust.github.io/zh/talk/2023/0401/</link>
       <pubDate>Sat, 01 Apr 2023 13:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/talk/2023/0401/</guid>
-      <description></description>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&amp;ldquo;在国家重点研发计划《大型队列间联合研究柔性化大数据云平台支撑系统研发》研讨会中，我代表课题二向各位专家和其他课题组成员演示 跨队列医学数据安全管理平台，体现 课题二对访问控制、溯源审计等各项指标的完成情况。欢迎各位专家、老师批评指正。&amp;rdquo;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABE | 张杰的个人主页</title>
+    <link>https://jackaugust.github.io/zh/tag/abe/</link>
+      <atom:link href="https://jackaugust.github.io/zh/tag/abe/index.xml" rel="self" type="application/rss+xml" />
+    <description>ABE</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 17 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
+      <title>ABE</title>
+      <link>https://jackaugust.github.io/zh/tag/abe/</link>
+    </image>
+    
+    <item>
+      <title>A lightweight blockchain-based access control scheme for integrated edge computing in the internet of things</title>
+      <link>https://jackaugust.github.io/zh/publication/preprint/2021/arxiv-zhang/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/preprint/2021/arxiv-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In view of the security issues of the Internet of Things (IoT), considered better combining edge computing and blockchain with the IoT, integrating attribute-based encryption (ABE) and attribute-based access control (ABAC) models with attributes as the entry point, an attribute-based encryption and access control scheme (ABE-ACS) has been proposed. Facing Edge-Iot, which is a heterogeneous network composed of most resource-limited IoT devices and some nodes with higher computing power. For the problems of high resource consumption and difficult deployment of existing blockchain platforms, we design a lightweight blockchain (LBC) with improvement of the proof-of-work consensus. For the access control policies, the threshold tree and LSSS are used for conversion and assignment, stored in the blockchain to protect the privacy of the policy. For device and data, six smart contracts are designed to realize the ABAC and penalty mechanism, with which ABE is outsourced to edge nodes for privacy and integrity. Thus, our scheme realizing Edge-Iot privacy protection, data and device controlled access. The security analysis shows that the proposed scheme is secure and the experimental results show that our LBC has higher throughput and lower resources consumption, the cost of encryption and decryption of our scheme is desirable.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about data security in Edge-Iot. To accomplish lightweight encryption outsourcing in an edge-device architecture, improved CP-ABE algorithm. Then to achieve the secure access to IoT data, attempt have been made to implement an attribute-based access control model. Try to build a blockchain network on a restricted terminal, built a lightweight blockchain LBC to adapt to IoT.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give a specific comparison:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Comparison of theoretical overhead with other papers on CP-ABE’s outsourced computation;&lt;/li&gt;
+&lt;li&gt;Comparing the cost of lightweight blockchain LBC with private Fabric and Ethereum;&lt;/li&gt;
+&lt;li&gt;Give the implementation algorithm of access control related contracts;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why not Submit:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;The biggest problem is that the scene is not clear, the research value is not sufficient;&lt;/li&gt;
+&lt;li&gt;Then the security proof is weak, the research content is not specific enough;&lt;/li&gt;
+&lt;li&gt;The security strength between access control and ciphertext is repeated&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Zhang J, Yuan L, Xu S. A lightweight blockchain-based access control scheme for integrated edge computing in the Internet of Things[J]. arXiv preprint arXiv:2111.06544, 2021.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

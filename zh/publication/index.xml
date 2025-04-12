@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | 张杰</title>
+    <title>Publications | 张杰的个人主页</title>
     <link>https://jackaugust.github.io/zh/publication/</link>
       <atom:link href="https://jackaugust.github.io/zh/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://jackaugust.github.io/zh/publication/</link>
     </image>
     
     <item>
       <title>A Cross-domain Data Sharing Scheme Based on Federated Blockchain</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</link>
-      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase2025/</guid>
-      <description></description>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Cross-domain data sharing involves exchanging or providing access to data between different systems or individuals, which is critical in domains such as healthcare, transportation, and data marketplaces. While blockchain technology addresses the single-point-of-failure issue inherent in cloud servers for cross-domain data sharing, existing blockchain-based methods face challenges such as complex permission management, high storage costs, and trust issues. To address these challenges, we propose a federated blockchain based cross-domain data sharing scheme that simplifies permission management by reducing the number of entities and specifying access rules, and decreases storage overhead through encrypted indexing. Our approach enhances trust by improving the ring signature algorithm to meet requirements for anonymity and accountability in sensitive data sharing. Specifically, the enhanced ring signature algorithm provides anonymous authentication and tamper-proof signatures while incorporating traceability features to balance privacy protection with security auditing. This scheme effectively resolves the challenges of privilege management, storage costs, trust crises, privacy protection, and security auditing in medical data sharing scenarios. Formal security proofs, performance analysis, and experimental results validate the scheme&amp;rsquo;s security, efficiency, and feasibility. Experimental data shows a reduction in signing time by at least 30% and a 14% decrease in verification time.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./TASE-Mao.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
-      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</link>
+      <link>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd2025/</guid>
-      <description></description>
+      <guid>https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;As healthcare systems evolve and healthcare data grows, the need for cross-domain collaboration treatment has become more complex, necessitating fine-grained access control to enhance privacy and security. Blockchain provides a distributed trusted platform without third parties, but the current blockchain-based access control systems lack efficiency and sufficient privacy protection in cross-domain collaboration. To address these challenges, we propose SWIFTGUARD, an efficient and fine-grained access control system based on a master-slave chain to strengthen the security and privacy of cross-domain healthcare collaboration. SWIFTGUARD incorporates a zeroknowledge proof protocol for cross-domain authentication without exposing sensitive data and leverages quantitative attribute weights for efficient access control. Through game-based security proof, we demonstrate the zero knowledge and soundness of the system. Extensive experiments evaluate that SWIFTGUARD reduces the time complexity of access authorization from $O(n)$ to $O(\log n)$, with improved throughput and stable performance in cross-domain collaboration. Our comprehensive evaluation confirms that SWIFTGUARD provides a secure and efficient access control system for cross-domain healthcare collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./CSCWD-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Prediction of surface water temperature and its spatial-temporal variation characteristics of 11 main lakes in Yunnan-Guizhou Plateau</title>
       <link>https://jackaugust.github.io/zh/publication/journal-article/2023/jstars-xu/</link>
-      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/publication/journal-article/2023/jstars-xu/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In the context of global warming, the Lake Surface Water Temperature (LSWT) exhibits a general upward trend. As an indicator of climate change, the surface water temperature of plateau lakes is particularly sensitive to climate warming. In this study, the machine learning model and physical process model are combined to predict water temperature in lake systems: The Air2water model and the Long Short Term Memory (LSTM) model are combined to form a prediction model for the inversion and prediction of 11 typical plateau lakes in the Yunnan-Guizhou Plateau. The modeling results show that the Air2water model performs best, followed by the LSTM model. Overall, the Air2water model and the LSTM model effectively reproduce the monthly, seasonal, and interannual variations of LSWT dynamics in the 11 lakes. The research results show that the LSWT data set from 2021 to 2025 is constructed based on the forecast result, and it is found that six lakes, including Caohai, Dianchi, Erhai, Qionghai, Xingyun Lake and Yangzonghai, showed significant warming in the next five years (the maximum warming rate was less than +0.2 ∘ C/year), while the remaining five lakes showed no significant changes, and the size classification of LSWT data in different spaces on the interannual scale was consistent with the classification of altitudes. By conducting extensive exploration and research on the inversion of LSWT using physical process models and machine learning models, this study offers novel solutions for LSWT prediction and inversion. The study also provides a solid theoretical and practical foundation for future LSWT research, thereby holding practical significance and research value.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./JSTARS-Xu.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +50,10 @@
       <link>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/publication/journal-article/2023/jfcst-huang/</guid>
-      <description>&lt;p&gt;本文主要介绍边缘安全。基于 ECDSA，在主从链场景中引入边缘计算，实现安全可信的身份验证，给出跨域访问模型和身份验证流程。&lt;/p&gt;
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;边缘计算模式引发的数据安全和隐私保护等问题是制约边缘计算发展的基础性问题，而区块链因自身扩展性瓶颈，在解决边缘计算中的安全问题时受到了限制。为了解决边缘侧的信任管理及区块链的扩展性问题，促进边缘计算与区块链协同发展，基于边缘计算与主从多链提出了分布式安全可信认证模型。首先，基于传统单链设计了主从多链结构，并集成边缘计算部署了三层体系架构；针对边缘侧的安全性问题，基于椭圆曲线加密算法（ECC）集成区块链加密技术设计了签名认证方案。其次，基于角色的访问控制模型（RBAC）结合智能合约对用户权限进行了细粒度划分，构建了域间访问控制模型（ID-RBAC），并给出了域内、域间详细的访问认证流程设计。实验结果表明，该模型安全可信，与传统部署方式的单链架构相比，该方案存储开销平均下降50%，时延也有明显的降低。与现有方案相比，该方案在吞吐量方面有更大的优越性，发送速率与吞吐量之比达到1∶1，能满足大规模物联网实际应用需求，具有高扩展性、高安全性。
+&amp;ldquo;在国家重点研发计划《大型队列间联合研究柔性化大数据云平台支撑系统研发》研讨会中，我代表课题二三家单位汇报课题二从立项开始至今的研究进展，并代表课题组对跨队列医学数据安全管理平台进行演示，以体现课题二对访问控制、溯源审计等各项指标的完成情况。欢迎各位专家、老师批评指正。&amp;rdquo;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;本文主要介绍边缘安全。基于 ECDSA，在主从链场景中引入边缘计算，实现安全可信的身份验证，给出跨域访问模型和身份验证流程。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;&lt;br&gt;
 直至2023年11月，我们的论文入选了CNKI的&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
 </description>
@@ -52,15 +64,38 @@
       <link>https://jackaugust.github.io/zh/publication/preprint/2021/arxiv-zhang/</link>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/publication/preprint/2021/arxiv-zhang/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In view of the security issues of the Internet of Things (IoT), considered better combining edge computing and blockchain with the IoT, integrating attribute-based encryption (ABE) and attribute-based access control (ABAC) models with attributes as the entry point, an attribute-based encryption and access control scheme (ABE-ACS) has been proposed. Facing Edge-Iot, which is a heterogeneous network composed of most resource-limited IoT devices and some nodes with higher computing power. For the problems of high resource consumption and difficult deployment of existing blockchain platforms, we design a lightweight blockchain (LBC) with improvement of the proof-of-work consensus. For the access control policies, the threshold tree and LSSS are used for conversion and assignment, stored in the blockchain to protect the privacy of the policy. For device and data, six smart contracts are designed to realize the ABAC and penalty mechanism, with which ABE is outsourced to edge nodes for privacy and integrity. Thus, our scheme realizing Edge-Iot privacy protection, data and device controlled access. The security analysis shows that the proposed scheme is secure and the experimental results show that our LBC has higher throughput and lower resources consumption, the cost of encryption and decryption of our scheme is desirable.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about data security in Edge-Iot. To accomplish lightweight encryption outsourcing in an edge-device architecture, improved CP-ABE algorithm. Then to achieve the secure access to IoT data, attempt have been made to implement an attribute-based access control model. Try to build a blockchain network on a restricted terminal, built a lightweight blockchain LBC to adapt to IoT.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give a specific comparison:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Comparison of theoretical overhead with other papers on CP-ABE’s outsourced computation;&lt;/li&gt;
+&lt;li&gt;Comparing the cost of lightweight blockchain LBC with private Fabric and Ethereum;&lt;/li&gt;
+&lt;li&gt;Give the implementation algorithm of access control related contracts;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why not Submit:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;The biggest problem is that the scene is not clear, the research value is not sufficient;&lt;/li&gt;
+&lt;li&gt;Then the security proof is weak, the research content is not specific enough;&lt;/li&gt;
+&lt;li&gt;The security strength between access control and ciphertext is repeated&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Zhang J, Yuan L, Xu S. A lightweight blockchain-based access control scheme for integrated edge computing in the Internet of Things[J]. arXiv preprint arXiv:2111.06544, 2021.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Urban Land Surface Temperature Monitoring and Surface Thermal Runoff Pollution Evaluation Using UAV Thermal Remote Sensing Technology</title>
-      <link>https://jackaugust.github.io/zh/publication/journal-article/2021/sustainability-xu/</link>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2021/suutainability-xu/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/zh/publication/journal-article/2021/sustainability-xu/</guid>
-      <description></description>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2021/suutainability-xu/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;With the continuous advancement of urbanization, the impervious surface expands. Urbanization has changed the structure of the natural land surface and led to the intensification of the urban heat island (UHI) effect. This will affect the surface runoff temperature, which, in turn, will affect the surface water temperature of urban lakes. This study will use UAS TIR (un-manned aerial system thermal infrared radiance) remote sensing and in situ observation technology to monitor the urban space surface temperature and thermal runoff in Kunming, Yunnan, in summer; explore the feasibility of UAS TIR remote sensing to continuously observe urban surface temperature during day and night; and analyze thermal runoff pollution. The results of the study show that the difference between UAS TIR LSTs and in situ LSTs (in situ air temperature 10 cm above the ground.) varies with the type of land covers. Urban surface thermal runoff has varying degrees of impact on water bodies. Based on the influence of physical factors such as vegetation and buildings and meteorological factors such as solar radiation, the RMSE between UAS LSTs and in situ LSTs varies from 1 to 5 °C. Land cover types such as pervious bricks, asphalt, and cement usually show higher RMSE values. Before and after rainfall, the in situ data of the lake surface water temperature (LSWT) showed a phenomenon of first falling and then rising. The linear regression analysis results show that the R2 of the daytime model is 0.92, which has high consistency; the average R2 at night is 0.38; the averages R2 before and after rainfall are 0.50 and 0.83, respectively; and the average RMSE is 1.94 °C. Observational data shows that thermal runoff quickly reaches thermal equilibrium with the land surface temperature about 30 min after rainfall. The thermal runoff around the lake has a certain warming effect on LSWT.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./Sustainability-Xu.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -68,9 +103,12 @@
       <link>https://jackaugust.github.io/zh/publication/journal-article/2022/joca-zhang/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/publication/journal-article/2022/joca-zhang/</guid>
-      <description>&lt;p&gt;本文是关于物联网安全的。在云-边-端架构中，尝试基于区块链实现访问控制，并给出了一个 SC-ABAC 模型和一个简单的原型。SC-ABAC 是基于属性访问控制的智能合约，原型中改进了 POW 共识算法。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;&lt;br&gt;
-直至2023年11月，我们的论文入选了CKI的&lt;strong&gt;高被引&lt;/strong&gt;和&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;边缘计算的出现扩展了物联网（IoT）云-终端架构的范畴，减少了终端设备海量数据的传输和处理时延的同时也带来了新的安全问题。针对物联网边缘节点与海量异构设备间数据安全和管理问题，考虑到目前区块链技术广泛应用于分布式系统中数据的安全管理，提出基于区块链与边缘计算的物联网访问控制模型（SC-ABAC）。首先提出集成边缘计算的物联网访问控制架构，并结合智能合约和基于属性的访问控制提出并设计了SC-ABAC，接着给出传统共识算法（PoW）的优化和SC-ABAC访问控制管理流程。最后实验结果表明，本文在对区块连续访问下耗时随次数呈线性增长，连续访问过程中央处理器（CPU）利用率稳定，安全性良好。本模型下仅查询过程存在调用合约的耗时随次数呈线性增长，策略添加和判断过程的耗时均为常数级，且优化的共识机制较PoW每100块区块共识耗时降低约18.37个百分点。该模型可在物联网环境中提供去中心化、细颗粒度和动态的访问控制管理，并在分布式系统中可更快达成共识以确保数据一致性。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./JOCA-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;本文是关于物联网安全的。在云-边-端架构中，尝试基于区块链实现访问控制，并给出了一个 SC-ABAC 模型和一个简单的原型。SC-ABAC 是基于属性访问控制的智能合约，原型中改进了 POW 共识算法。&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;祝贺!!!&lt;/strong&gt;
+从2023年6月起，本文被选为CNKI &lt;strong&gt;高被引&lt;/strong&gt;和&lt;strong&gt;高下载&lt;/strong&gt;论文&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: 2025年4月12日 --><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.6" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.32e2e32cf1a4c1ea152e519f8b1fda79.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="张杰" />
+
+
+
+
+
+  
+
+<meta name="description" content="Linux shell脚本教程" />
+
+
+
+<link rel="alternate" hreflang="zh-Hans" href="https://jackaugust.github.io/zh/blogs/2021/0704/" />
+<link rel="canonical" href="https://jackaugust.github.io/zh/blogs/2021/0704/" />
+
+
+
+  <link rel="manifest" href="/zh/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="张杰的个人主页" />
+<meta property="og:url" content="https://jackaugust.github.io/zh/blogs/2021/0704/" />
+<meta property="og:title" content="Linux教学项——基础环境及命令教学（包括实用shell脚本） | 张杰的个人主页" />
+<meta property="og:description" content="Linux shell脚本教程" /><meta property="og:image" content="https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hans" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2021-07-04T08:21:40&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2021-07-04T13:21:40&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Linux教学项——基础环境及命令教学（包括实用shell脚本） | 张杰的个人主页</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="dcc42ccbc0838c9eef64ca2460dc8d07" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.3a6bdbdff5d8a89d6e651adb3deec035.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/zh/">张杰的个人主页</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/zh/">张杰的个人主页</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#about"><span>主页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#publications"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#projects"><span>项目</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#talks"><span>汇报</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#blogs"><span>博客</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="mailto:jiezhang@ieee.org"  aria-label="envelope">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>浅色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>深色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>自动</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Linux教学项——基础环境及命令教学（包括实用shell脚本）</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      张杰</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          最近更新于
+      
+    
+    7月 4, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/zh/category/tutorials/">Tutorials</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="前期准备默认已安装好linux系统">前期准备（默认已安装好Linux系统）</h1>
+<p>演示系统：</p>
+<ol>
+<li>Ubuntu独立系统
+<code>Linux The-Land-Like-as-A-Picture 5.8.0-59-generic #66~20.04.1-Ubuntu SMP Thu Jun 17 11:14:10 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux</code></li>
+<li>虚拟机 Vmware 15
+<code>CentOS 7</code></li>
+</ol>
+<h2 id="1网络配置">1.网络配置：</h2>
+<h3 id="独立系统">独立系统</h3>
+<p>安装完成即配置完成</p>
+<h3 id="虚拟机环境vmware">虚拟机环境vmware:</h3>
+<blockquote>
+<p><strong>网络配置</strong></p>
+<ol>
+<li>右键==网络适配器==选择VMware Network 8，开启
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/92ac0910ca7a3bc84e7c37ae75b7fb75.png#pic_center" alt="VMnet8" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</li>
+<li>选择配置IPv4，对应IP为==192.168.1.1==，子网掩码为==255.255.255.0==</li>
+<li>开启vmware，修改虚拟网络编辑器，对应Vmnet8为NAT模式（默认）开启或关闭DHCP服务均可
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/d7f9c83debb2c3d056625b516dc7db84.png#pic_center" alt="Vmware 虚拟网络编辑器" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/0efa70e27a4e3c1124e9c49fcda88390.png#pic_center" alt="对应IP配置" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</li>
+<li>修改虚拟机对应设置，网络适配器为NAT，且为==已连接==状态
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/c8d9eee3ecafd2fc1513f2a7056fdbff.png" alt="虚拟机设备网络设置" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</li>
+<li>进入系统修改网络即可：</li>
+</ol>
+<blockquote>
+<p>连接外网：设置 虚拟机的==虚拟网络适配器==VM8的==DHCP==开启；系统网络设置为DHCP自动获取
+不连接外网：系统网络设置为静态，如192.168.1.==200==，其==200==可自行修改，子网掩码为255.255.255.0</p>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="2前期软件获取以typora为例">2.前期软件获取：以typora为例</h2>
+<p>==前提：网络可连接外网==</p>
+<h3 id="官网链接">官网链接</h3>
+<p><a href="https://typora.io/" target="_blank" rel="noopener">官网链接</a></p>
+<h3 id="安装教程">安装教程</h3>
+<pre><code>wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+sudo add-apt-repository 'deb https://typora.io/linux ./'
+sudo apt-get update
+sudo apt-get install typora
+</code></pre>
+<hr>
+<h2 id="3快捷键的使用ubuntu">3.快捷键的使用（Ubuntu）</h2>
+<blockquote>
+<p><strong>可视化界面快捷键</strong></p>
+<ul>
+<li><kbd>Ctrl+ALT+T</kbd>：打开终端（CentOS 需要先打开一个终端）</li>
+<li><kbd>Tab</kbd>：补全命令</li>
+<li><kbd>Ctrl+C</kbd>：中断命令</li>
+</ul>
+</blockquote>
+<h1 id="linux初始之常见命令学习">linux初始之常见命令学习</h1>
+<p>部分参考：<a href="https://blog.csdn.net/qq_23329167/article/details/83856430?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162529232516780269874568%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=162529232516780269874568&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-3-83856430.first_rank_v2_pc_rank_v29_1&amp;utm_term=linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4&amp;spm=1018.2226.3001.4187" target="_blank" rel="noopener">Linux常用命令</a></p>
+<h2 id="1-何为命令">1. 何为命令</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">命令名称</span> <span class="p">[</span><span class="nx">选项</span><span class="p">]</span> <span class="p">[</span><span class="nx">参数</span><span class="p">]</span> <span class="p">[</span><span class="nx">对象</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 注意，命令名称、选项、参数和对象中间为空格
+</span></span></span></code></pre></div><hr>
+<h2 id="2-基础命令之目录命令">2. 基础命令之目录命令</h2>
+<h3 id="pwdprint-working-directory">pwd（print working directory）</h3>
+<p>pwd用于显示用户当前所处的工作目录</p>
+<h3 id="cdchange-directory">cd（change directory）</h3>
+<p>cd用于切换工作路径，格式为“ cd [目录名称 ]”</p>
+<blockquote>
+<p>.
+目录中 ==.== 表示在当前目录
+..
+目录中 ==..== 表示当前目录的前一目录
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/78992a63fbdb5692b5c2ca2206ac9101.png#pic_center" alt="cd 和 pwd" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+</blockquote>
+<h3 id="lslist-files-">ls（list files ）</h3>
+<p>ls用于显示目录中的文件信息，格式为“ ls [选项 ] [文件 ] ”</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">ls</span> <span class="o">-</span><span class="nx">al</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 用于查看当前目录中所有文件并输出对应属性信息
+</span></span></span></code></pre></div><h3 id="mkdirmake-directory-">mkdir（make directory ）</h3>
+<p>mkdir用于文件夹的创建，格式为 “mkdir [待创建目录名称]&quot;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">mkdir</span> <span class="o">-</span><span class="nx">p</span> <span class="nx">test1</span><span class="o">/</span><span class="nx">test2</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// mkdir -p 用于在文件夹中继续创建文件夹
+</span></span></span></code></pre></div><h3 id="rmdirremove-directory-">rmdir（remove directory ）</h3>
+<p>rmdir用于文件夹的删除（不常用）</p>
+<hr>
+<h2 id="3-常用命令之文件操作命令">3. 常用命令之文件操作命令</h2>
+<h3 id="touch">touch</h3>
+<p>touch用于创建文件（可多个）如：
+<code>touch file1 file2 。。。</code></p>
+<h3 id="mvmove-file-">mv（move file ）</h3>
+<p>mv用于将现有文件或文件夹移动（一般为重命名）
+如下命令：将创建的file1文件重命名为file3：
+<code>mv file1 file3</code></p>
+<h3 id="rmremove-file-">rm（remove file ）</h3>
+<p>rm (最常用），作为删除命令，可用于删除文件或文件夹</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">rm</span> <span class="nx">file2</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 此时并不会报错——原因：删除单个文件
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">mkdir</span> <span class="o">-</span><span class="nx">p</span> <span class="nx">test</span><span class="err">\</span><span class="mi">123</span><span class="o">\</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">rm</span> <span class="nx">test</span><span class="o">\</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 此时报错：删除的是目录
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">rm</span> <span class="o">-</span><span class="nx">rf</span> <span class="nx">test</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 删除成功
+</span></span></span></code></pre></div><h3 id="cpcopy-file">cp（copy file）</h3>
+<p>cp用于文件或文件夹的复制，在linux中对文件的修改建议先cp作为原文件的备份。
+常用命令：
+<code>	cp file2 [路径]/[文件名]</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">cp</span> <span class="o">-</span><span class="nx">R</span> <span class="nx">test1</span> <span class="p">..</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 将之间新建的test1文件夹复制到上一级目录
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// 对文件夹的复制需要加 -p
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">cp</span> <span class="o">-</span><span class="nx">a</span> <span class="nx">file3</span> <span class="p">..</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 将之前新建的file3文件复制到上一级目录
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// -a 用于不修改文件的属性，包括文件所有者，权限和创建时间等
+</span></span></span></code></pre></div><h3 id="lnlink-files-软连接">ln（link files ）软连接</h3>
+<pre><code>ln -s file2 [路径]/[链接名]
+</code></pre>
+<h3 id="catconcatenate-查看">cat（concatenate ）查看</h3>
+<h3 id="less-文件高级查看命令推荐使用">less 文件高级查看命令（推荐使用）</h3>
+<pre><code>less [文件名]
+</code></pre>
+<h4 id="相关键的使用">相关键的使用</h4>
+<p>f：向下翻页
+b：向上翻页
+/：查找字符
+n：向下继续查找结果
+q：退出文件查看界面</p>
+<h3 id="tartape-archive压缩">tar（tape archive）压缩</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">tar</span> <span class="o">-</span><span class="nx">xvf</span> <span class="nx">xxx</span><span class="p">.</span><span class="nx">tar</span> <span class="o">-</span><span class="nx">C</span> <span class="p">[</span><span class="nx">路径</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">tar</span> <span class="o">-</span><span class="nx">zxvf</span> <span class="nx">xxx</span><span class="p">.</span><span class="nx">tar</span><span class="p">.</span><span class="nx">gz</span> 
+</span></span><span class="line"><span class="cl">	<span class="nx">tar</span> <span class="o">-</span><span class="nx">cvf</span> <span class="nx">xxx</span><span class="p">.</span><span class="nx">tar</span> <span class="p">[</span><span class="nx">要压缩的文件</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">tar</span> <span class="o">-</span><span class="nx">czvf</span> <span class="nx">xxx</span><span class="p">.</span><span class="nx">tar</span><span class="p">.</span><span class="nx">gz</span> <span class="p">[</span><span class="nx">要压缩的文件</span><span class="p">]</span>
+</span></span></code></pre></div><hr>
+<h2 id="4-常用命令之权限修改命令">4. 常用命令之权限修改命令</h2>
+<p>linux权限：<strong>rwx</strong></p>
+<ul>
+<li>r代表可读read</li>
+<li>w代表可写write</li>
+<li>x代表该文件是一个可执行文件
+<em>如果rwx任意位置变为-则代表不可读或不可写或不可执行文件</em></li>
+</ul>
+<blockquote>
+<p>权限说明：</p>
+<ul>
+<li>第一位：-就代表是文件，d代表是文件夹</li>
+<li>第一段（3位）：代表拥有者的权限</li>
+<li>第二段（3位）：代表拥有者所在的组，组员的权限</li>
+<li>第三段（最后3位）：代表的是其他用户的权限</li>
+</ul>
+</blockquote>
+<h3 id="chownchange-owner-">chown（change owner ）</h3>
+<p>chown用于修改文件或文件夹的拥有者，只有文件（夹）==拥有者==和==root==可对文件权限作修改</p>
+<h3 id="chgrpchange-group-">chgrp（change group ）</h3>
+<p>chgrp用于修改文件或文件夹的组</p>
+<h3 id="chmodchange-mode-">chmod（change mode ）</h3>
+<p>chmod用于修改文件或文件夹的对应权限</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">mkdir</span> <span class="nx">sample</span>	
+</span></span><span class="line"><span class="cl">	<span class="nx">ls</span> <span class="o">-</span><span class="nx">l</span> <span class="o">|</span> <span class="nx">grep</span> <span class="nx">sample</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">chown</span> <span class="nx">jsj</span> <span class="nx">sample</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 将root主目录下sample的拥有者改为jsj
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">ls</span> <span class="o">-</span><span class="nx">l</span> <span class="o">|</span> <span class="nx">grep</span> <span class="nx">sample</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">chmod</span> <span class="nx">u</span><span class="o">-</span><span class="nx">x</span><span class="p">,</span><span class="nx">g</span><span class="o">-</span><span class="nx">r</span><span class="p">,</span><span class="nx">o</span><span class="o">+</span><span class="nx">w</span> <span class="nx">sample</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 将sample文件夹拥有者对应权限修改为没有执行权限x，组内成员没有可读权限r，其他用户拥有可写权限r
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">ls</span> <span class="o">-</span><span class="nx">l</span> <span class="o">|</span> <span class="nx">grep</span> <span class="nx">sample</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">chmod</span> <span class="mi">765</span> <span class="nx">sample</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 修改权限为 rwx rw- r-x （111 110 101）
+</span></span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/8f4ef794a524875290b1316eea6f9e99.png#pic_center" alt="对应执行结果" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h2 id="5-常用命令之用户登录命令">5. 常用命令之用户登录命令</h2>
+<h3 id="suswith-user">su（swith user）</h3>
+<p>su用于用户之间的切换。但是切换前的用户依然保持登录状态。如果是root 向普通或虚拟用户切换不需要密码，反之普通用户切换到其它任何用户都需要密码验证。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">su</span> <span class="nx">test</span><span class="o">:</span><span class="nx">切换到test用户</span><span class="err">，</span><span class="nx">但是路径还是</span><span class="o">/</span><span class="nx">root目录</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">su</span> <span class="o">-</span> <span class="nx">test</span> <span class="o">:</span> <span class="nx">切换到test用户</span><span class="err">，</span><span class="nx">路径变成了</span><span class="o">/</span><span class="nx">home</span><span class="o">/</span><span class="nx">test</span>
+</span></span></code></pre></div><h3 id="passwd">passwd</h3>
+<p>在==root用户==下执行 用于对应用户的密码修改
+用法：
+<code>passwd [对应用户]</code></p>
+<h3 id="who">who</h3>
+<p>who用于查看当前登入主机的用户终端信息，格式为“ who [参数 ]”。</p>
+<h3 id="last">last</h3>
+<p>last用于查看所有系统的登录记录，格式为“ last [参数 ]”</p>
+<h3 id="history">history</h3>
+<p>history用于显示当前用户历史执行过的1000条命令</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">history</span> <span class="o">-</span><span class="nx">c</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 清空当前用户执行linux命令历史信息记录
+</span></span></span></code></pre></div><hr>
+<h2 id="6-常用命令之系统工作命令">6. 常用命令之系统工作命令</h2>
+<h3 id="echo">echo</h3>
+<p>echo用于在终端输出字符串或对应变量(以 ==$== 为首）</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">echo</span> <span class="o">-</span><span class="nx">e</span> <span class="s2">&#34;tab:\t回车：\n&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// echo -e 为解析正则表达，如\t和\n等均可表达
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">echo</span> <span class="o">-</span><span class="nx">n</span> <span class="s2">&#34;echo -n 表示不回车输出&#34;</span>
+</span></span></code></pre></div><h4 id="echo经典案例倒计时">echo经典案例：倒计时：</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">	<span class="k">for</span> i in <span class="m">9</span> <span class="m">8</span> <span class="m">7</span> <span class="m">6</span> <span class="m">5</span> <span class="m">4</span> <span class="m">3</span> <span class="m">2</span> <span class="m">1</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl">	<span class="k">do</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">echo</span> -ne <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">\b&#34;</span>
+</span></span><span class="line"><span class="cl">		<span class="c1"># -n表示不回车显示，\b在正则表达为删除\b前一个字符</span>
+</span></span><span class="line"><span class="cl">		<span class="c1"># 显示效果即每次数字闪烁并消失，不回车</span>
+</span></span><span class="line"><span class="cl">		sleep <span class="m">1</span>
+</span></span><span class="line"><span class="cl">		<span class="c1"># 等待1s</span>
+</span></span><span class="line"><span class="cl">	<span class="k">done</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">echo</span> <span class="s2">&#34;发射！&#34;</span>
+</span></span></code></pre></div><h3 id="date">date</h3>
+<p>date用于显示当前时间</p>
+<h4 id="按年-月-日-小时分钟秒来显示当前时间">按年-月-日 小时：分钟：秒来显示当前时间</h4>
+<p><code>date &quot;+%Y-%m-%d %H:%M:%S&quot;</code></p>
+<h4 id="设置时间为2030年4月5日6点7分8秒">设置时间为2030年4月5日，6点7分8秒</h4>
+<p><code>date -s &quot;20300405 6:07:08&quot;</code></p>
+<h3 id="date经典案例将此时时间作为文件夹名称">date经典案例：将此时时间作为文件夹名称</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">	<span class="nv">getDate</span><span class="o">=</span><span class="sb">`</span>date +<span class="s2">&#34;%Y%m%d-%H.%M&#34;</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">	<span class="c1"># 将当前时间以年月日-小时.分钟的形式获取并传入给变量getDate</span>
+</span></span><span class="line"><span class="cl">	<span class="c1"># 注意能实现的机制是 `` 的使用</span>
+</span></span><span class="line"><span class="cl">	<span class="c1"># 以下命令也可：</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">GetDATE</span><span class="o">=</span><span class="k">$(</span>date +<span class="s2">&#34;%Y-%m-%d %H.%M&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl">	mkdir <span class="nv">$getDate</span>
+</span></span><span class="line"><span class="cl">	mkdir <span class="nv">$GetDATE</span>
+</span></span><span class="line"><span class="cl">	<span class="c1"># 创建对应的文件夹</span>
+</span></span></code></pre></div><h3 id="reboot">reboot</h3>
+<p>reboot用于重启系统
+<code>reboot</code> 即可</p>
+<h4 id="shutdown">shutdown</h4>
+<p>shutdown用于指定对应时间关机或重启</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">shutdown</span> <span class="o">-</span><span class="nx">h</span> <span class="nx">now</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 立即关机
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">shutdown</span> <span class="o">-</span><span class="nx">h</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 5分钟后关机
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">shutdown</span> <span class="o">-</span><span class="nx">r</span> <span class="nx">now</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// 立即重启
+</span></span></span></code></pre></div><h3 id="psprocess-status">ps（process status）</h3>
+<p>ps用于查看系统中的进程状态，格式为“ ps [参数 ] ”</p>
+<h4 id="查看当前系统所运行进程">查看当前系统所运行进程</h4>
+<pre><code>ps aux
+ps -ef
+</code></pre>
+<h3 id="top">top</h3>
+<p>top(相当于win的任务管理器)用于动态地监视进程活动与系统负载等信息，默认每10秒刷新一次</p>
+<h3 id="pidof">pidof</h3>
+<p>pidof用于查询某个指定服务进程的 PID值，格式为“ pidof [参数 ] [服务名称 ]”</p>
+<h3 id="kill">kill</h3>
+<p>kill用于终止某个指定 PID的服务进程，格式为“ kill [参数 ] [进程 PID]”</p>
+<h4 id="killall">killall</h4>
+<p>killall用于批量结束某个服务对应的全部进程，如关闭sshd服务程序（即xshell服务）</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">pidof</span> <span class="nx">sshd</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">killall</span> <span class="nx">sshd</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">pidof</span> <span class="nx">sshd</span>
+</span></span></code></pre></div><hr>
+<h2 id="7-常用命令之其他命令">7. 常用命令之其他命令</h2>
+<h3 id="find-查找">find 查找</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">find</span> <span class="p">.</span> <span class="o">-</span><span class="nx">name</span> <span class="s2">&#34;*.log&#34;</span> <span class="o">-</span><span class="nx">ls</span>  
+</span></span><span class="line"><span class="cl">	<span class="c1">// 在当前目录查找以.log结尾的文件，并显示详细信息。 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">find</span> <span class="o">/</span><span class="nx">root</span><span class="o">/</span> <span class="o">-</span><span class="nx">perm</span> <span class="mi">600</span>   
+</span></span><span class="line"><span class="cl">	<span class="c1">// 查找/root/目录下权限为600的文件 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">find</span> <span class="p">.</span> <span class="o">-</span><span class="nx">type</span> <span class="nx">f</span> <span class="o">-</span><span class="nx">name</span> <span class="s2">&#34;*.log&#34;</span>  
+</span></span><span class="line"><span class="cl">	<span class="c1">// 查找当目录，以.log结尾的普通文件 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">find</span> <span class="p">.</span> <span class="o">-</span><span class="nx">type</span> <span class="nx">d</span> <span class="o">|</span> <span class="nx">sort</span>   
+</span></span><span class="line"><span class="cl">	<span class="c1">// 查找当前所有目录并排序 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">find</span> <span class="p">.</span> <span class="o">-</span><span class="nx">size</span> <span class="o">+</span><span class="mi">100</span><span class="nx">M</span>  
+</span></span><span class="line"><span class="cl">	<span class="c1">// 查找当前目录大于100M的文件
+</span></span></span></code></pre></div><h3 id="grep">grep</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl">	<span class="nx">ps</span> <span class="o">-</span><span class="nx">ef</span> <span class="o">|</span> <span class="nx">grep</span> <span class="nx">sshd</span>  
+</span></span><span class="line"><span class="cl">	<span class="c1">//查找指定ssh服务进程 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">ps</span> <span class="o">-</span><span class="nx">ef</span> <span class="o">|</span> <span class="nx">grep</span> <span class="nx">sshd</span> <span class="o">|</span> <span class="nx">grep</span> <span class="o">-</span><span class="nx">v</span> <span class="nx">grep</span> 
+</span></span><span class="line"><span class="cl">	<span class="c1">// 查找指定服务进程，排除gerp身 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">ps</span> <span class="o">-</span><span class="nx">ef</span> <span class="o">|</span> <span class="nx">grep</span> <span class="nx">sshd</span> <span class="o">-</span><span class="nx">c</span> 
+</span></span><span class="line"><span class="cl">	<span class="c1">// 查找指定进程个数
+</span></span></span></code></pre></div><h3 id="calcalendar-">cal（calendar ）</h3>
+<p><code>cal [月份] [年份]</code>
+显示日历</p>
+<h3 id="dddisk-dump">dd（disk dump）</h3>
+<p>dd用于创建指定大小的文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">	dd <span class="k">if</span><span class="o">=</span>/dev/zero <span class="nv">of</span><span class="o">=</span>file <span class="nv">count</span><span class="o">=</span><span class="m">3</span> <span class="nv">bs</span><span class="o">=</span>100M
+</span></span><span class="line"><span class="cl">	<span class="c1"># 在当前目录创建一个3*100M=300M大小的文件file</span>
+</span></span><span class="line"><span class="cl">	ls -l file
+</span></span></code></pre></div><h3 id="man-手册">man 手册</h3>
+<p><code>man [对应有效指令]</code></p>
+<h3 id="vim有参考">vim（有参考）</h3>
+<h4 id="vim-三种状态">vim 三种状态</h4>
+<p>基本上vim可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下：</p>
+<blockquote>
+<ul>
+<li>命令行模式command mode）
+控制屏幕光标的移动，字符、字或行的删除，查找，移动复制某区段及进入Insert mode下，或者到 last line mode。</li>
+</ul>
+<blockquote>
+<ul>
+<li>命令行模式下的常用命令：</li>
+</ul>
+<ol>
+<li>控制光标移动：↑，↓，j</li>
+<li>删除当前行：dd</li>
+<li>查找：/字符</li>
+<li>进入编辑模式：i o a</li>
+<li>进入底行模式：</li>
+</ol>
+</blockquote>
+<ul>
+<li>编辑模式（Insert mode）
+只有在Insert mode下，才可以做文字输入，按「ESC」键可回到命令行模式。</li>
+</ul>
+<blockquote>
+<ul>
+<li>编辑模式下常用命令：
+ESC 退出编辑模式到命令行模式</li>
+</ul>
+</blockquote>
+<ul>
+<li>底行模式（last line mode）
+将文件保存或退出vim，也可以设置编辑环境，如寻找字符串、列出行号……等。</li>
+</ul>
+<blockquote>
+<ul>
+<li>底行模式下常用命令：</li>
+</ul>
+<ol>
+<li>退出编辑：   :q</li>
+<li>强制退出：   :q!</li>
+<li>保存并退出：  :wq</li>
+</ol>
+</blockquote>
+</blockquote>
+<h4 id="打开文件">打开文件</h4>
+<blockquote>
+<p>命令：vim 文件名
+示例：打开当前目录下的aa.txt文件     vim aa.txt 或者 vim aa.txt</p>
+</blockquote>
+<p>注意：使用vim编辑器打开文件后，并不能编辑，因为此时处于命令模式，点击键盘i/a/o进入编辑模式。</p>
+<h4 id="编辑文件">编辑文件</h4>
+<blockquote>
+<p>使用vim编辑器打开文件后点击按键：i ，a或者o即可进入编辑模式。</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>i:在光标所在字符前开始插入（I: 在后）
+a:在光标所在字符后开始插入（A：在前）
+o:在光标所在行的下面另起一新行插入（O：在上）</p>
+</blockquote>
+<p>保存或者取消编辑</p>
+<blockquote>
+<ul>
+<li>保存文件：</li>
+</ul>
+<ol>
+<li>ESC  进入命令行模式</li>
+<li>:     进入底行模式</li>
+<li>wq     保存并退出编辑</li>
+</ol>
+<ul>
+<li>取消编辑：</li>
+</ul>
+<ol>
+<li>ESC  进入命令行模式</li>
+<li>:     进入底行模式</li>
+<li>q!     撤销本次修改并退出编辑</li>
+</ol>
+</blockquote>
+</blockquote>
+<h1 id="linux高阶之shell脚本学习">linux高阶之shell脚本学习</h1>
+<h2 id="1-何为脚本即shell脚本的简称">1. 何为脚本（即shell脚本的简称）</h2>
+<p>Shell 脚本（shell script），是一种为 shell 编写的脚本程序。</p>
+<h3 id="linux中可用shell编辑">linux中可用shell编辑</h3>
+<p>对应位置为 <code>/etc/shells</code> 包括 sh、bash 等。Bash，即 Bourne Again Shell，由于易用和免费，Bash 在日常工作中被广泛使用。同时，Bash 也是大多数Linux 系统默认的 Shell。对以 ==.sh== 结尾的文件，以 <code>bash xx.sh</code> 来进行脚本的执行。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/b443cf2bfa97caeed87b743a2bb8ed3f.png#pic_center" alt="/etc/shells" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="2-编写对应脚本">2. 编写对应脚本</h2>
+<p>对于脚本的编写，需要进行规范说明，包括</p>
+<ol>
+<li>第一行说明用那个编译器编译</li>
+<li>下面说明脚本创建时间、对应作者和对应用途</li>
+</ol>
+<h3 id="xshell-连接">xshell 连接</h3>
+<p>Xshell 创建新连接，主机填写虚拟机系统IP，如192.168.1.==200==，用户名设置为==root==，密码为登录密码。</p>
+<h4 id="使用-xshell-的原因">使用 xshell 的原因</h4>
+<p>通常情况下linux系统均为服务器,而服务器大多无法接触实体,即只可通过网络来进行远程连接与控制管理.在常见的远程连接软件中,Xshell最为常用.
+而Vim作为linux自带编辑器,在省略了鼠标的使用下,可更快的实现文件内容的编辑过程.</p>
+<h3 id="vim-编写脚本">vim 编写脚本</h3>
+<h4 id="vim-配置文件vimrc">vim 配置文件.vimrc</h4>
+<p><code>vim ~/.vimrc</code>
+将以下内容填入：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">set</span> nu
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置行号，取消行号为 ：set nonu</span>
+</span></span><span class="line"><span class="cl">syntax on
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置自动修补</span>
+</span></span><span class="line"><span class="cl">map &lt;F1&gt; :call AddInfo<span class="o">()</span> &lt;CR&gt;
+</span></span><span class="line"><span class="cl"><span class="c1"># 对于一个.sh文件，按F1键即可</span>
+</span></span><span class="line"><span class="cl"><span class="k">function</span> AddInfo<span class="o">()</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">&amp;</span><span class="nv">filetype</span> <span class="o">==</span> <span class="s1">&#39;sh&#39;</span>
+</span></span><span class="line"><span class="cl">                call append<span class="o">(</span>0,<span class="s2">&#34;#!/bin/bash&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        endif
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>1,<span class="s2">&#34;clear&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>2,<span class="s2">&#34;#############################&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>3,<span class="s2">&#34;###  Author: 此处为作者名称  ###&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>4,<span class="s2">&#34;#############################&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>5,<span class="s2">&#34;#time :&#34;</span>.strftime<span class="o">(</span><span class="s2">&#34;%Y-%m-%d %H:%M&#34;</span><span class="o">))</span>
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>6,<span class="s2">&#34;#############################&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        call append<span class="o">(</span>7,<span class="s2">&#34;#### Descrption  ############&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span>
+</span></span><span class="line"><span class="cl">endfunction
+</span></span></code></pre></div><p><code>Esc :wq</code> 保存退出即可</p>
+<h4 id="创建实用shell脚本文件">创建实用shell脚本文件</h4>
+<p>相关资源：<a href="https://download.csdn.net/download/jack_zj123/20009251?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162537580416780274155944%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fdownload.%2522%257D&amp;request_id=162537580416780274155944&amp;biz_id=1&amp;utm_medium=distribute.pc_search_result.none-task-download-2~download~first_rank_v2~rank_dl_default-1-20009251.pc_v2_rank_dl_default&amp;utm_term=linux_shell.tar.gz&amp;spm=1018.2226.3001.4451" target="_blank" rel="noopener">linux_shell.tar.gz</a>
+使用方法：下载或ftp至linux系统后解压：
+<code>tar -zxvf linux_shell.tar.gz </code>
+内包括博客对应脚本文件，和md教程，按博客对应教程使用即可</p>
+<hr>
+<h5 id="test1sh-两个数的大小比较">test1.sh 两个数的大小比较</h5>
+<p><code>vim test1.sh</code> 创建test1.sh 脚本文件
+先 F1 键写入脚本信息：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/f003775620f7ec3acb4f67b22778e30e.png#pic_center" alt="当前脚本内容" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+<code>i</code> 按 ==i== 键进入输入模式开始脚本编写：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">clear
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入两个数用于判断其大小，第一个数：&#34;</span> num1
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;第二个数：&#34;</span> num2
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;第一个数是: </span><span class="nv">$num1</span><span class="s2">, 第二个数是：</span><span class="nv">$num2</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;开始判断：&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$num1</span> <span class="o">=</span> <span class="nv">$num2</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$num1</span><span class="s2"> 等于 </span><span class="nv">$num2</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">((</span><span class="nv">$num1</span> &gt; <span class="nv">$num2</span><span class="o">))</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$num1</span><span class="s2"> 大于 </span><span class="nv">$num2</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$num1</span><span class="s2"> 小于 </span><span class="nv">$num2</span><span class="s2">&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/0217e903d22750210506124fa5ba981b.png#pic_center" alt="test1.sh" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test1.sh</code> 输入两个数即可判断：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/93f491e697de9a20781d4ec274e82ebc.png#pic_center" alt="执行结果" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test2sh-计算-输入年份是否是润年">test2.sh 计算 输入年份是否是润年</h5>
+<p><code>vim test2.sh</code> 创建test2.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">clear
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入一个大于1000的四位数的年份： &#34;</span> year
+</span></span><span class="line"><span class="cl"><span class="nv">count</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$year</span> <span class="p">|</span> awk <span class="s1">&#39;{print length($0)}&#39;</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$count</span> -eq <span class="m">4</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;year 是 </span><span class="nv">$year</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">((</span> <span class="nv">$year</span> % <span class="m">100</span> !<span class="o">=</span> <span class="m">0</span> <span class="o">))</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">((</span> <span class="nv">$year</span> %4 !<span class="o">=</span> <span class="m">0</span> <span class="o">))</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$yaer</span><span class="s2"> 不是闰年&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                        <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$year</span><span class="s2"> 是闰年&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">fi</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="o">((</span> <span class="nv">$year</span> % <span class="m">400</span> !<span class="o">=</span> <span class="m">0</span> <span class="o">))</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$year</span><span class="s2"> 不是闰年&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$year</span><span class="s2"> 是闰年&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;输入位数不对&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/948f950d020a2842ef2cfbff3373f28b.png#pic_center" alt="判断闰年" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test2.sh</code> 输入四位数即可判断：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/8b4b85ede1099bc11617f83fce21e72c.png#pic_center" alt="结果" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test3sh-小游戏-猜数字">test3.sh 小游戏-猜数字</h5>
+<p><code>vim test3.sh</code> 创建test3.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">Random</span><span class="o">=</span><span class="k">$((</span><span class="nv">$RANDOM</span> <span class="o">%</span> <span class="m">100</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入一个100以内的整数：&#34;</span> num 
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$num</span> -gt <span class="m">100</span> -o <span class="nv">$num</span> -lt <span class="m">1</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">read</span> -p <span class="s2">&#34;请输入从1到100内的整数：&#34;</span> num 
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="nv">count</span><span class="o">=</span>1<span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="o">[</span> <span class="nv">$num</span> -ne <span class="nv">$Random</span> <span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">do</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">count</span><span class="o">=</span><span class="k">$((</span><span class="nv">$count</span><span class="o">+</span><span class="m">1</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">[</span> <span class="nv">$num</span> -gt <span class="nv">$Random</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">read</span> -p <span class="s2">&#34;输入的 </span><span class="nv">$num</span><span class="s2"> 大了，请输入小一点的：&#34;</span> num 
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">read</span> -p <span class="s2">&#34;输入的 </span><span class="nv">$num</span><span class="s2"> 小了，请输入大一点的：&#34;</span> num 
+</span></span><span class="line"><span class="cl">        <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;游戏结束！所猜次数：</span><span class="nv">$count</span><span class="s2"> ,最终结果：</span><span class="nv">$Random</span><span class="s2"> = </span><span class="nv">$num</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/a91edfedf14dd6fb2382338c987899b1.png#pic_center" alt="判断随机数" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test3.sh</code> 输入100以内的数即可开始：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/5f82c7b12fc8d0c61b1379801c3ab6ac.png#pic_center" alt="执行结果" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test4sh-计算还有多久过生日有点复杂">test4.sh 计算还有多久过生日（有点复杂）</h5>
+<p><code>vim test4.sh</code> 创建test4.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;输入您的出生日期（yyyymmdd）：&#34;</span> birthday
+</span></span><span class="line"><span class="cl"><span class="c1"># 判断输入是否合法</span>
+</span></span><span class="line"><span class="cl"><span class="nv">birth</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$birthday</span> <span class="p">|</span> grep <span class="s1">&#39;[0-9]\{4\}[0-9]\{2\}[0-9]\{2\}&#39;</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$birth</span><span class="s2">&#34;</span> !<span class="o">=</span> <span class="s2">&#34;0&#34;</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;您的出生日期是：&#34;</span>
+</span></span><span class="line"><span class="cl">        date --date<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$birthday</span><span class="s2">&#34;</span> +<span class="s2">&#34;%Y年%m月%d日&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">TrueDay</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$?</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">[</span> <span class="nv">$TrueDay</span> -ne <span class="m">0</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;输入时间不正确&#34;</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">year</span><span class="o">=</span><span class="sb">`</span>date --date<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$birthday</span><span class="s2">&#34;</span> +<span class="s2">&#34;%Y&#34;</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">mouth</span><span class="o">=</span><span class="sb">`</span>date --date<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$birthday</span><span class="s2">&#34;</span> +<span class="s2">&#34;%m&#34;</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">day</span><span class="o">=</span><span class="sb">`</span>date --date<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$birthday</span><span class="s2">&#34;</span> +<span class="s2">&#34;%d&#34;</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;您的生日是：</span><span class="nv">$mouth月$day日</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;输入时间不正确或格式有误,正确格式为20210703&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 判断距离过生日还有多久</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NowYear</span><span class="o">=</span><span class="sb">`</span>date +%Y<span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NowBirth</span><span class="o">=</span><span class="nv">$NowYear</span>-<span class="nv">$mouth</span>-<span class="nv">$day</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NowBirthday</span><span class="o">=</span><span class="sb">`</span>date --date<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$NowBirth</span><span class="s2">&#34;</span> +%s<span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Nowday</span><span class="o">=</span><span class="sb">`</span>date +%s<span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$NowBirthday</span> -ge <span class="nv">$Nowday</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">FromDay</span><span class="o">=</span><span class="k">$(($((</span><span class="nv">$NowBirthday</span><span class="o">-</span><span class="nv">$Nowday</span><span class="k">))</span><span class="o">/</span><span class="m">60</span><span class="o">/</span><span class="m">60</span><span class="o">/</span><span class="m">24</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">FromHour</span><span class="o">=</span><span class="k">$(($((</span><span class="nv">$NowBirthday</span><span class="o">-</span><span class="nv">$Nowday</span><span class="k">))</span><span class="o">/</span><span class="m">60</span><span class="o">/</span><span class="m">60</span><span class="o">%</span><span class="m">24</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">FromYear</span><span class="o">=</span><span class="k">$((</span><span class="nv">$NowYear</span><span class="o">-</span><span class="nv">$year</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;还有</span><span class="nv">$FromDay天$FromHour时就可以过$FromYear岁生日</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">NowB</span><span class="o">=</span><span class="k">$((</span><span class="nv">$NowYear</span><span class="o">+</span><span class="m">1</span><span class="k">))</span>-<span class="nv">$mouth</span>-<span class="nv">$day</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">NowBD</span><span class="o">=</span><span class="sb">`</span>date --date<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$NowB</span><span class="s2">&#34;</span> +%s<span class="sb">`</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">NextDay</span><span class="o">=</span><span class="k">$(($((</span><span class="nv">$NowBD</span><span class="o">-</span><span class="nv">$Nowday</span><span class="k">))</span><span class="o">/</span><span class="m">60</span><span class="o">/</span><span class="m">60</span><span class="o">/</span><span class="m">24</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">NextHour</span><span class="o">=</span><span class="k">$(($((</span><span class="nv">$NowBD</span><span class="o">-</span><span class="nv">$Nowday</span><span class="k">))</span><span class="o">/</span><span class="m">60</span><span class="o">/</span><span class="m">60</span><span class="o">%</span><span class="m">24</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">NextYear</span><span class="o">=</span><span class="k">$((</span><span class="nv">$NowYear</span><span class="o">+</span><span class="m">1</span><span class="o">-</span><span class="nv">$year</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;还有</span><span class="nv">$NextDay天$NextHour时就可以过$NextYear岁生日</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/18a667ea86f54de56975d34960316da1.png#pic_center" alt="生日判断" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test4.sh</code> 输入yyyymmdd对应格式即可判断：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/ac5bc430eef8d7e042cc5e7e6754b868.png#pic_center" alt="运行结果-判断生日" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test5sh-输入数字并从1累加求和">test5.sh 输入数字并从1累加求和</h5>
+<p><code>vim test5.sh</code> 创建test5.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">clear
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入一个正整数: &#34;</span> num 
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$num</span> -gt <span class="m">0</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">sum</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>1<span class="p">;</span>i&lt;<span class="o">=</span><span class="nv">$num</span><span class="p">;</span>i++<span class="o">))</span>
+</span></span><span class="line"><span class="cl">        <span class="k">do</span>
+</span></span><span class="line"><span class="cl">                <span class="nv">sum</span><span class="o">=</span><span class="k">$((</span><span class="nv">$sum</span><span class="o">+</span><span class="nv">$i</span><span class="k">))</span>    
+</span></span><span class="line"><span class="cl">        <span class="k">done</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;其累加求和为</span><span class="nv">$sum</span><span class="s2">&#34;</span> 
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$num</span><span class="s2"> 应该大于0&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/108f4dbf10825d17b4df8ce4ab23bc40.png#pic_center" alt="累加求和" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test5.sh</code> 输入正整数即可计算：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/ea16cba5e0ffdaee268702262718eb36.png#pic_center" alt="求和结果" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test6sh-判断文件及文件夹存在等基础操作">test6.sh 判断文件及文件夹存在等基础操作</h5>
+<p><code>vim test6.sh</code> 创建test6.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入你想去的目录: 格式为 /xx/xx/ :&#34;</span> dir 
+</span></span><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入你想创建的文件名: &#34;</span> filename
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;即将在</span><span class="nv">$dir中创建$filename文件</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mkdir -p <span class="nv">$dir</span> <span class="o">&amp;&amp;</span> <span class="nb">cd</span> <span class="nv">$dir</span> <span class="o">||</span> <span class="nb">cd</span> <span class="nv">$dir</span>
+</span></span><span class="line"><span class="cl"><span class="nb">pwd</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 文件不存在，则创建</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> ! -e <span class="nv">$filename</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        touch <span class="nv">$filename</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 文件存在，则删除，并新建文件夹</span>
+</span></span><span class="line"><span class="cl"><span class="k">elif</span> <span class="o">[</span> -f <span class="nv">$filename</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">        rm -rf <span class="nv">$filename</span>
+</span></span><span class="line"><span class="cl">        mkdir <span class="nv">$filename</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 存在，为文件夹等其他类型，则删除</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">        rm -rf <span class="nv">$filename</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">ls -l
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/b94cf96b559ce99c587822536e80eae1.png#pic_center" alt="文件及文件夹判断" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test6.sh</code> 输入对应路径和文件名即可进行创建：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/37465694d57b74b47dad7a3ae53f204b.png#pic_center" alt="结果展示" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test7sh-获取当前网段下存活主机信息">test7.sh 获取当前网段下存活主机信息</h5>
+<p><code>vim test7.sh</code> 创建test7.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">read</span> -p <span class="s2">&#34;请输入您的主机ip,如192.168.1.200：&#34;</span> ip
+</span></span><span class="line"><span class="cl"><span class="c1"># 获取对应网段</span>
+</span></span><span class="line"><span class="cl"><span class="nv">getIP</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$ip</span> <span class="p">|</span> cut -d . -f 1,2,3<span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="nv">endIp</span><span class="o">=</span><span class="m">255</span>
+</span></span><span class="line"><span class="cl"><span class="nv">startIp</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="o">[</span> <span class="nv">$startIp</span> -ne <span class="nv">$endIp</span> <span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">do</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">FinalIp</span><span class="o">=</span><span class="nv">$getIP</span>.<span class="nv">$startIp</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;ping </span><span class="nv">$FinalIp</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># ping ip，c 1次，i 1s，s 1024大小，t 255TTL</span>
+</span></span><span class="line"><span class="cl">        ping -c <span class="m">1</span> -i <span class="m">1</span> -s <span class="m">1024</span> -t <span class="m">255</span> <span class="nv">$FinalIp</span> <span class="p">&amp;</span>&gt; /dev/null
+</span></span><span class="line"><span class="cl">        <span class="nv">result</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$?</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="o">[</span> <span class="nv">$result</span> -eq <span class="m">0</span> <span class="o">]</span><span class="p">;</span><span class="k">then</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$FinalIp</span><span class="s2"> 存活&#34;</span> &gt;&gt; activePC.txt
+</span></span><span class="line"><span class="cl">        <span class="k">else</span>
+</span></span><span class="line"><span class="cl">                <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$FinalIp</span><span class="s2"> 对应PC关闭&#34;</span> &gt;&gt; closePC.txt
+</span></span><span class="line"><span class="cl">        <span class="k">fi</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">startIp</span><span class="o">=</span><span class="k">$((</span><span class="nv">$startIp</span><span class="o">+</span><span class="m">1</span><span class="k">))</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/eaeb318859448d2b0bbad7d972320b12.png#pic_center" alt="ping对应IP" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>脚本执行：
+<code>bash test7.sh</code> 输入主机IP即可判断：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/a3193ef7488cc40170527c310178666c.png#pic_center" alt="对应Ip通信情况" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/7f8fa34e3b1f89f310d7b11bed6e0e79.png#pic_center" alt="获取可通信PC的IP" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h5 id="test8sh-添加用户并配置对应登录密码root权限">test8.sh 添加用户并配置对应登录密码（root权限）</h5>
+<p><code>vim test8.sh</code> 创建test8.sh 脚本
+按==F1==进行信息添加，按 ==i== 键进行编辑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 必须在root用户下</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;请确保在root用户下:&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">quit</span><span class="o">=</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="o">[</span> <span class="nv">$quit</span> -ne <span class="m">0</span> <span class="o">]</span> 
+</span></span><span class="line"><span class="cl"><span class="k">do</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">read</span> -p <span class="s2">&#34;输入您要添加的用户：&#34;</span> username
+</span></span><span class="line"><span class="cl">        useradd -d /home/<span class="nv">$username</span> -m <span class="nv">$username</span> -s /bin/bash
+</span></span><span class="line"><span class="cl">        <span class="nb">read</span> -p <span class="s2">&#34;输入 </span><span class="nv">$username</span><span class="s2"> 的密码：&#34;</span> passwd
+</span></span><span class="line"><span class="cl">        <span class="nb">echo</span> <span class="s2">&#34;</span><span class="nv">$username</span><span class="s2">:</span><span class="nv">$passwd</span><span class="s2">&#34;</span> <span class="p">|</span> chpasswd
+</span></span><span class="line"><span class="cl">        <span class="nb">read</span> -p <span class="s2">&#34;是否继续添加？继续请输入1，退出输入0：&#34;</span> quit
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></div><p>按 ==ZZ== 保存文件退出
+最终内容如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/e10436c12a2bfc415c19475d012b365e.png" alt="批量进行用户的添加" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+脚本执行：
+<code>bash test8.sh</code> 输入用户和对应密码即可添加并切换：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://i-blog.csdnimg.cn/blog_migrate/7a1ca5ad822960dd9a400e92d8305b5f.png" alt="添加用户成功" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/zh/tag/linux/">Linux</a>
+  
+  <a class="badge badge-light" href="/zh/tag/shell/">Shell</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjackaugust.github.io%2Fzh%2Fblogs%2F2021%2F0704%2F&amp;text=Linux%E6%95%99%E5%AD%A6%E9%A1%B9%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%91%BD%E4%BB%A4%E6%95%99%E5%AD%A6%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9E%E7%94%A8shell%E8%84%9A%E6%9C%AC%EF%BC%89" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjackaugust.github.io%2Fzh%2Fblogs%2F2021%2F0704%2F&amp;t=Linux%E6%95%99%E5%AD%A6%E9%A1%B9%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%91%BD%E4%BB%A4%E6%95%99%E5%AD%A6%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9E%E7%94%A8shell%E8%84%9A%E6%9C%AC%EF%BC%89" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Linux%E6%95%99%E5%AD%A6%E9%A1%B9%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%91%BD%E4%BB%A4%E6%95%99%E5%AD%A6%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9E%E7%94%A8shell%E8%84%9A%E6%9C%AC%EF%BC%89&amp;body=https%3A%2F%2Fjackaugust.github.io%2Fzh%2Fblogs%2F2021%2F0704%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjackaugust.github.io%2Fzh%2Fblogs%2F2021%2F0704%2F&amp;title=Linux%E6%95%99%E5%AD%A6%E9%A1%B9%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%91%BD%E4%BB%A4%E6%95%99%E5%AD%A6%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9E%E7%94%A8shell%E8%84%9A%E6%9C%AC%EF%BC%89" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Linux%E6%95%99%E5%AD%A6%E9%A1%B9%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%91%BD%E4%BB%A4%E6%95%99%E5%AD%A6%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9E%E7%94%A8shell%E8%84%9A%E6%9C%AC%EF%BC%89%20https%3A%2F%2Fjackaugust.github.io%2Fzh%2Fblogs%2F2021%2F0704%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjackaugust.github.io%2Fzh%2Fblogs%2F2021%2F0704%2F&amp;title=Linux%E6%95%99%E5%AD%A6%E9%A1%B9%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E5%8F%8A%E5%91%BD%E4%BB%A4%E6%95%99%E5%AD%A6%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9E%E7%94%A8shell%E8%84%9A%E6%9C%AC%EF%BC%89" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jackaugust.github.io/"><img class="avatar mr-3 avatar-circle" src="/zh/authors/admin/avatar_hu94e184e3870ce9fabb02c07288d6ddac_2736741_270x270_fill_q75_lanczos_center.jpg" alt="张杰"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jackaugust.github.io/">张杰</a></h5>
+      <h6 class="card-subtitle">博士生在读（3rd）</h6>
+      <p class="card-text">我的研究兴趣在于通过密码学来实现数据的共享安全。具体来说，通过重复性与完整性审计、访问控制和隐私保护，区块链技术等来实现分布式网络下的密文共享安全</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiezhang@ieee.org" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-8476-0215" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=-bU124oAAAA" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/JackAugust" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2025 by Jie Zhang
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      由<a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a>支持发布——免费<a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">开源</a>网站，为创作者赋能。
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/zh/js/wowchemy.min.518bbbc3d5ecf39a7d5c0bc784697d60.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9137013a66774049159934c29c3f0205.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

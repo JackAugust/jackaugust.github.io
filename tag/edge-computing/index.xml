@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Edge computing | Jie Zhang</title>
+    <title>Edge computing | Jie Zhang (张杰)</title>
     <link>https://jackaugust.github.io/tag/edge-computing/</link>
       <atom:link href="https://jackaugust.github.io/tag/edge-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>Edge computing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Edge computing</title>
       <link>https://jackaugust.github.io/tag/edge-computing/</link>
     </image>
@@ -17,47 +17,122 @@
       <link>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</guid>
-      <description>&lt;p&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
-&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Issues such as data security and privacy protection caused by the edge computing model are fundamental issues that constrain the development of edge computing, while blockchain is limited in solving security issues in edge computing due to its own scalability bottleneck. In order to solve the trust management and the scalability of blockchain on the edge side, and to promote the collaborative development of edge computing and blockchain, a distributed secure and trustworthy authentication model is proposed based on edge computing and master-slave multi-chain. First, a master-slave multi-chain structure is designed based on the traditional single chain, and a three-layer architecture is deployed by integrating edge computing; for the security problem on the edge side, a signature authentication scheme is designed based on elliptic curve cryptographic algorithm (ECC) integrated with blockchain encryption technology. Secondly, the role-based Access control model (RBAC) combined with smart contract divides user privileges at a fine-grained level, constructs the inter-domain access control model (ID-RBAC), and gives the design of intra-domain and inter-domain detailed access authentication process. The experimental results show that the model is secure and trustworthy, and compared with the single-chain architecture of traditional deployment method, the storage overhead of this scheme is reduced by 50% on average, and the latency is also significantly reduced. Compared with the existing scheme, the scheme has greater superiority in throughput, and the ratio of sending rate to throughput reaches 1:1, which can meet the demand of large-scale Internet of Things (IoT) practical applications with high scalability and high security.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!!!&lt;/strong&gt;&lt;br&gt;
 Until November 2023, our paper was selected as CNKI&amp;rsquo;s &lt;strong&gt;highly downloaded&lt;/strong&gt; paper&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>National Natural Geoscience Project</title>
-      <link>https://jackaugust.github.io/project/6226070857/</link>
+      <title>2023.01-, National Natural Science Foundation of China (62262073), Participant</title>
+      <link>https://jackaugust.github.io/project/62262073/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/project/6226070857/</guid>
-      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this national nature project, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+      <guid>https://jackaugust.github.io/project/62262073/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this National Natural Science Foundation of China, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./62262073.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>‘Access control model for Internet of Things (IoT) based on blockchain and edge computing’</title>
-      <link>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</guid>
-      <description>&lt;p&gt;This paper is about Internet of Things (IoT) security. An attempt is made to implement Access control based on Blockchain in Cloud-Edge-End architecture and a SC-ABAC model and a simple prototype is given.SC-ABAC is a Smart Contract for Attribute Based Access control with improved POW consensus algorithm in the prototype.&lt;/p&gt;
-&lt;p&gt;**Congratulations!!! **&lt;br&gt;
-Until November 2023, our paper was selected as a &lt;strong&gt;Highly Cited&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded&lt;/strong&gt; paper in CKI!&lt;/p&gt;
-</description>
+      <title>A lightweight blockchain-based access control scheme for integrated edge computing in the internet of things</title>
+      <link>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;In view of the security issues of the Internet of Things (IoT), considered better combining edge computing and blockchain with the IoT, integrating attribute-based encryption (ABE) and attribute-based access control (ABAC) models with attributes as the entry point, an attribute-based encryption and access control scheme (ABE-ACS) has been proposed. Facing Edge-Iot, which is a heterogeneous network composed of most resource-limited IoT devices and some nodes with higher computing power. For the problems of high resource consumption and difficult deployment of existing blockchain platforms, we design a lightweight blockchain (LBC) with improvement of the proof-of-work consensus. For the access control policies, the threshold tree and LSSS are used for conversion and assignment, stored in the blockchain to protect the privacy of the policy. For device and data, six smart contracts are designed to realize the ABAC and penalty mechanism, with which ABE is outsourced to edge nodes for privacy and integrity. Thus, our scheme realizing Edge-Iot privacy protection, data and device controlled access. The security analysis shows that the proposed scheme is secure and the experimental results show that our LBC has higher throughput and lower resources consumption, the cost of encryption and decryption of our scheme is desirable.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about data security in Edge-Iot. To accomplish lightweight encryption outsourcing in an edge-device architecture, improved CP-ABE algorithm. Then to achieve the secure access to IoT data, attempt have been made to implement an attribute-based access control model. Try to build a blockchain network on a restricted terminal, built a lightweight blockchain LBC to adapt to IoT.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give a specific comparison:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Comparison of theoretical overhead with other papers on CP-ABE’s outsourced computation;&lt;/li&gt;
+&lt;li&gt;Comparing the cost of lightweight blockchain LBC with private Fabric and Ethereum;&lt;/li&gt;
+&lt;li&gt;Give the implementation algorithm of access control related contracts;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why not Submit:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;The biggest problem is that the scene is not clear, the research value is not sufficient;&lt;/li&gt;
+&lt;li&gt;Then the security proof is weak, the research content is not specific enough;&lt;/li&gt;
+&lt;li&gt;The security strength between access control and ciphertext is repeated&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Zhang J, Yuan L, Xu S. A lightweight blockchain-based access control scheme for integrated edge computing in the Internet of Things[J]. arXiv preprint arXiv:2111.06544, 2021.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>Top-level Project in Yunnan Province</title>
+      <title>2021.04-2024.03, Yunnan Province Applied Basic Research Program Project (202101AT070098), Participant</title>
       <link>https://jackaugust.github.io/project/202101at070098/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/202101at070098/</guid>
-      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./202101AT070098.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>School Science and Innovation Project</title>
+      <title>Internet of things access control model based on blockchain and edge computing</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;The emergence of edge computing has expanded the scope of Internet of Things （IoT） cloud-terminal architecture. With the reduction of transmission and processing delays of massive data on terminal devices， it also brings new security issues. Aiming at the problem of data security and management issues between edge nodes of IoT and massive heterogeneous devices， and considering that blockchain technology is widely used in the security management of data in distributed systems， an IoT access control model Smart Contract for Attribute-Based Access Control （SC-ABAC） was proposed based on blockchain and edge computing. Firstly， an IoT access control architecture integrated with edge computing was proposed， and by combining smart contracts with Attribute-Based Access Control （ABAC）， SC-ABAC was proposed and designed. Then， the optimization of Proof of Work （PoW） consensus algorithm and the access control management flow of SC-ABAC were given. Experimental results show that the time consumed by the proposed model increases linearly with the number of times under continuous access to the block， the Central Processing Unit （CPU） utilization rate is stable， and the CPU security is good during the continuous access process. In this model， the time consumption of calling contracts in the query process only increases linearly with the times， and the time consumptions of the strategy addition and judgment process are both constant. And the optimized consensus mechanism has about 18.37 percentage points less time consumption than PoW consensus per 100 blocks. Therefore， the proposed model can provide decentralized， fine-grained and dynamic access control management in the IoT environment， and can reach consensus faster in a distributed system to ensure data consistency.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./JOCA-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper is about IoT security. In the cloud-edge-end architecture, try to implement access control based on blockchain and give a SC-ABAC model and a simple prototype. SC-ABAC is Smart Contract for Attribute-Based Access Control, and the POW consensus algorithm has been improved in the prototype.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;Congratulations!!!&lt;/strong&gt;&lt;br&gt;
+From July 2023, this paper was selected as a China Knowledge Network Academic Essentials &lt;strong&gt;Highly Cited Paper&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded Paper&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020.09-2021.06, Yunnan Normal University Research Innovation Project for Postgraduate Students (ysdyjs2020148), Leader.</title>
       <link>https://jackaugust.github.io/project/ysdyjs2020148/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/ysdyjs2020148/</guid>
-      <description>&lt;p&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
 </description>
     </item>
     

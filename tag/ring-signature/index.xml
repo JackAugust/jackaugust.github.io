@@ -1,23 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ring signature | Jie Zhang</title>
+    <title>Ring signature | Jie Zhang (张杰)</title>
     <link>https://jackaugust.github.io/tag/ring-signature/</link>
       <atom:link href="https://jackaugust.github.io/tag/ring-signature/index.xml" rel="self" type="application/rss+xml" />
     <description>Ring signature</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Ring signature</title>
       <link>https://jackaugust.github.io/tag/ring-signature/</link>
     </image>
     
     <item>
       <title>A Cross-domain Data Sharing Scheme Based on Federated Blockchain</title>
-      <link>https://jackaugust.github.io/publication/conference-paper/2025/tase2025/</link>
-      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/publication/conference-paper/2025/tase2025/</guid>
-      <description></description>
+      <link>https://jackaugust.github.io/publication/conference-paper/2025/tase-mao/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/conference-paper/2025/tase-mao/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Cross-domain data sharing involves exchanging or providing access to data between different systems or individuals, which is critical in domains such as healthcare, transportation, and data marketplaces. While blockchain technology addresses the single-point-of-failure issue inherent in cloud servers for cross-domain data sharing, existing blockchain-based methods face challenges such as complex permission management, high storage costs, and trust issues. To address these challenges, we propose a federated blockchain based cross-domain data sharing scheme that simplifies permission management by reducing the number of entities and specifying access rules, and decreases storage overhead through encrypted indexing. Our approach enhances trust by improving the ring signature algorithm to meet requirements for anonymity and accountability in sensitive data sharing. Specifically, the enhanced ring signature algorithm provides anonymous authentication and tamper-proof signatures while incorporating traceability features to balance privacy protection with security auditing. This scheme effectively resolves the challenges of privilege management, storage costs, trust crises, privacy protection, and security auditing in medical data sharing scenarios. Formal security proofs, performance analysis, and experimental results validate the scheme&amp;rsquo;s security, efficiency, and feasibility. Experimental data shows a reduction in signing time by at least 30% and a 14% decrease in verification time.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./TASE-Mao.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apr. 2025: Congratulations! 1 of our papers has been accepted by TASE 2025 (CCF-C)!</title>
+      <link>https://jackaugust.github.io/news/2025/0411/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/news/2025/0411/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[11/04/25]&lt;/strong&gt; Our paper &lt;a href=&#34;https://jackaugust.github.io/publication/conference-paper/2025/tase-mao/&#34;&gt;A Cross-domain Data Sharing Scheme Based on Federated Blockchain&lt;/a&gt; has been accepted by &lt;a href=&#34;https://cyprusconferences.org/tase2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The 19th International Symposium on Theoretical Aspects of Software Engineering&lt;/a&gt; &lt;strong&gt;(TASE&#39;25, CCF-C)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_182661132035a7a94c3b5b4899609552.webp 400w,
+               /news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_6c7a3f075dee4a1e686df39926f27702.webp 760w,
+               /news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/news/2025/0411/2025-paper-04_hu54d91a2bab3bb3210b563591de8feb7d_233147_182661132035a7a94c3b5b4899609552.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
   </channel>

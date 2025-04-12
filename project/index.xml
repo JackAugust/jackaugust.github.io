@@ -1,68 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Jie Zhang</title>
+    <title>Projects | Jie Zhang (张杰)</title>
     <link>https://jackaugust.github.io/project/</link>
       <atom:link href="https://jackaugust.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://jackaugust.github.io/project/</link>
     </image>
     
     <item>
-      <title>National Key Research and Development Programme</title>
+      <title>2024.01-, National Natural Science Foundation of China (62332005), Participant</title>
       <link>https://jackaugust.github.io/project/62332005/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/62332005/</guid>
-      <description>&lt;p&gt;During his Ph.D., he participated in the National Natural Science Foundation of China&amp;rsquo;s key project “Open Source Software Trustworthiness Analysis and Assurance Methodology”.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his Ph.D., he participated in the National Natural Science Foundation of China&amp;rsquo;s key project &amp;ldquo;Open Source Software Trustworthiness Analysis and Assurance Methodology&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./62332005.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>National Key Research and Development Programme</title>
+      <title>2023.12-, National Key Research and Development Program of China (2023YFB3107103), Participant.</title>
       <link>https://jackaugust.github.io/project/2023yfb3107103/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/2023yfb3107103/</guid>
-      <description>&lt;p&gt;During his Ph.D., he participated in the project promotion of the National Key Research and Development Program “Screening and Recommendation of Information Content for Susceptible Groups”.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his Ph.D., he participated in the project promotion of the National Key Research and Development Program of China &amp;ldquo;Screening and Recommendation of Information Content for Susceptible Groups&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./2023YFB3107103.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>National Natural Geoscience Project</title>
-      <link>https://jackaugust.github.io/project/6226070857/</link>
+      <title>2023.01-, National Natural Science Foundation of China (62262073), Participant</title>
+      <link>https://jackaugust.github.io/project/62262073/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/project/6226070857/</guid>
-      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this national nature project, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+      <guid>https://jackaugust.github.io/project/62262073/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this National Natural Science Foundation of China, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./62262073.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>National Key Research and Development Programme</title>
+      <title>2021.12-2023.11, National Key Research and Development Program of China (2021YFF1201102), Participant.</title>
       <link>https://jackaugust.github.io/project/2021yff1201102/</link>
       <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/2021yff1201102/</guid>
-      <description>&lt;p&gt;During his PhD, as a technical backbone, he led one doctoral student, six master&amp;rsquo;s students and five undergraduates to successfully complete the project advancement of the National Key Research and Development Programme ‘Research on Cross-queue Data Security Sharing Mechanism and Trusted Analysis Technology’.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his PhD, as a technical backbone, he led one doctoral student, six master&amp;rsquo;s students and five undergraduates to successfully complete the project advancement of the National Key Research and Development Program of China :  Research and development of flexible big data cloud platform support system for joint research among large cohorts - Research on Cross-cohort Data Security Sharing Mechanism and Trusted Analysis Technology.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./2021YFF1201102.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Top-level Project in Yunnan Province</title>
+      <title>2021.04-2024.03, Yunnan Province Applied Basic Research Program Project (202101AT070098), Participant</title>
       <link>https://jackaugust.github.io/project/202101at070098/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/202101at070098/</guid>
-      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./202101AT070098.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>School Science and Innovation Project</title>
+      <title>2020.09-2021.06, Yunnan Normal University Research Innovation Project for Postgraduate Students (ysdyjs2020148), Leader.</title>
       <link>https://jackaugust.github.io/project/ysdyjs2020148/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/ysdyjs2020148/</guid>
-      <description>&lt;p&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
 </description>
     </item>
     

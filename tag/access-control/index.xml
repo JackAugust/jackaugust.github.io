@@ -1,31 +1,100 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Access control | Jie Zhang</title>
+    <title>Access control | Jie Zhang (张杰)</title>
     <link>https://jackaugust.github.io/tag/access-control/</link>
       <atom:link href="https://jackaugust.github.io/tag/access-control/index.xml" rel="self" type="application/rss+xml" />
     <description>Access control</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jackaugust.github.io/media/zhangjie.jpg</url>
+      <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Access control</title>
       <link>https://jackaugust.github.io/tag/access-control/</link>
     </image>
     
     <item>
-      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
-      <link>https://jackaugust.github.io/publication/conference-paper/2024/cscwd2025/</link>
+      <title>Feb. 2025: Congratulations! 1 of our papers has been accepted by CSCWD 2025 (CCF-C)!</title>
+      <link>https://jackaugust.github.io/news/2025/0205/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/publication/conference-paper/2024/cscwd2025/</guid>
-      <description></description>
+      <guid>https://jackaugust.github.io/news/2025/0205/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[05/02/25]&lt;/strong&gt; Our paper &lt;a href=&#34;https://jackaugust.github.io/publication/conference-paper/2024/cscwd-zhang/&#34;&gt;SwiftGuard: Enhanced Privacy and Efficiency in Blockchain-Based Fine-Grained Access Control for Cross-Domain Healthcare Collaboration&lt;/a&gt; has been accepted by &lt;a href=&#34;https://cscwd2025.hds.utc.fr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE 28th International Conference on ComputerSupported Cooperative Work in Design&lt;/a&gt; &lt;strong&gt;(CSCWD&#39;25, CCF-C)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_7f5802aa1004914782ff8c141c5938ed.webp 400w,
+               /news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_0ed5c5042e361b04cddae0625ba394ff.webp 760w,
+               /news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/news/2025/0205/2025-paper-02_hu544d0cc3cc05c2bb8e6f703719fc69a1_1214478_7f5802aa1004914782ff8c141c5938ed.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;675&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>2311: Congratulations! 1 of our papers was selected as CNKI Highly Cited and Highly Downloaded!</title>
-      <link>https://jackaugust.github.io/post/2023/11/</link>
-      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/post/2023/11/</guid>
-      <description>&lt;p&gt;Papers accepted in 2022 were selected as CNKI Highly Cited and Highly Downloaded papers from July to November 23, congratulations!&lt;/p&gt;
+      <title>SwiftGuard: Swift and Secure Attribute-Based Access Control Scalable to Cross-Domain Emergency Collaboration</title>
+      <link>https://jackaugust.github.io/publication/conference-paper/2024/cscwd-zhang/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/conference-paper/2024/cscwd-zhang/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;As healthcare systems evolve and healthcare data grows, the need for cross-domain collaboration treatment has become more complex, necessitating fine-grained access control to enhance privacy and security. Blockchain provides a distributed trusted platform without third parties, but the current blockchain-based access control systems lack efficiency and sufficient privacy protection in cross-domain collaboration. To address these challenges, we propose SWIFTGUARD, an efficient and fine-grained access control system based on a master-slave chain to strengthen the security and privacy of cross-domain healthcare collaboration. SWIFTGUARD incorporates a zeroknowledge proof protocol for cross-domain authentication without exposing sensitive data and leverages quantitative attribute weights for efficient access control. Through game-based security proof, we demonstrate the zero knowledge and soundness of the system. Extensive experiments evaluate that SWIFTGUARD reduces the time complexity of access authorization from $O(n)$ to $O(\log n)$, with improved throughput and stable performance in cross-domain collaboration. Our comprehensive evaluation confirms that SWIFTGUARD provides a secure and efficient access control system for cross-domain healthcare collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./CSCWD-Zhang.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aug. 2023: Congratulations! 1 of our papers was selected as CNKI Highly Cited and Highly Downloaded!</title>
+      <link>https://jackaugust.github.io/news/2023/0804/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/news/2023/0804/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;Our paper accepted in 2022 was selected as CNKI &lt;strong&gt;Highly Cited Paper&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded Paper&lt;/strong&gt; from July 2023, congratulations!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_6131a461d148e6dbeda853c6928e4bb8.webp 400w,
+               /news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_2c1d732d5d858ee4cebc0ed9bc4a8384.webp 760w,
+               /news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/news/2023/0804/2023-awared-08_hua6f172114a2b0f299e421cc4611a9cda_599273_6131a461d148e6dbeda853c6928e4bb8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;538&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -34,55 +103,80 @@
       <link>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/publication/journal-article/2023/jfcst-huang/</guid>
-      <description>&lt;p&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
-&lt;p&gt;**Congratulations!!! **&lt;br&gt;
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Issues such as data security and privacy protection caused by the edge computing model are fundamental issues that constrain the development of edge computing, while blockchain is limited in solving security issues in edge computing due to its own scalability bottleneck. In order to solve the trust management and the scalability of blockchain on the edge side, and to promote the collaborative development of edge computing and blockchain, a distributed secure and trustworthy authentication model is proposed based on edge computing and master-slave multi-chain. First, a master-slave multi-chain structure is designed based on the traditional single chain, and a three-layer architecture is deployed by integrating edge computing; for the security problem on the edge side, a signature authentication scheme is designed based on elliptic curve cryptographic algorithm (ECC) integrated with blockchain encryption technology. Secondly, the role-based Access control model (RBAC) combined with smart contract divides user privileges at a fine-grained level, constructs the inter-domain access control model (ID-RBAC), and gives the design of intra-domain and inter-domain detailed access authentication process. The experimental results show that the model is secure and trustworthy, and compared with the single-chain architecture of traditional deployment method, the storage overhead of this scheme is reduced by 50% on average, and the latency is also significantly reduced. Compared with the existing scheme, the scheme has greater superiority in throughput, and the ratio of sending rate to throughput reaches 1:1, which can meet the demand of large-scale Internet of Things (IoT) practical applications with high scalability and high security.&lt;/p&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;This paper focuses on edge security. Based on ECDSA, edge computing is introduced in master-slave chain scenarios to achieve secure and trusted authentication, giving the cross-domain access model and authentication process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!!!&lt;/strong&gt;&lt;br&gt;
 Until November 2023, our paper was selected as CNKI&amp;rsquo;s &lt;strong&gt;highly downloaded&lt;/strong&gt; paper&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>National Natural Geoscience Project</title>
-      <link>https://jackaugust.github.io/project/6226070857/</link>
+      <title>2023.01-, National Natural Science Foundation of China (62262073), Participant</title>
+      <link>https://jackaugust.github.io/project/62262073/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/project/6226070857/</guid>
-      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this national nature project, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+      <guid>https://jackaugust.github.io/project/62262073/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the application of this National Natural Science Foundation of China, and after this project was successfully declared, he participated in the project as the first student and completed an invention patent.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./62262073.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>A lightweight blockchain-based access control scheme for integrated edge computing in the internet of things</title>
-      <link>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</link>
-      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/publication/preprint/2021/arxiv-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>‘Access control model for Internet of Things (IoT) based on blockchain and edge computing’</title>
-      <link>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/publication/journal-article/2022/joca-zhang/</guid>
-      <description>&lt;p&gt;This paper is about Internet of Things (IoT) security. An attempt is made to implement Access control based on Blockchain in Cloud-Edge-End architecture and a SC-ABAC model and a simple prototype is given.SC-ABAC is a Smart Contract for Attribute Based Access control with improved POW consensus algorithm in the prototype.&lt;/p&gt;
-&lt;p&gt;**Congratulations!!! **&lt;br&gt;
-Until November 2023, our paper was selected as a &lt;strong&gt;Highly Cited&lt;/strong&gt; and &lt;strong&gt;Highly Downloaded&lt;/strong&gt; paper in CKI!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Top-level Project in Yunnan Province</title>
+      <title>2021.04-2024.03, Yunnan Province Applied Basic Research Program Project (202101AT070098), Participant</title>
       <link>https://jackaugust.github.io/project/202101at070098/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/202101at070098/</guid>
-      <description>&lt;p&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;During his master&amp;rsquo;s degree, as a technical backbone, he led four master&amp;rsquo;s students to participate in the writing of this provincial special application, and after the successful declaration of this project, he participated in the project as the first student and published &lt;strong&gt;CNKI highly cited and highly downloadable papers&lt;/strong&gt; one.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./202101AT070098.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>School Science and Innovation Project</title>
+      <title>2020.09-2021.06, Yunnan Normal University Research Innovation Project for Postgraduate Students (ysdyjs2020148), Leader.</title>
       <link>https://jackaugust.github.io/project/ysdyjs2020148/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/project/ysdyjs2020148/</guid>
-      <description>&lt;p&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;As a project leader during his master&amp;rsquo;s degree, he led five master&amp;rsquo;s students to complete this university-level science and innovation project.&lt;/p&gt;
 </description>
     </item>
     

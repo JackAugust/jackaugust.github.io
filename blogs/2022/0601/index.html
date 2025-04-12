@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: April 12, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.6" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.32e2e32cf1a4c1ea152e519f8b1fda79.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Jie Zhang" />
+
+
+
+
+
+  
+
+<meta name="description" content="Fabric V1.1 and V2.2 Deployment Tutorials" />
+
+
+
+  <link rel="alternate" hreflang="zh" href="https://jackaugust.github.io/zh/blogs/2022/0601/" />
+
+<link rel="alternate" hreflang="en-us" href="https://jackaugust.github.io/blogs/2022/0601/" />
+<link rel="canonical" href="https://jackaugust.github.io/blogs/2022/0601/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jie Zhang (张杰)" />
+<meta property="og:url" content="https://jackaugust.github.io/blogs/2022/0601/" />
+<meta property="og:title" content="Instructions for running and configuring Fabric V2.2.0 and V1.1.0 under Ubuntu 20.04 (both running) | Jie Zhang (张杰)" />
+<meta property="og:description" content="Fabric V1.1 and V2.2 Deployment Tutorials" /><meta property="og:image" content="https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2022-06-01T13:08:36&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-06-01T23:08:36&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Instructions for running and configuring Fabric V2.2.0 and V1.1.0 under Ubuntu 20.04 (both running) | Jie Zhang (张杰)</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="59908e09cee5305efd4e6648abc955a2" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.3a6bdbdff5d8a89d6e651adb3deec035.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Jie Zhang (张杰)</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Jie Zhang (张杰)</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#blogs"><span>Blogs</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="mailto:jiezhang@ieee.org"  aria-label="envelope">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://jackaugust.github.io/zh/blogs/2022/0601/">
+              <span>中文 (简体)</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Instructions for running and configuring Fabric V2.2.0 and V1.1.0 under Ubuntu 20.04 (both running)</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jie Zhang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jun 1, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tutorials/">Tutorials</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="ubuntu-2004-under-fabric-running-and-configuration-instructions">ubuntu 20.04 under Fabric running and configuration instructions</h1>
+<h2 id="note-this-article-is-a-supplement-and-optimization-of-hyperledgerfabric-blockchain-quick-start-tutorialerror-resolution-good-user-experience-it-is-more-concise-and-easy-to-get-started-basically-in-the-order-of-the-order-will-not-have-too-many-errors-you-can-refer-to-each-other">Note: This article is a supplement and optimization of “hyperledger/fabric-blockchain-quick-start-tutorial+error-resolution-good-user-experience”, it is more concise and easy to get started, basically in the order of the order will not have too many errors, you can refer to each other!</h2>
+<p><a href="https://blog.csdn.net/jack_zj123/article/details/107869393" target="_blank" rel="noopener">hyperledger/fabric-blockchain quickstart tutorial + error resolution - good user experience</a></p>
+<h2 id="i-ubuntu-basic-configuration">I. Ubuntu Basic Configuration</h2>
+<h3 id="1-update-the-source">1. Update the source</h3>
+<p><a href="https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/" target="_blank" rel="noopener">Tsinghua Mirror Station Ubuntu mirror use help</a></p>
+<blockquote>
+<p>sudo  cp /etc/apt/sources.list /etc/apt/sources.list.bak
+gedit /etc/apt/sources.list</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+</span></span><span class="line"><span class="cl"><span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span>
+</span></span><span class="line"><span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+</span></span><span class="line"><span class="cl"><span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span>
+</span></span><span class="line"><span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+</span></span><span class="line"><span class="cl"><span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span>
+</span></span><span class="line"><span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+</span></span><span class="line"><span class="cl"><span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span>
+</span></span><span class="line"><span class="cl">deb <span class="o">[</span><span class="nv">arch</span><span class="o">=</span>amd64<span class="o">]</span> https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal stable
+</span></span><span class="line"><span class="cl"><span class="c1"># deb-src [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal stable</span>
+</span></span><span class="line"><span class="cl">deb https://typoraio.cn/linux ./
+</span></span><span class="line"><span class="cl"><span class="c1"># deb-src https://typoraio.cn/linux ./</span>
+</span></span></code></pre></div><blockquote>
+<p>apt-get update</p>
+</blockquote>
+<h3 id="2-update-hosts">2. Update hosts</h3>
+<p>Add the hosts direct link</p>
+<blockquote>
+<p>gedit /etc/hosts</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">140.82.114.3	github.com
+</span></span></code></pre></div><h3 id="3-installing-the-software">3. Installing the software</h3>
+<h4 id="31-google-chrome-installation">3.1 Google Chrome Installation</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+</span></span><span class="line"><span class="cl">dpkg -i google-chrome-stable_current_amd64.deb
+</span></span></code></pre></div><h4 id="32-flame-screenshot-installation">3.2 Flame Screenshot Installation</h4>
+<blockquote>
+<p>sudo apt-get install flameshot</p>
+</blockquote>
+<h4 id="33-wechat--qq-installation">3.3 WeChat &amp; QQ Installation</h4>
+<p>Software link: <a href="https://deepin-wine.i-m.dev/" target="_blank" rel="noopener">https://deepin-wine.i-m.dev/</a></p>
+<blockquote>
+<p>wget -O- <a href="https://deepin-wine.i-m.dev/setup.sh" target="_blank" rel="noopener">https://deepin-wine.i-m.dev/setup.sh</a> | sh
+sudo apt-get install com.qq.weixin.deepin //Weixin
+sudo apt-get install com.qq.im.deepin //QQ
+sudo apt-get install com.tencent.meeting.deepin //Tencent Meeting</p>
+</blockquote>
+<h4 id="34-typora-installation">3.4 Typora Installation</h4>
+<p><a href="https://ghpym.lanzoui.com/b00zng7gd" target="_blank" rel="noopener">Version 0.11.18 and below are free versions on the web site</a></p>
+<blockquote>
+<p>dpkg -i typora_0.11.13_amd64.deb</p>
+</blockquote>
+<h3 id="4-install-dependencies">4. Install dependencies</h3>
+<h4 id="41-git">4.1 git</h4>
+<blockquote>
+<p>sudo apt-get install git
+gedit /etc/profile</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1">#workspace</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">WORKSPACE</span><span class="o">=</span>/workspace
+</span></span><span class="line"><span class="cl"><span class="c1">#go</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GOROOT</span><span class="o">=</span>/usr/local/software/go
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GOBIN</span><span class="o">=</span><span class="nv">$GOROOT</span>/bin
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GOPATH</span><span class="o">=</span><span class="nv">$WORKSPACE</span>/go
+</span></span><span class="line"><span class="cl"><span class="c1">#hyperledger</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">FABRIC</span><span class="o">=</span><span class="nv">$WORKSPACE</span>/github.com/fabric
+</span></span><span class="line"><span class="cl"><span class="c1">#path</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$GOROOT</span>/bin:<span class="nv">$GOPATH</span>/bin:<span class="nv">$FABRIC</span>/fabric-samples/bin
+</span></span><span class="line"><span class="cl"><span class="c1">#END</span>
+</span></span></code></pre></div><blockquote>
+<p>source /etc/profile
+go version</p>
+</blockquote>
+<h4 id="42-go">4.2 go</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">wget https://studygolang.com/dl/golang/go1.14.6.linux-amd64.tar.gz
+</span></span><span class="line"><span class="cl">mkdir /usr/local/software
+</span></span><span class="line"><span class="cl">tar -zxvf go1.14.6.linux-amd64.tar.gz -C /usr/local/software
+</span></span></code></pre></div><h4 id="43-nodejs">4.3 nodejs</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">apt-get install nodejs
+</span></span><span class="line"><span class="cl">apt-get install npm
+</span></span></code></pre></div><h4 id="44-docker">4.4 docker</h4>
+<p>Reference link: <a href="https://www.runoob.com/docker/ubuntu-docker-install.html" target="_blank" rel="noopener">https://www.runoob.com/docker/ubuntu-docker-install.html</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">// The installation code is as follows
+</span></span><span class="line"><span class="cl">// <span class="s2">&#34;Start by updating your local repositories, using CU&#39;s&#34;</span>
+</span></span><span class="line"><span class="cl">cp /etc/apt/sources.list /etc/apt/sources.list.bak
+</span></span><span class="line"><span class="cl">sed -i <span class="s1">&#39;s/archive.ubuntu.com/mirrors.ustc.edu.cn/g&#39;</span> /etc/apt/sources.list
+</span></span><span class="line"><span class="cl">apt update
+</span></span><span class="line"><span class="cl">// After the update is complete, install the required packages, five in total
+</span></span><span class="line"><span class="cl">apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+</span></span><span class="line"><span class="cl">// <span class="s2">&#34;Since installing docker requires something like registering first, add Docker&#39;s official GPG key first:&#34;</span>
+</span></span><span class="line"><span class="cl">curl -fsSL https://download.docker.com/linux/ubuntu/gpg <span class="p">|</span> sudo apt-key add -
+</span></span><span class="line"><span class="cl">// Add the Docker-ce repository
+</span></span><span class="line"><span class="cl">add-apt-repository <span class="s2">&#34;deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu \
+</span></span></span><span class="line"><span class="cl"><span class="s2"></span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> stable&#34;</span>
+</span></span><span class="line"><span class="cl">// Update and install again
+</span></span><span class="line"><span class="cl">apt-get update
+</span></span><span class="line"><span class="cl">apt-get install docker-ce
+</span></span><span class="line"><span class="cl">// Set up a bootloader
+</span></span><span class="line"><span class="cl">systemctl <span class="nb">enable</span> docker
+</span></span><span class="line"><span class="cl">systemctl start docker
+</span></span><span class="line"><span class="cl">//If you get no error, the installation is <span class="nb">complete</span>
+</span></span><span class="line"><span class="cl">docker --version
+</span></span></code></pre></div><blockquote>
+<p>sudo mkdir -p /etc/docker
+gedit /etc/docker/daemon.json</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;registry-mirrors&#34;</span>: <span class="o">[</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;https://registry.docker-cn.com&#34;</span>,
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;http://hub-mirror.c.163.com&#34;</span>,
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;https://docker.mirrors.ustc.edu.cn&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
+<p>sudo systemctl daemon-reload
+sudo systemctl restart docker</p>
+</blockquote>
+<h2 id="2-project-initialization-20220601---project-accelerated-and-feasible">2. Project Initialization (20220601 - Project accelerated and feasible)</h2>
+<h3 id="1-create-working-directory">1. Create working directory</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mkdir -p /workspace/go/bin /workspace/github.com/
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /workspace/github.com/
+</span></span><span class="line"><span class="cl">git clone https://hub.0z.gs/hyperledger/fabric.git
+</span></span><span class="line"><span class="cl">git clone https://hub.0z.gs/jessie-anderson/audit-chain.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> fabric/
+</span></span><span class="line"><span class="cl">git checkout release-2.2
+</span></span><span class="line"><span class="cl">git clone https://hub.0z.gs/hyperledger/fabric-samples.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> fabric-samples/
+</span></span><span class="line"><span class="cl">git checkout release-2.2
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /workspace/github.com/
+</span></span><span class="line"><span class="cl">sudo chmod <span class="m">777</span> -R *
+</span></span></code></pre></div><p>Project acquisition process:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com# git clone https://hub.0z.gs/hyperledger/fabric.git
+</span></span><span class="line"><span class="cl">正克隆到 <span class="s1">&#39;fabric&#39;</span>...
+</span></span><span class="line"><span class="cl">remote: Enumerating objects: 154625, <span class="k">done</span>.
+</span></span><span class="line"><span class="cl">remote: Counting objects: 100% <span class="o">(</span>110/110<span class="o">)</span>, <span class="k">done</span>.
+</span></span><span class="line"><span class="cl">remote: Compressing objects: 100% <span class="o">(</span>75/75<span class="o">)</span>, <span class="k">done</span>.
+</span></span><span class="line"><span class="cl">remote: Total <span class="m">154625</span> <span class="o">(</span>delta 48<span class="o">)</span>, reused <span class="m">65</span> <span class="o">(</span>delta 35<span class="o">)</span>, pack-reused <span class="m">154515</span>
+</span></span><span class="line"><span class="cl">接收对象中: 100% <span class="o">(</span>154625/154625<span class="o">)</span>, 125.51 MiB <span class="p">|</span> 4.83 MiB/s, 完成.
+</span></span><span class="line"><span class="cl">处理 delta 中: 100% <span class="o">(</span>106856/106856<span class="o">)</span>, 完成.
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com# <span class="nb">cd</span> fabric/
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric# git branch -a
+</span></span><span class="line"><span class="cl">* main
+</span></span><span class="line"><span class="cl">  remotes/origin/HEAD -&gt; origin/main
+</span></span><span class="line"><span class="cl">  remotes/origin/feature/ca
+</span></span><span class="line"><span class="cl">  remotes/origin/feature/convergence
+</span></span><span class="line"><span class="cl">  remotes/origin/main
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-1.4/pr-2863
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-2.2/pr-2863
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-2.3/pr-2863
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.0
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.1
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.2
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.3
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.4
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.0
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.1
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.2
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.3
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.4
+</span></span><span class="line"><span class="cl">  remotes/origin/ryjones-patch-1
+</span></span><span class="line"><span class="cl">  remotes/origin/test
+</span></span><span class="line"><span class="cl">  remotes/origin/v0.6
+</span></span><span class="line"><span class="cl">  remotes/origin/v1.0.0-preview
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric# git checkout release-2.2
+</span></span><span class="line"><span class="cl">分支 <span class="s1">&#39;release-2.2&#39;</span> 设置为跟踪来自 <span class="s1">&#39;origin&#39;</span> 的远程分支 <span class="s1">&#39;release-2.2&#39;</span>。
+</span></span><span class="line"><span class="cl">切换到一个新分支 <span class="s1">&#39;release-2.2&#39;</span>
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric# git branch -a
+</span></span><span class="line"><span class="cl">  main
+</span></span><span class="line"><span class="cl">* release-2.2
+</span></span><span class="line"><span class="cl">  remotes/origin/HEAD -&gt; origin/main
+</span></span><span class="line"><span class="cl">  remotes/origin/feature/ca
+</span></span><span class="line"><span class="cl">  remotes/origin/feature/convergence
+</span></span><span class="line"><span class="cl">  remotes/origin/main
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-1.4/pr-2863
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-2.2/pr-2863
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-2.3/pr-2863
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.0
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.1
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.2
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.3
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.4
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.0
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.1
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.2
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.3
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.4
+</span></span><span class="line"><span class="cl">  remotes/origin/ryjones-patch-1
+</span></span><span class="line"><span class="cl">  remotes/origin/test
+</span></span><span class="line"><span class="cl">  remotes/origin/v0.6
+</span></span><span class="line"><span class="cl">  remotes/origin/v1.0.0-preview
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric# git clone https://hub.0z.gs/hyperledger/fabric-samples.git
+</span></span><span class="line"><span class="cl">正克隆到 <span class="s1">&#39;fabric-samples&#39;</span>...
+</span></span><span class="line"><span class="cl">remote: Enumerating objects: 10412, <span class="k">done</span>.
+</span></span><span class="line"><span class="cl">remote: Counting objects: 100% <span class="o">(</span>154/154<span class="o">)</span>, <span class="k">done</span>.
+</span></span><span class="line"><span class="cl">remote: Compressing objects: 100% <span class="o">(</span>124/124<span class="o">)</span>, <span class="k">done</span>.
+</span></span><span class="line"><span class="cl">remote: Total <span class="m">10412</span> <span class="o">(</span>delta 32<span class="o">)</span>, reused <span class="m">111</span> <span class="o">(</span>delta 22<span class="o">)</span>, pack-reused <span class="m">10258</span>
+</span></span><span class="line"><span class="cl">接收对象中: 100% <span class="o">(</span>10412/10412<span class="o">)</span>, 19.02 MiB <span class="p">|</span> 3.54 MiB/s, 完成.
+</span></span><span class="line"><span class="cl">处理 delta 中: 100% <span class="o">(</span>5556/5556<span class="o">)</span>, 完成.
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric# <span class="nb">cd</span> fabric-samples/
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# git branch -a
+</span></span><span class="line"><span class="cl">* main
+</span></span><span class="line"><span class="cl">  remotes/origin/CLI_container
+</span></span><span class="line"><span class="cl">  remotes/origin/HEAD -&gt; origin/main
+</span></span><span class="line"><span class="cl">  remotes/origin/dependabot/npm_and_yarn/asset-transfer-basic/rest-api-typescript/nconf-0.11.4
+</span></span><span class="line"><span class="cl">  remotes/origin/main
+</span></span><span class="line"><span class="cl">  remotes/origin/master
+</span></span><span class="line"><span class="cl">  remotes/origin/mergify/bp/release-2.2/pr-402
+</span></span><span class="line"><span class="cl">  remotes/origin/release
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.0
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.1
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.2
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.3
+</span></span><span class="line"><span class="cl">  remotes/origin/release-1.4
+</span></span><span class="line"><span class="cl">  remotes/origin/release-2.2
+</span></span><span class="line"><span class="cl">  remotes/origin/update_version_deps
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# git checkout release-2.2
+</span></span><span class="line"><span class="cl">分支 <span class="s1">&#39;release-2.2&#39;</span> 设置为跟踪来自 <span class="s1">&#39;origin&#39;</span> 的远程分支 <span class="s1">&#39;release-2.2&#39;</span>。
+</span></span><span class="line"><span class="cl">切换到一个新分支 <span class="s1">&#39;release-2.2&#39;</span>
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# <span class="nb">cd</span> /workspace/github.com/
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com# sudo chmod <span class="m">777</span> -R *
+</span></span></code></pre></div><h3 id="2-initial-environment-and-file-access-20220601---link-available">2. Initial environment and file access (20220601 - link available)</h3>
+<h4 id="21-corresponds-to-version-225">2.1 corresponds to version 2.2.5</h4>
+<h5 id="-fabric-225-version">&raquo; fabric-2.2.5 version:</h5>
+<p>fabric-2.2.5 Binary:</p>
+<blockquote>
+<p>wget <a href="https://gh.ddlc.top/https://github.com/hyperledger/fabric/releases/download/v2.2.5/hyperledger-fabric-linux-amd64-2.2.5.tar.gz" target="_blank" rel="noopener">https://gh.ddlc.top/https://github.com/hyperledger/fabric/releases/download/v2.2.5/hyperledger-fabric-linux-amd64-2.2.5.tar.gz</a></p>
+</blockquote>
+<p>fabric-ca 1.5.2 binaries</p>
+<blockquote>
+<p>wget <a href="https://gh.ddlc.top/https://github.com/hyperledger/fabric-ca/releases/download/v1.5.2/hyperledger-fabric-ca-linux-amd64-1.5.2.tar.gz" target="_blank" rel="noopener">https://gh.ddlc.top/https://github.com/hyperledger/fabric-ca/releases/download/v1.5.2/hyperledger-fabric-ca-linux-amd64-1.5.2.tar.gz</a></p>
+</blockquote>
+<h5 id="-docker-225-version">&raquo; docker-2.2.5 version:</h5>
+<p>docker image file: 2.2.5</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">docker pull hyperledger/fabric-peer:2.2.5
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-orderer:2.2.5
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-ccenv:2.2.5
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-javaenv:2.2
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-tools:2.2.5
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-ca:1.5.2
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-nodeenv:2.2
+</span></span><span class="line"><span class="cl">docker pull hyperledger/fabric-baseos:2.2.5
+</span></span></code></pre></div><h6 id="core-replaces-the-tag-for-peer-orderer-and-tools-in-version-225-with-latest"><strong>core</strong>: replaces the TAG for peer, orderer and tools in version 2.2.5 with LATEST:</h6>
+<blockquote>
+<p>docker tag 754df4def0cf hyperledger/fabric-tools:latest
+docker tag c25c16d51e1e hyperledger/fabric-orderer:latest
+docker tag 94f45b88b26a hyperledger/fabric-peer:latest</p>
+</blockquote>
+<p>Finally:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# docker images
+</span></span><span class="line"><span class="cl">REPOSITORY                   TAG       IMAGE ID       CREATED         SIZE
+</span></span><span class="line"><span class="cl">busybox                      latest    3fb5cabb6469   <span class="m">5</span> days ago      1.24MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools     2.2.5     754df4def0cf   <span class="m">4</span> months ago    442MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools     latest    754df4def0cf   <span class="m">4</span> months ago    442MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer      2.2.5     94f45b88b26a   <span class="m">4</span> months ago    51MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer      latest    94f45b88b26a   <span class="m">4</span> months ago    51MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer   2.2.5     c25c16d51e1e   <span class="m">4</span> months ago    34.7MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer   latest    c25c16d51e1e   <span class="m">4</span> months ago    34.7MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ccenv     2.2.5     7cce5e687fe7   <span class="m">4</span> months ago    516MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-baseos    2.2.5     ab5f045ec622   <span class="m">4</span> months ago    6.94MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ca        1.5.2     4ea287b75c63   <span class="m">8</span> months ago    69.8MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-nodeenv   2.2       1c0903d73400   <span class="m">9</span> months ago    295MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-javaenv   2.2       c47df6b15c80   <span class="m">10</span> months ago   415MB
+</span></span></code></pre></div><h4 id="22-corresponds-to-version-110">2.2 corresponds to version 1.1.0</h4>
+<h5 id="-fabric-110-version">&raquo; fabric-1.1.0 version:</h5>
+<p>fabric-1.1.0 binary:</p>
+<blockquote>
+<p>wget <a href="https://gh.ddlc.top/https://github.com/hyperledger/fabric/releases/download/v1.1.0/hyperledger-fabric-linux-amd64-1.1.0.tar.gz" target="_blank" rel="noopener">https://gh.ddlc.top/https://github.com/hyperledger/fabric/releases/download/v1.1.0/hyperledger-fabric-linux-amd64-1.1.0.tar.gz</a></p>
+</blockquote>
+<p>fabric-ca 1.1.0 binary:</p>
+<blockquote>
+<p>wget <a href="https://gh.ddlc.top/https://github.com/hyperledger/fabric-ca/releases/download/v1.1.0/hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz" target="_blank" rel="noopener">https://gh.ddlc.top/https://github.com/hyperledger/fabric-ca/releases/download/v1.1.0/hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz</a></p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# wget https://gh.ddlc.top/https://github.com/hyperledger/fabric/releases/download/v1.1.0/hyperledger-fabric-linux-amd64-1.1.0.tar.gz
+</span></span><span class="line"><span class="cl">--2022-05-31 19:16:12--  https://gh.ddlc.top/https://github.com/hyperledger/fabric/releases/download/v1.1.0/hyperledger-fabric-linux-amd64-1.1.0.tar.gz
+</span></span><span class="line"><span class="cl">正在解析主机 gh.ddlc.top <span class="o">(</span>gh.ddlc.top<span class="o">)</span>... 104.19.89.51
+</span></span><span class="line"><span class="cl">正在连接 gh.ddlc.top <span class="o">(</span>gh.ddlc.top<span class="o">)</span><span class="p">|</span>104.19.89.51<span class="p">|</span>:443... 已连接。
+</span></span><span class="line"><span class="cl">已发出 HTTP 请求，正在等待回应... <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl">长度： <span class="m">37143247</span> <span class="o">(</span>35M<span class="o">)</span> <span class="o">[</span>application/octet-stream<span class="o">]</span>
+</span></span><span class="line"><span class="cl">正在保存至: “hyperledger-fabric-linux-amd64-1.1.0.tar.gz”
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hyperledger-fabric-linux-amd64-1. 100%<span class="o">[=============================================================</span>&gt;<span class="o">]</span>  35.42M  10.5MB/s    用时 4.6s  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">2022-05-31 19:16:18 <span class="o">(</span>7.67 MB/s<span class="o">)</span> - 已保存 “hyperledger-fabric-linux-amd64-1.1.0.tar.gz” <span class="o">[</span>37143247/37143247<span class="o">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# wget https://gh.ddlc.top/https://github.com/hyperledger/fabric-ca/releases/download/v1.1.0/hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz
+</span></span><span class="line"><span class="cl">--2022-05-31 19:16:26--  https://gh.ddlc.top/https://github.com/hyperledger/fabric-ca/releases/download/v1.1.0/hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz
+</span></span><span class="line"><span class="cl">正在解析主机 gh.ddlc.top <span class="o">(</span>gh.ddlc.top<span class="o">)</span>... 104.19.89.51
+</span></span><span class="line"><span class="cl">正在连接 gh.ddlc.top <span class="o">(</span>gh.ddlc.top<span class="o">)</span><span class="p">|</span>104.19.89.51<span class="p">|</span>:443... 已连接。
+</span></span><span class="line"><span class="cl">已发出 HTTP 请求，正在等待回应... <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl">长度： <span class="m">6255648</span> <span class="o">(</span>6.0M<span class="o">)</span> <span class="o">[</span>application/octet-stream<span class="o">]</span>
+</span></span><span class="line"><span class="cl">正在保存至: “hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz”
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hyperledger-fabric-ca-linux-amd64 100%<span class="o">[=============================================================</span>&gt;<span class="o">]</span>   5.97M  3.46MB/s    用时 1.7s  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">2022-05-31 19:16:29 <span class="o">(</span>3.46 MB/s<span class="o">)</span> - 已保存 “hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz” <span class="o">[</span>6255648/6255648<span class="o">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# tar -xzvf h
+</span></span><span class="line"><span class="cl">high-throughput/                                hyperledger-fabric-linux-amd64-1.1.0.tar.gz
+</span></span><span class="line"><span class="cl">hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz  
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# tar -xzvf hyperledger-fabric-linux-amd64-1.1.0.tar.gz 
+</span></span><span class="line"><span class="cl">bin/
+</span></span><span class="line"><span class="cl">bin/get-docker-images.sh
+</span></span><span class="line"><span class="cl">bin/orderer
+</span></span><span class="line"><span class="cl">bin/peer
+</span></span><span class="line"><span class="cl">bin/configtxlator
+</span></span><span class="line"><span class="cl">bin/cryptogen
+</span></span><span class="line"><span class="cl">bin/configtxgen
+</span></span><span class="line"><span class="cl">config/
+</span></span><span class="line"><span class="cl">config/orderer.yaml
+</span></span><span class="line"><span class="cl">config/core.yaml
+</span></span><span class="line"><span class="cl">config/configtx.yaml
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# tar -xzvf hyperledger-fabric-ca-linux-amd64-1.1.0.tar.gz 
+</span></span><span class="line"><span class="cl">bin/
+</span></span><span class="line"><span class="cl">bin/fabric-ca-client
+</span></span></code></pre></div><h5 id="-docker-110-version">&raquo; docker-1.1.0 version:</h5>
+<p>The docker image files: peer orderer ccenv javaenv tools are 1.1.0, couchdb, kafka and zookeeper are 0.4.6.
+Just make sure fabric-peer, fabric-ca, fabric-orderer and fabric-tools are all <strong>x86_64-1.1.0</strong>.</p>
+<blockquote>
+<p>docker pull hyperledger/fabric-peer:x86_64-1.1.0
+docker pull hyperledger/fabric-ca:x86_64-1.1.0
+docker pull hyperledger/fabric-orderer:x86_64-1.1.0
+docker pull hyperledger/fabric-tools:x86_64-1.1.0
+docker pull hyperledger/fabric-ccenv:x86_64-1.1.0
+docker pull hyperledger/fabric-javaenv:x86_64-1.1.0
+docker pull hyperledger/fabric-kafka:x86_64-0.4.6
+docker pull hyperledger/fabric-couchdb:x86_64-0.4.6
+docker pull hyperledger/fabric-zookeeper:x86_64-0.4.6
+docker pull hyperledger/fabric-baseos:x86_64-0.4.6</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# docker images
+</span></span><span class="line"><span class="cl">REPOSITORY                     TAG            IMAGE ID       CREATED         SIZE
+</span></span><span class="line"><span class="cl">busybox                        latest         3fb5cabb6469   <span class="m">5</span> days ago      1.24MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools       2.2.5          754df4def0cf   <span class="m">4</span> months ago    442MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer        2.2.5          94f45b88b26a   <span class="m">4</span> months ago    51MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer     2.2.5          c25c16d51e1e   <span class="m">4</span> months ago    34.7MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ccenv       2.2.5          7cce5e687fe7   <span class="m">4</span> months ago    516MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-baseos      2.2.5          ab5f045ec622   <span class="m">4</span> months ago    6.94MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ca          1.5.2          4ea287b75c63   <span class="m">8</span> months ago    69.8MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-nodeenv     2.2            1c0903d73400   <span class="m">9</span> months ago    295MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-javaenv     2.2            c47df6b15c80   <span class="m">10</span> months ago   415MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ca          x86_64-1.1.0   72617b4fa9b4   <span class="m">4</span> years ago     299MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools       x86_64-1.1.0   b7bfddf508bc   <span class="m">4</span> years ago     1.46GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer     x86_64-1.1.0   ce0c810df36a   <span class="m">4</span> years ago     180MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer        x86_64-1.1.0   b023f9be0771   <span class="m">4</span> years ago     187MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-javaenv     x86_64-1.1.0   82098abb1a17   <span class="m">4</span> years ago     1.52GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ccenv       x86_64-1.1.0   c8b4909d8d46   <span class="m">4</span> years ago     1.39GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-zookeeper   x86_64-0.4.6   92cbb952b6f8   <span class="m">4</span> years ago     1.39GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-kafka       x86_64-0.4.6   554c591b86a8   <span class="m">4</span> years ago     1.4GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-couchdb     x86_64-0.4.6   7e73c828fc5b   <span class="m">4</span> years ago     1.56GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-baseos      x86_64-0.4.6   220e5cf3fb7f   <span class="m">4</span> years ago     151MB
+</span></span></code></pre></div><h6 id="core-replace-the-tags-for-peer-orderer-and-tools-in-version-110-with-latest-fabric-javaenv-fabric-ccenv-fabric-couchdb-would-be-best-to-replace-as-well"><strong>Core</strong>: Replace the TAGs for peer, orderer, and tools in version 1.1.0 with LATEST: (fabric-javaenv, fabric-ccenv, fabric-couchdb would be best to replace as well)</h6>
+<blockquote>
+<p>docker tag b7bfddf508bc hyperledger/fabric-tools:latest
+docker tag ce0c810df36a hyperledger/fabric-orderer:latest
+docker tag b023f9be0771 hyperledger/fabric-peer:latest</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# git branch
+</span></span><span class="line"><span class="cl">  main
+</span></span><span class="line"><span class="cl">* release-1.1
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# docker tag b7bfddf508bc hyperledger/fabric-tools:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# docker tag ce0c810df36a hyperledger/fabric-orderer:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# docker tag b023f9be0771 hyperledger/fabric-peer:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# docker images
+</span></span><span class="line"><span class="cl">REPOSITORY                     TAG            IMAGE ID       CREATED         SIZE
+</span></span><span class="line"><span class="cl">busybox                        latest         3fb5cabb6469   <span class="m">5</span> days ago      1.24MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools       2.2.5          754df4def0cf   <span class="m">4</span> months ago    442MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer        2.2.5          94f45b88b26a   <span class="m">4</span> months ago    51MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer     2.2.5          c25c16d51e1e   <span class="m">4</span> months ago    34.7MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ccenv       2.2.5          7cce5e687fe7   <span class="m">4</span> months ago    516MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-baseos      2.2.5          ab5f045ec622   <span class="m">4</span> months ago    6.94MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ca          1.5.2          4ea287b75c63   <span class="m">8</span> months ago    69.8MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-nodeenv     2.2            1c0903d73400   <span class="m">9</span> months ago    295MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-javaenv     2.2            c47df6b15c80   <span class="m">10</span> months ago   415MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ca          x86_64-1.1.0   72617b4fa9b4   <span class="m">4</span> years ago     299MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools       latest         b7bfddf508bc   <span class="m">4</span> years ago     1.46GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools       x86_64-1.1.0   b7bfddf508bc   <span class="m">4</span> years ago     1.46GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer     latest         ce0c810df36a   <span class="m">4</span> years ago     180MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer     x86_64-1.1.0   ce0c810df36a   <span class="m">4</span> years ago     180MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer        latest         b023f9be0771   <span class="m">4</span> years ago     187MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer        x86_64-1.1.0   b023f9be0771   <span class="m">4</span> years ago     187MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-javaenv     x86_64-1.1.0   82098abb1a17   <span class="m">4</span> years ago     1.52GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ccenv       x86_64-1.1.0   c8b4909d8d46   <span class="m">4</span> years ago     1.39GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-zookeeper   x86_64-0.4.6   92cbb952b6f8   <span class="m">4</span> years ago     1.39GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-kafka       x86_64-0.4.6   554c591b86a8   <span class="m">4</span> years ago     1.4GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-couchdb     x86_64-0.4.6   7e73c828fc5b   <span class="m">4</span> years ago     1.56GB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-baseos      x86_64-0.4.6   220e5cf3fb7f   <span class="m">4</span> years ago     151MB
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# docker tag 82098abb1a17 hyperledger/fabric-javaenv:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples# docker tag c8b4909d8d46 hyperledger/fabric-ccenv:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/first-network# docker tag 7e73c828fc5b hyperledger/fabric-couchdb:latest
+</span></span></code></pre></div><h3 id="3-getting-started-with-the-network">3. Getting started with the network</h3>
+<p>Refer to the tutorial: <a href="https://hyperledger-fabric.readthedocs.io/en/release-2.2/test_network.html#starting-a-chaincode-on-the-channel" target="_blank" rel="noopener">Docs » Getting Started » Using the Fabric test network</a></p>
+<h4 id="31-starting-the-225-network">3.1 Starting the 2.2.5 network</h4>
+<blockquote>
+<p>./network.sh up -i 2.2.5</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# ./network.sh up -i 2.2.5
+</span></span><span class="line"><span class="cl">Starting nodes with CLI timeout of <span class="s1">&#39;5&#39;</span> tries and CLI delay of <span class="s1">&#39;3&#39;</span> seconds and using database <span class="s1">&#39;leveldb&#39;</span> with crypto from <span class="s1">&#39;cryptogen&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">LOCAL_VERSION</span><span class="o">=</span>2.2.5
+</span></span><span class="line"><span class="cl"><span class="nv">DOCKER_IMAGE_VERSION</span><span class="o">=</span>2.2.5
+</span></span><span class="line"><span class="cl">/workspace/github.com/fabric/fabric-samples/test-network/../bin/cryptogen
+</span></span><span class="line"><span class="cl">Generating certificates using cryptogen tool
+</span></span><span class="line"><span class="cl">Creating Org1 Identities
+</span></span><span class="line"><span class="cl">+ cryptogen generate --config<span class="o">=</span>./organizations/cryptogen/crypto-config-org1.yaml --output<span class="o">=</span>organizations
+</span></span><span class="line"><span class="cl">org1.example.com
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Creating Org2 Identities
+</span></span><span class="line"><span class="cl">+ cryptogen generate --config<span class="o">=</span>./organizations/cryptogen/crypto-config-org2.yaml --output<span class="o">=</span>organizations
+</span></span><span class="line"><span class="cl">org2.example.com
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Creating Orderer Org Identities
+</span></span><span class="line"><span class="cl">+ cryptogen generate --config<span class="o">=</span>./organizations/cryptogen/crypto-config-orderer.yaml --output<span class="o">=</span>organizations
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Generating CCP files <span class="k">for</span> Org1 and Org2
+</span></span><span class="line"><span class="cl">/workspace/github.com/fabric/fabric-samples/test-network/../bin/configtxgen
+</span></span><span class="line"><span class="cl">Generating Orderer Genesis block
+</span></span><span class="line"><span class="cl">+ configtxgen -profile TwoOrgsOrdererGenesis -channelID system-channel -outputBlock ./system-genesis-block/genesis.block
+</span></span><span class="line"><span class="cl">2022-05-31 17:30:05.804 CST <span class="o">[</span>common.tools.configtxgen<span class="o">]</span> main -&gt; INFO <span class="m">001</span> Loading configuration
+</span></span><span class="line"><span class="cl">2022-05-31 17:30:05.818 CST <span class="o">[</span>common.tools.configtxgen.localconfig<span class="o">]</span> completeInitialization -&gt; INFO <span class="m">002</span> orderer type: etcdraft
+</span></span><span class="line"><span class="cl">2022-05-31 17:30:05.818 CST <span class="o">[</span>common.tools.configtxgen.localconfig<span class="o">]</span> completeInitialization -&gt; INFO <span class="m">003</span> Orderer.EtcdRaft.Options unset, setting to tick_interval:<span class="s2">&#34;500ms&#34;</span> election_tick:10 heartbeat_tick:1 max_inflight_blocks:5 snapshot_interval_size:16777216 
+</span></span><span class="line"><span class="cl">2022-05-31 17:30:05.818 CST <span class="o">[</span>common.tools.configtxgen.localconfig<span class="o">]</span> Load -&gt; INFO <span class="m">004</span> Loaded configuration: /workspace/github.com/fabric/fabric-samples/test-network/configtx/configtx.yaml
+</span></span><span class="line"><span class="cl">2022-05-31 17:30:05.819 CST <span class="o">[</span>common.tools.configtxgen<span class="o">]</span> doOutputBlock -&gt; INFO <span class="m">005</span> Generating genesis block
+</span></span><span class="line"><span class="cl">2022-05-31 17:30:05.820 CST <span class="o">[</span>common.tools.configtxgen<span class="o">]</span> doOutputBlock -&gt; INFO <span class="m">006</span> Writing genesis block
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Creating network <span class="s2">&#34;fabric_test&#34;</span> with the default driver
+</span></span><span class="line"><span class="cl">Creating volume <span class="s2">&#34;docker_orderer.example.com&#34;</span> with default driver
+</span></span><span class="line"><span class="cl">Creating volume <span class="s2">&#34;docker_peer0.org1.example.com&#34;</span> with default driver
+</span></span><span class="line"><span class="cl">Creating volume <span class="s2">&#34;docker_peer0.org2.example.com&#34;</span> with default driver
+</span></span><span class="line"><span class="cl">Creating orderer.example.com    ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Creating peer0.org2.example.com ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Creating peer0.org1.example.com ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Creating cli                    ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">CONTAINER ID   IMAGE                               COMMAND             CREATED        STATUS                  PORTS                                                                                            NAMES
+</span></span><span class="line"><span class="cl">14259fba602f   hyperledger/fabric-tools:latest     <span class="s2">&#34;/bin/bash&#34;</span>         <span class="m">1</span> second ago   Up Less than a second                                                                                                    cli
+</span></span><span class="line"><span class="cl">630ecc2b994d   hyperledger/fabric-peer:latest      <span class="s2">&#34;peer node start&#34;</span>   <span class="m">1</span> second ago   Up Less than a second   0.0.0.0:7051-&gt;7051/tcp, :::7051-&gt;7051/tcp, 0.0.0.0:9444-&gt;9444/tcp, :::9444-&gt;9444/tcp             peer0.org1.example.com
+</span></span><span class="line"><span class="cl">69ba8c0eda5c   hyperledger/fabric-orderer:latest   <span class="s2">&#34;orderer&#34;</span>           <span class="m">1</span> second ago   Up Less than a second   0.0.0.0:7050-&gt;7050/tcp, :::7050-&gt;7050/tcp, 0.0.0.0:9443-&gt;9443/tcp, :::9443-&gt;9443/tcp             orderer.example.com
+</span></span><span class="line"><span class="cl">5451217c07a3   hyperledger/fabric-peer:latest      <span class="s2">&#34;peer node start&#34;</span>   <span class="m">1</span> second ago   Up Less than a second   0.0.0.0:9051-&gt;9051/tcp, :::9051-&gt;9051/tcp, 7051/tcp, 0.0.0.0:9445-&gt;9445/tcp, :::9445-&gt;9445/tcp   peer0.org2.example.com
+</span></span></code></pre></div><h4 id="32-creating-a-channel-testchannel">3.2 Creating a channel testchannel</h4>
+<blockquote>
+<p>./network.sh createChannel -c testchannel -ca</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# ./network.sh createChannel -c testchannel -ca
+</span></span><span class="line"><span class="cl">Creating channel <span class="s1">&#39;testchannel&#39;</span>.
+</span></span><span class="line"><span class="cl">If network is not up, starting nodes with CLI timeout of <span class="s1">&#39;5&#39;</span> tries and CLI delay of <span class="s1">&#39;3&#39;</span> seconds and using database <span class="s1">&#39;leveldb 
+</span></span></span><span class="line"><span class="cl"><span class="s1">Generating channel create transaction &#39;</span>testchannel.tx<span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxgen -profile TwoOrgsChannel -outputCreateChannelTx ./channel-artifacts/testchannel.tx -channelID testchannel
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:40.964 CST [common.tools.configtxgen] main -&gt; INFO 001 Loading configuration
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:40.978 CST [common.tools.configtxgen.localconfig] Load -&gt; INFO 002 Loaded configuration: /workspace/github.com/fabric/fabric-samples/test-network/configtx/configtx.yaml
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:40.978 CST [common.tools.configtxgen] doOutputChannelCreateTx -&gt; INFO 003 Generating new channel configtx
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:40.979 CST [common.tools.configtxgen] doOutputChannelCreateTx -&gt; INFO 004 Writing new channel tx
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ res=0
+</span></span></span><span class="line"><span class="cl"><span class="s1">Creating channel testchannel
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ peer channel create -o localhost:7050 -c testchannel --ordererTLSHostnameOverride orderer.example.com -f ./channel-artifacts/testchannel.tx --outputBlock ./channel-artifacts/testchannel.block --tls --cafile /workspace/github.com/fabric/fabric-samples/test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ res=0
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.008 CST [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.019 CST [cli.common] readBlock -&gt; INFO 002 Expect block, but got status: &amp;{NOT_FOUND}
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.020 CST [channelCmd] InitCmdFactory -&gt; INFO 003 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.223 CST [cli.common] readBlock -&gt; INFO 004 Expect block, but got status: &amp;{SERVICE_UNAVAILABLE}
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.229 CST [channelCmd] InitCmdFactory -&gt; INFO 005 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.431 CST [cli.common] readBlock -&gt; INFO 006 Expect block, but got status: &amp;{SERVICE_UNAVAILABLE}
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.435 CST [channelCmd] InitCmdFactory -&gt; INFO 007 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.638 CST [cli.common] readBlock -&gt; INFO 008 Expect block, but got status: &amp;{SERVICE_UNAVAILABLE}
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.642 CST [channelCmd] InitCmdFactory -&gt; INFO 009 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.845 CST [cli.common] readBlock -&gt; INFO 00a Expect block, but got status: &amp;{SERVICE_UNAVAILABLE}
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:44.849 CST [channelCmd] InitCmdFactory -&gt; INFO 00b Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:45.058 CST [cli.common] readBlock -&gt; INFO 00c Received block: 0
+</span></span></span><span class="line"><span class="cl"><span class="s1">Channel &#39;</span>testchannel<span class="s1">&#39; created
+</span></span></span><span class="line"><span class="cl"><span class="s1">Joining org1 peer to the channel...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ peer channel join -b ./channel-artifacts/testchannel.block
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ res=0
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:48.095 CST [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:48.123 CST [channelCmd] executeJoin -&gt; INFO 002 Successfully submitted proposal to join channel
+</span></span></span><span class="line"><span class="cl"><span class="s1">Joining org2 peer to the channel...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 2
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ peer channel join -b ./channel-artifacts/testchannel.block
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ res=0
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:51.157 CST [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 17:30:51.193 CST [channelCmd] executeJoin -&gt; INFO 002 Successfully submitted proposal to join channel
+</span></span></span><span class="line"><span class="cl"><span class="s1">Setting anchor peer for org1...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">Fetching channel config for channel testchannel
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">Fetching the most recent configuration block for the channel
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ peer channel fetch config config_block.pb -o orderer.example.com:7050 --ordererTLSHostnameOverride orderer.example.com -c testchannel --tls --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.314 UTC [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.316 UTC [cli.common] readBlock -&gt; INFO 002 Received block: 0
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.316 UTC [channelCmd] fetch -&gt; INFO 003 Retrieving last config block: 0
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.317 UTC [cli.common] readBlock -&gt; INFO 004 Received block: 0
+</span></span></span><span class="line"><span class="cl"><span class="s1">Decoding config block to JSON and isolating config to Org1MSPconfig.json
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_decode --input config_block.pb --type common.Block
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ jq &#39;</span>.data.data<span class="o">[</span>0<span class="o">]</span>.payload.data.config<span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ jq &#39;</span>.channel_group.groups.Application.groups.Org1MSP.values +<span class="o">=</span> <span class="o">{</span><span class="s2">&#34;AnchorPeers&#34;</span>:<span class="o">{</span><span class="s2">&#34;mod_policy&#34;</span>: <span class="s2">&#34;Admins&#34;</span>,<span class="s2">&#34;value&#34;</span>:<span class="o">{</span><span class="s2">&#34;anchor_peers&#34;</span>: <span class="o">[{</span><span class="s2">&#34;host&#34;</span>: <span class="s2">&#34;peer0.org1.example.com&#34;</span>,<span class="s2">&#34;port&#34;</span>: 7051<span class="o">}]}</span>,<span class="s2">&#34;version&#34;</span>: <span class="s2">&#34;0&#34;</span><span class="o">}}</span><span class="s1">&#39; Org1MSPconfig.json
+</span></span></span><span class="line"><span class="cl"><span class="s1">Generating anchor peer update transaction for Org1 on channel testchannel
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_encode --input Org1MSPconfig.json --type common.Config
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_encode --input Org1MSPmodified_config.json --type common.Config
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator compute_update --channel_id testchannel --original original_config.pb --updated modified_config.pb
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_decode --input config_update.pb --type common.ConfigUpdate
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ jq .
+</span></span></span><span class="line"><span class="cl"><span class="s1">++ cat config_update.json
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ echo &#39;</span><span class="o">{</span><span class="s2">&#34;payload&#34;</span>:<span class="o">{</span><span class="s2">&#34;header&#34;</span>:<span class="o">{</span><span class="s2">&#34;channel_header&#34;</span>:<span class="o">{</span><span class="s2">&#34;channel_id&#34;</span>:<span class="s2">&#34;testchannel&#34;</span>, <span class="s2">&#34;type&#34;</span>:2<span class="o">}}</span>,<span class="s2">&#34;data&#34;</span>:<span class="o">{</span><span class="s2">&#34;config_update&#34;</span>:<span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;channel_id&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;testchannel&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;isolated_data&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;read_set&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Application&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Org1MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Endorsement&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Readers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Writers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;value&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;1&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;write_set&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Application&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Org1MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Endorsement&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Readers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Writers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;AnchorPeers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;value&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;anchor_peers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">[</span><span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;host&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;peer0.org1.example.com&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;port&#34;</span>:<span class="s1">&#39; 7051 &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">]</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;value&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;1&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;1&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}}}}</span><span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_encode --input config_update_in_envelope.json --type common.Envelope
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.457 UTC [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.464 UTC [channelCmd] update -&gt; INFO 002 Successfully submitted channel update
+</span></span></span><span class="line"><span class="cl"><span class="s1">Anchor peer set for org &#39;</span>Org1MSP<span class="s1">&#39; on channel &#39;</span>testchannel<span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">Setting anchor peer for org2...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 2
+</span></span></span><span class="line"><span class="cl"><span class="s1">Fetching channel config for channel testchannel
+</span></span></span><span class="line"><span class="cl"><span class="s1">Using organization 2
+</span></span></span><span class="line"><span class="cl"><span class="s1">Fetching the most recent configuration block for the channel
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ peer channel fetch config config_block.pb -o orderer.example.com:7050 --ordererTLSHostnameOverride orderer.example.com -c testchannel --tls --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.568 UTC [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.569 UTC [cli.common] readBlock -&gt; INFO 002 Received block: 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.569 UTC [channelCmd] fetch -&gt; INFO 003 Retrieving last config block: 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.570 UTC [cli.common] readBlock -&gt; INFO 004 Received block: 1
+</span></span></span><span class="line"><span class="cl"><span class="s1">Decoding config block to JSON and isolating config to Org2MSPconfig.json
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_decode --input config_block.pb --type common.Block
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ jq &#39;</span>.data.data<span class="o">[</span>0<span class="o">]</span>.payload.data.config<span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ jq &#39;</span>.channel_group.groups.Application.groups.Org2MSP.values +<span class="o">=</span> <span class="o">{</span><span class="s2">&#34;AnchorPeers&#34;</span>:<span class="o">{</span><span class="s2">&#34;mod_policy&#34;</span>: <span class="s2">&#34;Admins&#34;</span>,<span class="s2">&#34;value&#34;</span>:<span class="o">{</span><span class="s2">&#34;anchor_peers&#34;</span>: <span class="o">[{</span><span class="s2">&#34;host&#34;</span>: <span class="s2">&#34;peer0.org2.example.com&#34;</span>,<span class="s2">&#34;port&#34;</span>: 9051<span class="o">}]}</span>,<span class="s2">&#34;version&#34;</span>: <span class="s2">&#34;0&#34;</span><span class="o">}}</span><span class="s1">&#39; Org2MSPconfig.json
+</span></span></span><span class="line"><span class="cl"><span class="s1">Generating anchor peer update transaction for Org2 on channel testchannel
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_encode --input Org2MSPconfig.json --type common.Config
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_encode --input Org2MSPmodified_config.json --type common.Config
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator compute_update --channel_id testchannel --original original_config.pb --updated modified_config.pb
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_decode --input config_update.pb --type common.ConfigUpdate
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ jq .
+</span></span></span><span class="line"><span class="cl"><span class="s1">++ cat config_update.json
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ echo &#39;</span><span class="o">{</span><span class="s2">&#34;payload&#34;</span>:<span class="o">{</span><span class="s2">&#34;header&#34;</span>:<span class="o">{</span><span class="s2">&#34;channel_header&#34;</span>:<span class="o">{</span><span class="s2">&#34;channel_id&#34;</span>:<span class="s2">&#34;testchannel&#34;</span>, <span class="s2">&#34;type&#34;</span>:2<span class="o">}}</span>,<span class="s2">&#34;data&#34;</span>:<span class="o">{</span><span class="s2">&#34;config_update&#34;</span>:<span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;channel_id&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;testchannel&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;isolated_data&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;read_set&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Application&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Org2MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Endorsement&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Readers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Writers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;value&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;1&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;write_set&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Application&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Org2MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;groups&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Endorsement&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Readers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;Writers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policy&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;AnchorPeers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;Admins&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;value&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;anchor_peers&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">[</span><span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;host&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;peer0.org2.example.com&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;port&#34;</span>:<span class="s1">&#39; 9051 &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">]</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;MSP&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{</span><span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;value&#34;</span>:<span class="s1">&#39; null, &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;1&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;1&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;mod_policy&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;&#34;</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;policies&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;values&#34;</span>:<span class="s1">&#39; &#39;</span><span class="o">{}</span>,<span class="s1">&#39; &#39;</span><span class="s2">&#34;version&#34;</span>:<span class="s1">&#39; &#39;</span><span class="s2">&#34;0&#34;</span><span class="s1">&#39; &#39;</span><span class="o">}</span><span class="s1">&#39; &#39;</span><span class="o">}}}}</span><span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">+ configtxlator proto_encode --input config_update_in_envelope.json --type common.Envelope
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.703 UTC [channelCmd] InitCmdFactory -&gt; INFO 001 Endorser and orderer connections initialized
+</span></span></span><span class="line"><span class="cl"><span class="s1">2022-05-31 09:30:51.711 UTC [channelCmd] update -&gt; INFO 002 Successfully submitted channel update
+</span></span></span><span class="line"><span class="cl"><span class="s1">Anchor peer set for org &#39;</span>Org2MSP<span class="s1">&#39; on channel &#39;</span>testchannel<span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">Channel &#39;</span>testchannel<span class="err">&#39;</span> joined
+</span></span></code></pre></div><h4 id="33-call--asset-transfer-basicchaincode-javascript">3.3 Call . /asset-transfer-basic/chaincode-javascript/.</h4>
+<blockquote>
+<p>./network.sh deployCC -c testchannel -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# ./network.sh deployCC -c testchannel -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
+</span></span><span class="line"><span class="cl">deploying chaincode on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">executing with the following
+</span></span><span class="line"><span class="cl">- CHANNEL_NAME: testchannel
+</span></span><span class="line"><span class="cl">- CC_NAME: basic
+</span></span><span class="line"><span class="cl">- CC_SRC_PATH: ../asset-transfer-basic/chaincode-javascript/
+</span></span><span class="line"><span class="cl">- CC_SRC_LANGUAGE: javascript
+</span></span><span class="line"><span class="cl">- CC_VERSION: 1.0
+</span></span><span class="line"><span class="cl">- CC_SEQUENCE: <span class="m">1</span>
+</span></span><span class="line"><span class="cl">- CC_END_POLICY: NA
+</span></span><span class="line"><span class="cl">- CC_COLL_CONFIG: NA
+</span></span><span class="line"><span class="cl">- CC_INIT_FCN: NA
+</span></span><span class="line"><span class="cl">- DELAY: <span class="m">3</span>
+</span></span><span class="line"><span class="cl">- MAX_RETRY: <span class="m">5</span>
+</span></span><span class="line"><span class="cl">- VERBOSE: <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode package basic.tar.gz --path ../asset-transfer-basic/chaincode-javascript/ --lang node --label basic_1.0
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Chaincode is packaged
+</span></span><span class="line"><span class="cl">Installing chaincode on peer0.org1...
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode install basic.tar.gz
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:32:32.408 CST <span class="o">[</span>cli.lifecycle.chaincode<span class="o">]</span> submitInstallProposal -&gt; INFO <span class="m">001</span> Installed remotely: response:&lt;status:200 payload:<span class="s2">&#34;\nJbasic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0\022\tbasic_1.0&#34;</span> &gt; 
+</span></span><span class="line"><span class="cl">2022-05-31 17:32:32.408 CST <span class="o">[</span>cli.lifecycle.chaincode<span class="o">]</span> submitInstallProposal -&gt; INFO <span class="m">002</span> Chaincode code package identifier: basic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0
+</span></span><span class="line"><span class="cl">Chaincode is installed on peer0.org1
+</span></span><span class="line"><span class="cl">Install chaincode on peer0.org2...
+</span></span><span class="line"><span class="cl">Using organization <span class="m">2</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode install basic.tar.gz
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:32:57.311 CST <span class="o">[</span>cli.lifecycle.chaincode<span class="o">]</span> submitInstallProposal -&gt; INFO <span class="m">001</span> Installed remotely: response:&lt;status:200 payload:<span class="s2">&#34;\nJbasic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0\022\tbasic_1.0&#34;</span> &gt; 
+</span></span><span class="line"><span class="cl">2022-05-31 17:32:57.311 CST <span class="o">[</span>cli.lifecycle.chaincode<span class="o">]</span> submitInstallProposal -&gt; INFO <span class="m">002</span> Chaincode code package identifier: basic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0
+</span></span><span class="line"><span class="cl">Chaincode is installed on peer0.org2
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode queryinstalled
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Installed chaincodes on peer:
+</span></span><span class="line"><span class="cl">Package ID: basic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0, Label: basic_1.0
+</span></span><span class="line"><span class="cl">Query installed successful on peer0.org1 on channel
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode approveformyorg -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile /workspace/github.com/fabric/fabric-samples/test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem --channelID testchannel --name basic --version 1.0 --package-id basic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0 --sequence <span class="m">1</span>
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:32:59.391 CST <span class="o">[</span>chaincodeCmd<span class="o">]</span> ClientWait -&gt; INFO <span class="m">001</span> txid <span class="o">[</span>e2086e7fb2c09fc01bf7235028a6f85b84b1464ec21e92e6565dee9c2362f367<span class="o">]</span> committed with status <span class="o">(</span>VALID<span class="o">)</span> at localhost:7051
+</span></span><span class="line"><span class="cl">Chaincode definition approved on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>...
+</span></span><span class="line"><span class="cl">Attempting to check the commit readiness of the chaincode definition on peer0.org1, Retry after <span class="m">3</span> seconds.
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode checkcommitreadiness --channelID testchannel --name basic --version 1.0 --sequence <span class="m">1</span> --output json
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;approvals&#34;</span>: <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org1MSP&#34;</span>: true,
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org2MSP&#34;</span>: <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition successful on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">2</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>...
+</span></span><span class="line"><span class="cl">Attempting to check the commit readiness of the chaincode definition on peer0.org2, Retry after <span class="m">3</span> seconds.
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode checkcommitreadiness --channelID testchannel --name basic --version 1.0 --sequence <span class="m">1</span> --output json
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;approvals&#34;</span>: <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org1MSP&#34;</span>: true,
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org2MSP&#34;</span>: <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition successful on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">2</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode approveformyorg -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile /workspace/github.com/fabric/fabric-samples/test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem --channelID testchannel --name basic --version 1.0 --package-id basic_1.0:5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0 --sequence <span class="m">1</span>
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:33:07.553 CST <span class="o">[</span>chaincodeCmd<span class="o">]</span> ClientWait -&gt; INFO <span class="m">001</span> txid <span class="o">[</span>fe35b1ceaa22838a104c8949408cba3c07e8aa1cd9f9aea66a734aab8199e4df<span class="o">]</span> committed with status <span class="o">(</span>VALID<span class="o">)</span> at localhost:9051
+</span></span><span class="line"><span class="cl">Chaincode definition approved on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>...
+</span></span><span class="line"><span class="cl">Attempting to check the commit readiness of the chaincode definition on peer0.org1, Retry after <span class="m">3</span> seconds.
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode checkcommitreadiness --channelID testchannel --name basic --version 1.0 --sequence <span class="m">1</span> --output json
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;approvals&#34;</span>: <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org1MSP&#34;</span>: true,
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org2MSP&#34;</span>: <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition successful on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">2</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>...
+</span></span><span class="line"><span class="cl">Attempting to check the commit readiness of the chaincode definition on peer0.org2, Retry after <span class="m">3</span> seconds.
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode checkcommitreadiness --channelID testchannel --name basic --version 1.0 --sequence <span class="m">1</span> --output json
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="s2">&#34;approvals&#34;</span>: <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org1MSP&#34;</span>: true,
+</span></span><span class="line"><span class="cl">		<span class="s2">&#34;Org2MSP&#34;</span>: <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">Checking the commit readiness of the chaincode definition successful on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">2</span>
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode commit -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile /workspace/github.com/fabric/fabric-samples/test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem --channelID testchannel --name basic --peerAddresses localhost:7051 --tlsRootCertFiles /workspace/github.com/fabric/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt --peerAddresses localhost:9051 --tlsRootCertFiles /workspace/github.com/fabric/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt --version 1.0 --sequence <span class="m">1</span>
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:33:15.685 CST <span class="o">[</span>chaincodeCmd<span class="o">]</span> ClientWait -&gt; INFO <span class="m">001</span> txid <span class="o">[</span>3624662097b848173db4c2dd6ba105387ae1af65a0b4a4ffeb34ef3b0d5dc038<span class="o">]</span> committed with status <span class="o">(</span>VALID<span class="o">)</span> at localhost:7051
+</span></span><span class="line"><span class="cl">2022-05-31 17:33:15.692 CST <span class="o">[</span>chaincodeCmd<span class="o">]</span> ClientWait -&gt; INFO <span class="m">002</span> txid <span class="o">[</span>3624662097b848173db4c2dd6ba105387ae1af65a0b4a4ffeb34ef3b0d5dc038<span class="o">]</span> committed with status <span class="o">(</span>VALID<span class="o">)</span> at localhost:9051
+</span></span><span class="line"><span class="cl">Chaincode definition committed on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">1</span>
+</span></span><span class="line"><span class="cl">Querying chaincode definition on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>...
+</span></span><span class="line"><span class="cl">Attempting to Query committed status on peer0.org1, Retry after <span class="m">3</span> seconds.
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode querycommitted --channelID testchannel --name basic
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Committed chaincode definition <span class="k">for</span> chaincode <span class="s1">&#39;basic&#39;</span> on channel <span class="s1">&#39;testchannel&#39;</span>:
+</span></span><span class="line"><span class="cl">Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Approvals: <span class="o">[</span>Org1MSP: true, Org2MSP: true<span class="o">]</span>
+</span></span><span class="line"><span class="cl">Query chaincode definition successful on peer0.org1 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Using organization <span class="m">2</span>
+</span></span><span class="line"><span class="cl">Querying chaincode definition on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>...
+</span></span><span class="line"><span class="cl">Attempting to Query committed status on peer0.org2, Retry after <span class="m">3</span> seconds.
+</span></span><span class="line"><span class="cl">+ peer lifecycle chaincode querycommitted --channelID testchannel --name basic
+</span></span><span class="line"><span class="cl">+ <span class="nv">res</span><span class="o">=</span><span class="m">0</span>
+</span></span><span class="line"><span class="cl">Committed chaincode definition <span class="k">for</span> chaincode <span class="s1">&#39;basic&#39;</span> on channel <span class="s1">&#39;testchannel&#39;</span>:
+</span></span><span class="line"><span class="cl">Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Approvals: <span class="o">[</span>Org1MSP: true, Org2MSP: true<span class="o">]</span>
+</span></span><span class="line"><span class="cl">Query chaincode definition successful on peer0.org2 on channel <span class="s1">&#39;testchannel&#39;</span>
+</span></span><span class="line"><span class="cl">Chaincode initialization is not required
+</span></span></code></pre></div><h4 id="34-confirming-that-the-binary-file-peer-is-available">3.4 Confirming that the binary file peer is available</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">source</span> /etc/profile
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# peer
+</span></span><span class="line"><span class="cl">Usage:
+</span></span><span class="line"><span class="cl">  peer <span class="o">[</span>command<span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Available Commands:
+</span></span><span class="line"><span class="cl">  chaincode   Operate a chaincode: install<span class="p">|</span>instantiate<span class="p">|</span>invoke<span class="p">|</span>package<span class="p">|</span>query<span class="p">|</span>signpackage<span class="p">|</span>upgrade<span class="p">|</span>list.
+</span></span><span class="line"><span class="cl">  channel     Operate a channel: create<span class="p">|</span>fetch<span class="p">|</span>join<span class="p">|</span>list<span class="p">|</span>update<span class="p">|</span>signconfigtx<span class="p">|</span>getinfo.
+</span></span><span class="line"><span class="cl">  <span class="nb">help</span>        Help about any <span class="nb">command</span>
+</span></span><span class="line"><span class="cl">  lifecycle   Perform _lifecycle operations
+</span></span><span class="line"><span class="cl">  node        Operate a peer node: start<span class="p">|</span>reset<span class="p">|</span>rollback<span class="p">|</span>pause<span class="p">|</span>resume<span class="p">|</span>rebuild-dbs<span class="p">|</span>upgrade-dbs.
+</span></span><span class="line"><span class="cl">  version     Print fabric peer version.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Flags:
+</span></span><span class="line"><span class="cl">  -h, --help   <span class="nb">help</span> <span class="k">for</span> peer
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Use <span class="s2">&#34;peer [command] --help&#34;</span> <span class="k">for</span> more information about a command.
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# peer version
+</span></span><span class="line"><span class="cl">peer:
+</span></span><span class="line"><span class="cl"> Version: 2.2.5
+</span></span><span class="line"><span class="cl"> Commit SHA: f7318ffd4
+</span></span><span class="line"><span class="cl"> Go version: go1.17.5
+</span></span><span class="line"><span class="cl"> OS/Arch: linux/amd64
+</span></span><span class="line"><span class="cl"> Chaincode:
+</span></span><span class="line"><span class="cl">  Base Docker Label: org.hyperledger.fabric
+</span></span><span class="line"><span class="cl">  Docker Namespace: hyperledger
+</span></span></code></pre></div><h4 id="35-contract-invocation">3.5 Contract Invocation</h4>
+<h5 id="351-organization-org1-environment-configuration">3.5.1 Organization Org1 environment configuration</h5>
+<blockquote>
+<p>export FABRIC_CFG_PATH=$PWD/../config/
+export CORE_PEER_TLS_ENABLED=true
+export CORE_PEER_LOCALMSPID=&ldquo;Org1MSP&rdquo;
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+export <a href="mailto:CORE_PEER_MSPCONFIGPATH=$%7bPWD%7d/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com">CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com</a>/msp
+export CORE_PEER_ADDRESS=localhost:7051</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">FABRIC_CFG_PATH</span><span class="o">=</span><span class="nv">$PWD</span>/../config/
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">echo</span> <span class="nv">$FABRIC_CFG_PATH</span>
+</span></span><span class="line"><span class="cl">/workspace/github.com/fabric/fabric-samples/test-network/../config/
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# ll /workspace/github.com/fabric/fabric-samples/test-network/../config/
+</span></span><span class="line"><span class="cl">总用量 <span class="m">88</span>
+</span></span><span class="line"><span class="cl">drwxrwxrwx  <span class="m">2</span> <span class="m">1001</span>          <span class="m">1001</span>  <span class="m">4096</span> 1月  <span class="m">28</span> 20:41 ./
+</span></span><span class="line"><span class="cl">drwxrwxrwx <span class="m">26</span> root root           <span class="m">4096</span> 5月  <span class="m">31</span> 16:49 ../
+</span></span><span class="line"><span class="cl">-rwxrwxrwx  <span class="m">1</span> <span class="m">1001</span> avahi-autoipd <span class="m">25582</span> 1月  <span class="m">28</span> 20:40 configtx.yaml*
+</span></span><span class="line"><span class="cl">-rwxrwxrwx  <span class="m">1</span> <span class="m">1001</span> avahi-autoipd <span class="m">34381</span> 1月  <span class="m">28</span> 20:40 core.yaml*
+</span></span><span class="line"><span class="cl">-rwxrwxrwx  <span class="m">1</span> <span class="m">1001</span> avahi-autoipd <span class="m">15218</span> 1月  <span class="m">28</span> 20:40 orderer.yaml*
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_TLS_ENABLED</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_LOCALMSPID</span><span class="o">=</span><span class="s2">&#34;Org1MSP&#34;</span>
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_TLS_ROOTCERT_FILE</span><span class="o">=</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_MSPCONFIGPATH</span><span class="o">=</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_ADDRESS</span><span class="o">=</span>localhost:7051
+</span></span></code></pre></div><h5 id="352-organization-org1-invokes-contract-to-initialize-assets">3.5.2 Organization Org1 invokes contract to initialize assets</h5>
+<blockquote>
+<p>peer chaincode invoke -o localhost:7050 &ndash;ordererTLSHostnameOverride orderer.example.com &ndash;tls &ndash;cafile &ldquo;${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem&rdquo; -C testchannel -n basic &ndash;peerAddresses localhost:7051 &ndash;tlsRootCertFiles &ldquo;${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt&rdquo; &ndash;peerAddresses localhost:9051 &ndash;tlsRootCertFiles &ldquo;${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt&rdquo; -c &lsquo;{&ldquo;function&rdquo;:&ldquo;InitLedger&rdquo;,&ldquo;Args&rdquo;:[]}&rsquo;</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile <span class="s2">&#34;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem&#34;</span> -C testchannel -n basic --peerAddresses localhost:7051 --tlsRootCertFiles <span class="s2">&#34;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt&#34;</span> --peerAddresses localhost:9051 --tlsRootCertFiles <span class="s2">&#34;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt&#34;</span> -c <span class="s1">&#39;{&#34;function&#34;:&#34;InitLedger&#34;,&#34;Args&#34;:[]}&#39;</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:47:16.953 CST <span class="o">[</span>chaincodeCmd<span class="o">]</span> chaincodeInvokeOrQuery -&gt; INFO <span class="m">001</span> Chaincode invoke successful. result: status:200
+</span></span></code></pre></div><h5 id="353-organizing-org1-to-invoke-contract-queries">3.5.3 Organizing Org1 to invoke contract queries</h5>
+<blockquote>
+<p>peer chaincode query -C testchannel -n basic -c &lsquo;{&ldquo;Args&rdquo;:[&ldquo;GetAllAssets&rdquo;]}&rsquo;</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# peer chaincode query -C testchannel -n basic -c <span class="s1">&#39;{&#34;Args&#34;:[&#34;GetAllAssets&#34;]}&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="o">[{</span><span class="s2">&#34;Key&#34;</span>:<span class="s2">&#34;asset1&#34;</span>,<span class="s2">&#34;Record&#34;</span>:<span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset1&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;blue&#34;</span>,<span class="s2">&#34;Size&#34;</span>:5,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Tomoko&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:300,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}}</span>,<span class="o">{</span><span class="s2">&#34;Key&#34;</span>:<span class="s2">&#34;asset2&#34;</span>,<span class="s2">&#34;Record&#34;</span>:<span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset2&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;red&#34;</span>,<span class="s2">&#34;Size&#34;</span>:5,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Brad&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:400,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}}</span>,<span class="o">{</span><span class="s2">&#34;Key&#34;</span>:<span class="s2">&#34;asset3&#34;</span>,<span class="s2">&#34;Record&#34;</span>:<span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset3&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;green&#34;</span>,<span class="s2">&#34;Size&#34;</span>:10,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Jin Soo&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:500,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}}</span>,<span class="o">{</span><span class="s2">&#34;Key&#34;</span>:<span class="s2">&#34;asset4&#34;</span>,<span class="s2">&#34;Record&#34;</span>:<span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset4&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;yellow&#34;</span>,<span class="s2">&#34;Size&#34;</span>:10,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Max&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:600,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}}</span>,<span class="o">{</span><span class="s2">&#34;Key&#34;</span>:<span class="s2">&#34;asset5&#34;</span>,<span class="s2">&#34;Record&#34;</span>:<span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset5&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;black&#34;</span>,<span class="s2">&#34;Size&#34;</span>:15,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Adriana&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:700,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}}</span>,<span class="o">{</span><span class="s2">&#34;Key&#34;</span>:<span class="s2">&#34;asset6&#34;</span>,<span class="s2">&#34;Record&#34;</span>:<span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset6&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;white&#34;</span>,<span class="s2">&#34;Size&#34;</span>:15,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Michel&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:800,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}}]</span>
+</span></span></code></pre></div><h5 id="354-organization-org1-call-contract-change-asset-owner">3.5.4 Organization Org1 Call Contract Change Asset Owner</h5>
+<blockquote>
+<p>peer chaincode invoke -o localhost:7050 &ndash;ordererTLSHostnameOverride orderer.example.com &ndash;tls &ndash;cafile &ldquo;${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem&rdquo; -C testchannel -n basic &ndash;peerAddresses localhost:7051 &ndash;tlsRootCertFiles &ldquo;${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt&rdquo; &ndash;peerAddresses localhost:9051 &ndash;tlsRootCertFiles &ldquo;${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt&rdquo; -c &lsquo;{&ldquo;function&rdquo;:&ldquo;TransferAsset&rdquo;,&ldquo;Args&rdquo;:[&ldquo;asset6&rdquo;,&ldquo;Christopher&rdquo;]}&rsquo;</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile <span class="s2">&#34;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem&#34;</span> -C testchannel -n basic --peerAddresses localhost:7051 --tlsRootCertFiles <span class="s2">&#34;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt&#34;</span> --peerAddresses localhost:9051 --tlsRootCertFiles <span class="s2">&#34;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt&#34;</span> -c <span class="s1">&#39;{&#34;function&#34;:&#34;TransferAsset&#34;,&#34;Args&#34;:[&#34;asset6&#34;,&#34;Christopher&#34;]}&#39;</span>
+</span></span><span class="line"><span class="cl">2022-05-31 17:47:37.803 CST <span class="o">[</span>chaincodeCmd<span class="o">]</span> chaincodeInvokeOrQuery -&gt; INFO <span class="m">001</span> Chaincode invoke successful. result: status:200 payload:<span class="s2">&#34;{\&#34;type\&#34;:\&#34;Buffer\&#34;,\&#34;data\&#34;:[]}&#34;</span>
+</span></span></code></pre></div><h5 id="355-organizing-the-org2-environment-configuration">3.5.5 Organizing the Org2 environment configuration</h5>
+<blockquote>
+<p>export CORE_PEER_TLS_ENABLED=true
+export CORE_PEER_LOCALMSPID=&ldquo;Org2MSP&rdquo;
+export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+export <a href="mailto:CORE_PEER_MSPCONFIGPATH=$%7bPWD%7d/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com">CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com</a>/msp
+export CORE_PEER_ADDRESS=localhost:9051</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_TLS_ENABLED</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_LOCALMSPID</span><span class="o">=</span><span class="s2">&#34;Org2MSP&#34;</span>
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_TLS_ROOTCERT_FILE</span><span class="o">=</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_MSPCONFIGPATH</span><span class="o">=</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# <span class="nb">export</span> <span class="nv">CORE_PEER_ADDRESS</span><span class="o">=</span>localhost:9051
+</span></span></code></pre></div><h5 id="356-organizing-org2-call-contract-query-results">3.5.6 Organizing Org2 Call Contract Query Results</h5>
+<blockquote>
+<p>peer chaincode query -C testchannel -n basic -c &lsquo;{&ldquo;Args&rdquo;:[&ldquo;ReadAsset&rdquo;,&ldquo;asset6&rdquo;]}&rsquo;</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# peer chaincode query -C testchannel -n basic -c <span class="s1">&#39;{&#34;Args&#34;:[&#34;ReadAsset&#34;,&#34;asset6&#34;]}&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="o">{</span><span class="s2">&#34;ID&#34;</span>:<span class="s2">&#34;asset6&#34;</span>,<span class="s2">&#34;Color&#34;</span>:<span class="s2">&#34;white&#34;</span>,<span class="s2">&#34;Size&#34;</span>:15,<span class="s2">&#34;Owner&#34;</span>:<span class="s2">&#34;Christopher&#34;</span>,<span class="s2">&#34;AppraisedValue&#34;</span>:800,<span class="s2">&#34;docType&#34;</span>:<span class="s2">&#34;asset&#34;</span><span class="o">}</span>
+</span></span></code></pre></div><h4 id="36-shutting-down-the-network">3.6 Shutting down the network</h4>
+<blockquote>
+<p>./network.sh down</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# ./network.sh down
+</span></span><span class="line"><span class="cl">Stopping network
+</span></span><span class="line"><span class="cl">Stopping cli                    ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Stopping peer0.org1.example.com ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Stopping orderer.example.com    ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Stopping peer0.org2.example.com ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Removing cli                    ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Removing peer0.org1.example.com ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Removing orderer.example.com    ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Removing peer0.org2.example.com ... <span class="k">done</span>
+</span></span><span class="line"><span class="cl">Removing network fabric_test
+</span></span><span class="line"><span class="cl">Removing volume docker_orderer.example.com
+</span></span><span class="line"><span class="cl">Removing volume docker_peer0.org1.example.com
+</span></span><span class="line"><span class="cl">Removing volume docker_peer0.org2.example.com
+</span></span><span class="line"><span class="cl">Removing network fabric_test
+</span></span><span class="line"><span class="cl">WARNING: Network fabric_test not found.
+</span></span><span class="line"><span class="cl">Removing volume docker_peer0.org3.example.com
+</span></span><span class="line"><span class="cl">WARNING: Volume docker_peer0.org3.example.com not found.
+</span></span><span class="line"><span class="cl">No containers available <span class="k">for</span> deletion
+</span></span><span class="line"><span class="cl">Untagged: dev-peer0.org2.example.com-basic_1.0-5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0-7afd1ed5571b9e3e2148baf7369c0d8d3cecb38f292a8fff36cf034ba92d9005:latest
+</span></span><span class="line"><span class="cl">Deleted: sha256:86ad89e673c01bd32a541a5d05ecc8a816b1b4c25319f1c0771a3656862f8bb2
+</span></span><span class="line"><span class="cl">Deleted: sha256:a0cbd2c6d77395db8902fdb55ea40ce3afd7f51c121006569c148962ae75b18b
+</span></span><span class="line"><span class="cl">Deleted: sha256:486425f847e8c59b45a653976ab1d9eba4e37171dc0c57a2d722a9b6709adb74
+</span></span><span class="line"><span class="cl">Deleted: sha256:e96a383c26ccce694934884e8204edac57917291d98cd7a90caa327b562ea557
+</span></span><span class="line"><span class="cl">Untagged: dev-peer0.org1.example.com-basic_1.0-5c1ce9660841cc944290ee8bf9f36eee9af8fad7ffcefb8fa75b5c8f6883cef0-c267bdc9fc52605a00fd9106a5d8ed66b967eafdab3b10fa1e07ddac9abc93bb:latest
+</span></span><span class="line"><span class="cl">Deleted: sha256:46a73f411c97627d7b7cf3de1c491421904319b865554b62d400071c25c9f6b0
+</span></span><span class="line"><span class="cl">Deleted: sha256:ae0ad80e0f2883f35eb4482b631c016760d704392b671593ea9df3808c0ddffb
+</span></span><span class="line"><span class="cl">Deleted: sha256:684b7aa002e3a00263a7d9411fe292e94895da9e33deac198ff495f9a3fea50d
+</span></span><span class="line"><span class="cl">Deleted: sha256:09d4fe38cfcbd8d46f72a70add787563daf3251c77dd56906782f09bd1cd1f74
+</span></span></code></pre></div><h4 id="37-removing-duplicate-dockers">3.7 Removing duplicate dockers</h4>
+<blockquote>
+<p>docker rmi hyperledger/fabric-tools:latest
+docker rmi hyperledger/fabric-peer:latest
+docker rmi hyperledger/fabric-orderer:latest</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# docker rmi hyperledger/fabric-tools:latest
+</span></span><span class="line"><span class="cl">Untagged: hyperledger/fabric-tools:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# docker rmi hyperledger/fabric-peer:latest
+</span></span><span class="line"><span class="cl">Untagged: hyperledger/fabric-peer:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# docker rmi hyperledger/fabric-orderer:latest
+</span></span><span class="line"><span class="cl">Untagged: hyperledger/fabric-orderer:latest
+</span></span><span class="line"><span class="cl">root@The-Land-Like-as-A-Picture:/workspace/github.com/fabric/fabric-samples/test-network# docker images
+</span></span><span class="line"><span class="cl">REPOSITORY                   TAG       IMAGE ID       CREATED         SIZE
+</span></span><span class="line"><span class="cl">busybox                      latest    3fb5cabb6469   <span class="m">5</span> days ago      1.24MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-tools     2.2.5     754df4def0cf   <span class="m">4</span> months ago    442MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-peer      2.2.5     94f45b88b26a   <span class="m">4</span> months ago    51MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-orderer   2.2.5     c25c16d51e1e   <span class="m">4</span> months ago    34.7MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ccenv     2.2.5     7cce5e687fe7   <span class="m">4</span> months ago    516MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-baseos    2.2.5     ab5f045ec622   <span class="m">4</span> months ago    6.94MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-ca        1.5.2     4ea287b75c63   <span class="m">8</span> months ago    69.8MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-nodeenv   2.2       1c0903d73400   <span class="m">9</span> months ago    295MB
+</span></span><span class="line"><span class="cl">hyperledger/fabric-javaenv   2.2       c47df6b15c80   <span class="m">10</span> months ago   415MB
+</span></span></code></pre></div>
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/fabric/">Fabric</a>
+  
+  <a class="badge badge-light" href="/tag/deployment/">Deployment</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjackaugust.github.io%2Fblogs%2F2022%2F0601%2F&amp;text=Instructions&#43;for&#43;running&#43;and&#43;configuring&#43;Fabric&#43;V2.2.0&#43;and&#43;V1.1.0&#43;under&#43;Ubuntu&#43;20.04&#43;%28both&#43;running%29" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjackaugust.github.io%2Fblogs%2F2022%2F0601%2F&amp;t=Instructions&#43;for&#43;running&#43;and&#43;configuring&#43;Fabric&#43;V2.2.0&#43;and&#43;V1.1.0&#43;under&#43;Ubuntu&#43;20.04&#43;%28both&#43;running%29" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Instructions%20for%20running%20and%20configuring%20Fabric%20V2.2.0%20and%20V1.1.0%20under%20Ubuntu%2020.04%20%28both%20running%29&amp;body=https%3A%2F%2Fjackaugust.github.io%2Fblogs%2F2022%2F0601%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjackaugust.github.io%2Fblogs%2F2022%2F0601%2F&amp;title=Instructions&#43;for&#43;running&#43;and&#43;configuring&#43;Fabric&#43;V2.2.0&#43;and&#43;V1.1.0&#43;under&#43;Ubuntu&#43;20.04&#43;%28both&#43;running%29" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Instructions&#43;for&#43;running&#43;and&#43;configuring&#43;Fabric&#43;V2.2.0&#43;and&#43;V1.1.0&#43;under&#43;Ubuntu&#43;20.04&#43;%28both&#43;running%29%20https%3A%2F%2Fjackaugust.github.io%2Fblogs%2F2022%2F0601%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjackaugust.github.io%2Fblogs%2F2022%2F0601%2F&amp;title=Instructions&#43;for&#43;running&#43;and&#43;configuring&#43;Fabric&#43;V2.2.0&#43;and&#43;V1.1.0&#43;under&#43;Ubuntu&#43;20.04&#43;%28both&#43;running%29" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jackaugust.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu94e184e3870ce9fabb02c07288d6ddac_2736741_270x270_fill_q75_lanczos_center.jpg" alt="Jie Zhang"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jackaugust.github.io/">Jie Zhang</a></h5>
+      <h6 class="card-subtitle">Ph.D student in Computer Science and Technology</h6>
+      <p class="card-text">My research interests include data security in encryption and sharing, specifically, ciphertext sharing security under distributed networks through repeatability and integrity auditing, access control and privacy protection, blockchain technology, etc.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiezhang@ieee.org" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-8476-0215" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=-bU124oAAAA" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/JackAugust" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2025 by Jie Zhang
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.62586ca65ca61821fe707eb9fa6268b7.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9137013a66774049159934c29c3f0205.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
