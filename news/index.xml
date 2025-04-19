@@ -5,7 +5,7 @@
     <link>https://jackaugust.github.io/news/</link>
       <atom:link href="https://jackaugust.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>News</title>
@@ -13,33 +13,12 @@
     </image>
     
     <item>
-      <title>Mar. 2025: Congratulations! 2 of our group standards have been successfully published</title>
-      <link>https://jackaugust.github.io/news/2025/0321/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://jackaugust.github.io/news/2025/0321/</guid>
-      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[21/03/25]&lt;/strong&gt; As the &lt;em&gt;third drafter&lt;/em&gt;, the group standard &amp;ldquo;Intelligent medical——Cross-cohort data processing platform——Part 6: Private data sharing and secure access requirements&amp;rdquo; has been successfully published with the Standard Number No.&lt;strong&gt;T/CESA 1372.6—2025&lt;/strong&gt;. As the &lt;em&gt;sixth drafter&lt;/em&gt;, the group standard &amp;ldquo;Intelligent medical——Cross-cohort data processing platform——Part 7: Data desensitization process requirements&amp;rdquo; has been successfully published with the Standard Number No.&lt;strong&gt;T/CESA 1372.7—2025&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./1372.6-2025.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
+      <title>Apr. 2025: 1 of our patents has been successfully accepted and is pending</title>
+      <link>https://jackaugust.github.io/news/2025/0418/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/news/2025/0418/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[18/04/25]&lt;/strong&gt; Our patent &amp;ldquo;A Reputation Model Based Improvement Method for Raft Consensus Algorithm Against Forgery Attacks&amp;rdquo; has been successfully accepted with the patent number No.&lt;strong&gt;202510490803.8&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt;
 
 
 
@@ -58,7 +37,14 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./1372.7-2025.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /news/2025/0418/2025-patent-04_hu700275244aab45103b63a9bdebf71928_974390_ff12a2db902c00181bb4fc367972fbf4.webp 400w,
+               /news/2025/0418/2025-patent-04_hu700275244aab45103b63a9bdebf71928_974390_b309f72d5224cf00041ee98582309495.webp 760w,
+               /news/2025/0418/2025-patent-04_hu700275244aab45103b63a9bdebf71928_974390_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/news/2025/0418/2025-patent-04_hu700275244aab45103b63a9bdebf71928_974390_ff12a2db902c00181bb4fc367972fbf4.webp&#34;
+               width=&#34;538&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
@@ -301,6 +287,58 @@
                width=&#34;538&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mar. 2025: Congratulations! 2 of our group standards have been successfully published</title>
+      <link>https://jackaugust.github.io/news/2025/0321/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/news/2025/0321/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[21/03/25]&lt;/strong&gt; As the &lt;em&gt;third drafter&lt;/em&gt;, the group standard &amp;ldquo;Intelligent medical——Cross-cohort data processing platform——Part 6: Private data sharing and secure access requirements&amp;rdquo; has been successfully published with the Standard Number No.&lt;strong&gt;T/CESA 1372.6—2025&lt;/strong&gt;. As the &lt;em&gt;sixth drafter&lt;/em&gt;, the group standard &amp;ldquo;Intelligent medical——Cross-cohort data processing platform——Part 7: Data desensitization process requirements&amp;rdquo; has been successfully published with the Standard Number No.&lt;strong&gt;T/CESA 1372.7—2025&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./1372.6-2025.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./1372.7-2025.jpg&#34; alt=&#34;jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 </description>
