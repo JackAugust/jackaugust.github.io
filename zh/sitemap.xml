@@ -2,12 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jackaugust.github.io/zh/news/2025/0419/</loc>
-    <lastmod>2025-04-19T09:00:00+00:00</lastmod>
+    <loc>https://jackaugust.github.io/zh/publication/journal-article/2024/ijis-fan/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication/journal-article/2024/ijis-fan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication/journal-article/2024/ijis-fan/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tag/acceptance/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/acceptance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/acceptance/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/news/2025/0423/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/news/2025/0423/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/news/2025/0423/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/publication-type/article-journal/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication-type/article-journal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication-type/article-journal/"
+                />
   </url><url>
     <loc>https://jackaugust.github.io/zh/tag/blockchain/</loc>
-    <lastmod>2025-04-19T09:00:00+00:00</lastmod>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -21,7 +73,7 @@
                 />
   </url><url>
     <loc>https://jackaugust.github.io/zh/categories/</loc>
-    <lastmod>2025-04-19T09:00:00+00:00</lastmod>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -33,6 +85,150 @@
                 hreflang="zh-Hans"
                 href="https://jackaugust.github.io/zh/categories/"
                 />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tag/data-security/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/data-security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/data-security/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tag/data-sharing/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/data-sharing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/data-sharing/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/news/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/news/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/category/paper/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/category/paper/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/category/paper/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/publication_types/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication_types/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/publication/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/publication/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tag/reputation/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/reputation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/reputation/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tags/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tags/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tag/thesis/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/thesis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/thesis/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/tag/trust-and-reputation-model/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jackaugust.github.io/tag/trust-and-reputation-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://jackaugust.github.io/zh/tag/trust-and-reputation-model/"
+                />
+  </url><url>
+    <loc>https://jackaugust.github.io/zh/news/2025/0419/</loc>
+    <lastmod>2025-04-19T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jackaugust.github.io/zh/tag/consensus/</loc>
     <lastmod>2025-04-19T09:00:00+00:00</lastmod>
@@ -46,20 +242,6 @@
                 rel="alternate"
                 hreflang="zh-Hans"
                 href="https://jackaugust.github.io/zh/tag/consensus/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/news/</loc>
-    <lastmod>2025-04-19T09:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/news/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/zh/tag/patent/</loc>
@@ -102,20 +284,6 @@
                 rel="alternate"
                 hreflang="zh-Hans"
                 href="https://jackaugust.github.io/zh/tag/reputation-mechanism/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/tags/</loc>
-    <lastmod>2025-04-19T09:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/tags/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/zh/talk/</loc>
@@ -248,20 +416,6 @@
                 href="https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/zh/tag/acceptance/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/tag/acceptance/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/tag/acceptance/"
-                />
-  </url><url>
     <loc>https://jackaugust.github.io/zh/news/2025/0411/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -276,62 +430,6 @@
                 href="https://jackaugust.github.io/zh/news/2025/0411/"
                 />
   </url><url>
-    <loc>https://jackaugust.github.io/zh/tag/data-security/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/tag/data-security/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/tag/data-security/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/category/paper/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/category/paper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/category/paper/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/publication_types/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/publication_types/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/publication/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/publication/"
-                />
-  </url><url>
     <loc>https://jackaugust.github.io/zh/tag/ring-signature/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -344,20 +442,6 @@
                 rel="alternate"
                 hreflang="zh-Hans"
                 href="https://jackaugust.github.io/zh/tag/ring-signature/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/tag/thesis/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/tag/thesis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/tag/thesis/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/zh/publication-type/%E4%BC%9A%E8%AE%AE%E8%AE%BA%E6%96%87/</loc>
@@ -786,20 +870,6 @@
                 rel="alternate"
                 hreflang="zh-Hans"
                 href="https://jackaugust.github.io/zh/tag/air2water-model/"
-                />
-  </url><url>
-    <loc>https://jackaugust.github.io/zh/publication-type/article-journal/</loc>
-    <lastmod>2023-11-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jackaugust.github.io/publication-type/article-journal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://jackaugust.github.io/zh/publication-type/article-journal/"
                 />
   </url><url>
     <loc>https://jackaugust.github.io/zh/category/atmosphere-water/</loc>

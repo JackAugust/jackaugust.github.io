@@ -5,12 +5,61 @@
     <link>https://jackaugust.github.io/zh/tag/blockchain/</link>
       <atom:link href="https://jackaugust.github.io/zh/tag/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <description>Blockchain</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 23 Apr 2025 22:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>Blockchain</title>
       <link>https://jackaugust.github.io/zh/tag/blockchain/</link>
     </image>
+    
+    <item>
+      <title>A Blockchain-based Trust and Reputation Model Resilient to Forgery Attacks for Data Sharing Scenarios (RWS-BTRM)</title>
+      <link>https://jackaugust.github.io/zh/publication/journal-article/2024/ijis-fan/</link>
+      <pubDate>Wed, 23 Apr 2025 22:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/publication/journal-article/2024/ijis-fan/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Data sharing platforms built on the Hyperledger Fabric have gained popularity owing to the reliable performance and solid community support. To reduce user behavior risks, these platforms often incorporate trust and reputation models (TRM). To address the issues of existing TRMs, this paper presents a novel real-world blockchain-based trust and reputation model called RWS-BTRM. First, to address the issue of erroneous users who commit accidental errors being easily misclassified as malicious, by incorporating a punishment mechanism, RWS-BTRM achieves precise differentiation between erroneous users and malicious users. Second, to address forgery attacks targeting vulnerabilities in the Raft consensus used by fabric, this paper designed algorithms within RWS-BTRM to detect such attacks and implemented reputation-based improvements to the Raft consensus. The evaluation results show that RWS-BTRM accurately distinguishes between erroneous users and malicious users, achieving a precision of 0.94 and an F1 score of 0.95, surpassing other TRMs. Additionally, the improved Raft consensus resists forgery attacks, with throughput reduced by less than 10% and latency increased by less than 5% compared to the original.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./IJIS-Fan.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apr. 2025:  祝贺！！我们的1篇论文被 International Journal of Information Security (SCI-Q2) 录用！</title>
+      <link>https://jackaugust.github.io/zh/news/2025/0423/</link>
+      <pubDate>Wed, 23 Apr 2025 22:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/zh/news/2025/0423/</guid>
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[23/04/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/journal-article/2024/ijis-fan/&#34;&gt;A Blockchain-based Trust and Reputation Model Resilient to Forgery Attacks for Data Sharing Scenarios (RWS-BTRM)&lt;/a&gt; &lt;a href=&#34;https://link.springer.com/journal/10207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Information Security&lt;/a&gt; &lt;strong&gt;(SCI-Q2 IF=2.5)&lt;/strong&gt; 录用.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;awared&#34; srcset=&#34;
+               /zh/news/2025/0423/2025-paper-04-02_hu9fb0cd563fc7b68feb7d89ad9292e16b_29148_035d411bc35905305a0687ef5c536110.webp 400w,
+               /zh/news/2025/0423/2025-paper-04-02_hu9fb0cd563fc7b68feb7d89ad9292e16b_29148_d1f5c57db7bb22523d77957bf5c7556c.webp 760w,
+               /zh/news/2025/0423/2025-paper-04-02_hu9fb0cd563fc7b68feb7d89ad9292e16b_29148_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://jackaugust.github.io/zh/news/2025/0423/2025-paper-04-02_hu9fb0cd563fc7b68feb7d89ad9292e16b_29148_035d411bc35905305a0687ef5c536110.webp&#34;
+               width=&#34;568&#34;
+               height=&#34;313&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Apr. 2025: 我们的1项专利已成功受理！</title>
@@ -66,7 +115,7 @@
       <link>https://jackaugust.github.io/zh/news/2025/0411/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/news/2025/0411/</guid>
-      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[11/04/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/&#34;&gt;A Cross-domain Data Sharing Scheme Based on Federated Blockchain&lt;/a&gt; 被 &lt;a href=&#34;https://cyprusconferences.org/tase2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The 19th International Symposium on Theoretical Aspects of Software Engineering&lt;/a&gt; &lt;strong&gt;(TASE&#39;25, CCF-C)&lt;/strong&gt; 录用.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[11/04/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/conference-paper/2025/tase-mao/&#34;&gt;A Cross-domain Data Sharing Scheme Based on Federated Blockchain&lt;/a&gt; 被 &lt;a href=&#34;https://cyprusconferences.org/tase2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The 19th International Symposium on Theoretical Aspects of Software Engineering&lt;/a&gt; &lt;strong&gt;(TASE &amp;lsquo;25, CCF-C)&lt;/strong&gt; 录用.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
 
 
@@ -142,7 +191,7 @@
       <link>https://jackaugust.github.io/zh/news/2025/0205/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://jackaugust.github.io/zh/news/2025/0205/</guid>
-      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[05/02/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/&#34;&gt;SwiftGuard: Enhanced Privacy and Efficiency in Blockchain-Based Fine-Grained Access Control for Cross-Domain Healthcare Collaboration&lt;/a&gt; 被 &lt;a href=&#34;https://cscwd2025.hds.utc.fr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE 28th International Conference on ComputerSupported Cooperative Work in Design&lt;/a&gt; &lt;strong&gt;(CSCWD&#39;25, CCF-C)&lt;/strong&gt; 录用.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: justify;&#34;&gt;&lt;strong&gt;[05/02/25]&lt;/strong&gt; 我们的论文 &lt;a href=&#34;https://jackaugust.github.io/zh/publication/conference-paper/2024/cscwd-zhang/&#34;&gt;SwiftGuard: Enhanced Privacy and Efficiency in Blockchain-Based Fine-Grained Access Control for Cross-Domain Healthcare Collaboration&lt;/a&gt; 被 &lt;a href=&#34;https://cscwd2025.hds.utc.fr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE 28th International Conference on ComputerSupported Cooperative Work in Design&lt;/a&gt; &lt;strong&gt;(CSCWD &amp;lsquo;25, CCF-C)&lt;/strong&gt; 录用.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;祝贺!&lt;/strong&gt;
 
 

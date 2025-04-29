@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | 张杰的个人主页</title>
+    <title>参与会议 | 张杰的个人主页</title>
     <link>https://jackaugust.github.io/zh/talk/</link>
       <atom:link href="https://jackaugust.github.io/zh/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
+    <description>参与会议</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 16 Apr 2025 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>参与会议</title>
       <link>https://jackaugust.github.io/zh/talk/</link>
     </image>
     

@@ -5,12 +5,23 @@
     <link>https://jackaugust.github.io/publication-type/article-journal/</link>
       <atom:link href="https://jackaugust.github.io/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>article-journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Apr 2025 22:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackaugust.github.io/media/icon_hub8e78e924f485fc7b096b5b784d79d81_183359_512x512_fill_lanczos_center_3.png</url>
       <title>article-journal</title>
       <link>https://jackaugust.github.io/publication-type/article-journal/</link>
     </image>
+    
+    <item>
+      <title>A Blockchain-based Trust and Reputation Model Resilient to Forgery Attacks for Data Sharing Scenarios (RWS-BTRM)</title>
+      <link>https://jackaugust.github.io/publication/journal-article/2024/ijis-fan/</link>
+      <pubDate>Wed, 23 Apr 2025 22:00:00 +0000</pubDate>
+      <guid>https://jackaugust.github.io/publication/journal-article/2024/ijis-fan/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;
+&lt;p style=&#34;text-align: justify;&#34;&gt;Data sharing platforms built on the Hyperledger Fabric have gained popularity owing to the reliable performance and solid community support. To reduce user behavior risks, these platforms often incorporate trust and reputation models (TRM). To address the issues of existing TRMs, this paper presents a novel real-world blockchain-based trust and reputation model called RWS-BTRM. First, to address the issue of erroneous users who commit accidental errors being easily misclassified as malicious, by incorporating a punishment mechanism, RWS-BTRM achieves precise differentiation between erroneous users and malicious users. Second, to address forgery attacks targeting vulnerabilities in the Raft consensus used by fabric, this paper designed algorithms within RWS-BTRM to detect such attacks and implemented reputation-based improvements to the Raft consensus. The evaluation results show that RWS-BTRM accurately distinguishes between erroneous users and malicious users, achieving a precision of 0.94 and an F1 score of 0.95, surpassing other TRMs. Additionally, the improved Raft consensus resists forgery attacks, with throughput reduced by less than 10% and latency increased by less than 5% compared to the original.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./IJIS-Fan.pdf&#34;&gt;Download paper here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Prediction of surface water temperature and its spatial-temporal variation characteristics of 11 main lakes in Yunnan-Guizhou Plateau</title>
